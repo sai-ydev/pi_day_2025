@@ -6284,8 +6284,8 @@ Switches electronic signals</description>
 <attribute name="VALUE" x="119.38" y="121.666" size="1.016" layer="96" font="vector" ratio="20" align="top-center"/>
 </instance>
 <instance part="U4" gate="G$1" x="73.66" y="76.2" smashed="yes">
-<attribute name="NAME" x="60.9391" y="94.5182" size="1.78093125" layer="95"/>
-<attribute name="VALUE" x="60.9418" y="55.8509" size="1.78055" layer="96"/>
+<attribute name="NAME" x="60.9391" y="94.5182" size="1.27" layer="95" font="vector" ratio="20"/>
+<attribute name="VALUE" x="60.9418" y="55.8509" size="1.778" layer="96" font="vector" ratio="20"/>
 </instance>
 </instances>
 <busses>
