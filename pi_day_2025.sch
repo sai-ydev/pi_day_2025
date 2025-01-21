@@ -7265,6 +7265,12 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="R21" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100OHM" device="-0402-TIGHT-1/16W-1%" package3d_urn="urn:adsk.eagle:package:41389023/1" value="100"/>
 <part name="C24" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:44163386/2" override_package_urn="urn:adsk.eagle:footprint:37389/1" override_locally_modified="yes" value="0.1uF"/>
 <part name="GND44" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="GND45" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY32" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="1.8V" device=""/>
+<part name="C25" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" package3d_urn="urn:adsk.eagle:package:41385069/1" value="4.7uF"/>
+<part name="SUPPLY33" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="C26" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1.0UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:41385089/1" value="1.0uF"/>
+<part name="GND46" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8242,6 +8248,26 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <attribute name="NAME" x="248.158" y="59.69" size="1.27" layer="95" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="248.158" y="53.848" size="1.27" layer="96" font="vector" ratio="20" rot="R180"/>
 </instance>
+<instance part="GND45" gate="1" x="200.66" y="129.54" smashed="yes">
+<attribute name="VALUE" x="200.66" y="129.286" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
+<instance part="SUPPLY32" gate="G$1" x="200.66" y="165.1" smashed="yes">
+<attribute name="VALUE" x="200.66" y="167.894" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
+</instance>
+<instance part="C25" gate="G$1" x="205.74" y="147.32" smashed="yes">
+<attribute name="NAME" x="205.994" y="149.733" size="1.27" layer="95" font="vector" ratio="20"/>
+<attribute name="VALUE" x="206.248" y="145.923" size="1.27" layer="96" font="vector" ratio="20"/>
+</instance>
+<instance part="SUPPLY33" gate="G$1" x="152.4" y="167.64" smashed="yes">
+<attribute name="VALUE" x="152.4" y="170.434" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
+</instance>
+<instance part="C26" gate="G$1" x="152.4" y="142.24" smashed="yes">
+<attribute name="NAME" x="152.4" y="144.399" size="1.27" layer="95" font="vector" ratio="20"/>
+<attribute name="VALUE" x="152.654" y="140.843" size="1.27" layer="96" font="vector" ratio="20"/>
+</instance>
+<instance part="GND46" gate="1" x="152.4" y="129.54" smashed="yes">
+<attribute name="VALUE" x="152.4" y="129.286" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8258,6 +8284,22 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="Q2" gate="NMOS" pin="S"/>
 <wire x1="256.54" y1="25.4" x2="256.54" y2="32.258" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND45" gate="1" pin="GND"/>
+<pinref part="U3" gate="A" pin="GND"/>
+<wire x1="200.66" y1="132.08" x2="200.66" y2="138.176" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="138.176" x2="200.66" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="142.24" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="144.78" x2="205.74" y2="138.176" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="138.176" x2="200.66" y2="138.176" width="0.1524" layer="91"/>
+<junction x="200.66" y="138.176"/>
+</segment>
+<segment>
+<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="GND46" gate="1" pin="GND"/>
+<wire x1="152.4" y1="132.08" x2="152.4" y2="139.7" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="1.8V" class="0">
 <segment>
@@ -8265,6 +8307,17 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="SUPPLY20" gate="G$1" pin="1.8V"/>
 <wire x1="73.66" y1="154.94" x2="81.28" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="154.94" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="OUT"/>
+<pinref part="SUPPLY32" gate="G$1" pin="1.8V"/>
+<wire x1="195.58" y1="152.4" x2="200.66" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="152.4" x2="200.66" y2="154.178" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="154.178" x2="200.66" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="152.4" x2="205.74" y2="154.178" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="154.178" x2="200.66" y2="154.178" width="0.1524" layer="91"/>
+<junction x="200.66" y="154.178"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -8277,6 +8330,19 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <junction x="256.54" y="66.04"/>
 <pinref part="D12" gate="G$1" pin="K"/>
 <wire x1="248.666" y1="61.214" x2="248.666" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="IN"/>
+<pinref part="SUPPLY33" gate="G$1" pin="3.3V"/>
+<wire x1="160.02" y1="149.86" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="149.86" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="EN"/>
+<wire x1="152.4" y1="152.4" x2="152.4" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="152.4" x2="152.4" y2="152.4" width="0.1524" layer="91"/>
+<junction x="152.4" y="152.4"/>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="147.32" x2="152.4" y2="149.86" width="0.1524" layer="91"/>
+<junction x="152.4" y="149.86"/>
 </segment>
 </net>
 <net name="BUZZER_DRIVER" class="0">
