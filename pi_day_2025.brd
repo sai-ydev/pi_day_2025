@@ -1401,6 +1401,26 @@ JST_2MM_MALE
 </package3d>
 </packages3d>
 </library>
+<library name="LQH3NPN2R2MJRL">
+<packages>
+<package name="IND_LQH3NPN2R2MJRL">
+<text x="-2.78" y="2" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.78" y="-2" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1.67" x2="1.5" y2="1.67" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="-1.67" x2="1.5" y2="-1.67" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.05" layer="39"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.05" layer="39"/>
+<wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.05" layer="39"/>
+<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="1.75" width="0.05" layer="39"/>
+<smd name="1" x="-1.1" y="0" dx="0.8" dy="2.7" layer="1"/>
+<smd name="2" x="1.1" y="0" dx="0.8" dy="2.7" layer="1"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2162,6 +2182,43 @@ JST_2MM_MALE
 <attribute name="PROD_ID" value="RES-14342" x="-75.692" y="-260.096" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-75.692" y="-260.858" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
+<element name="C21" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" value="10uF" x="-75.692" y="-263.144" smashed="yes">
+<attribute name="NAME" x="-75.692" y="-262.582" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-14848" x="-75.692" y="-263.144" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-75.692" y="-263.706" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C22" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" value="10uF" x="-75.692" y="-266.192" smashed="yes">
+<attribute name="NAME" x="-75.692" y="-265.63" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-14848" x="-75.692" y="-266.192" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-75.692" y="-266.754" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="L3" library="LQH3NPN2R2MJRL" package="IND_LQH3NPN2R2MJRL" value="LQH3NPN2R2MJRL" x="-74.168" y="-271.526" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-74.168" y="-271.526" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/LQH3NPN2R2MJRL/Murata/view-part/?ref=eda" x="-74.168" y="-271.526" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="                                                      Inductor with Inductance: 2.2uH Tol. +/-20%, Package: 1212 (3030)                                              " x="-74.168" y="-271.526" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="Murata" x="-74.168" y="-271.526" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="LQH3NPN2R2MJRL" x="-74.168" y="-271.526" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-76.948" y="-269.526" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="NONSTANDARD " x="-74.168" y="-271.526" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-74.168" y="-271.526" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LQH3NPN2R2MJRL/Murata/view-part/?ref=snap" x="-74.168" y="-271.526" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-76.948" y="-273.526" size="1.27" layer="27" align="top-left"/>
+</element>
+<element name="C23" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" value="10uF" x="-75.692" y="-276.86" smashed="yes">
+<attribute name="NAME" x="-75.692" y="-276.298" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-14848" x="-75.692" y="-276.86" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-75.692" y="-277.422" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="R21" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41389023/1" value="100" x="-75.692" y="-279.908" smashed="yes">
+<attribute name="NAME" x="-75.692" y="-279.346" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-14962" x="-75.692" y="-279.908" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-75.692" y="-280.47" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C24" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:44163386/2" override_package_urn="urn:adsk.eagle:footprint:37389/1" value="0.1uF" x="-75.692" y="-282.956" smashed="yes">
+<attribute name="NAME" x="-75.692" y="-282.194" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12416" x="-75.692" y="-282.956" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-75.692" y="-283.718" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2308,6 +2365,10 @@ JST_2MM_MALE
 <contactref element="U4" pad="11"/>
 <contactref element="U4" pad="13"/>
 <contactref element="U4" pad="15"/>
+<contactref element="C21" pad="2"/>
+<contactref element="C22" pad="2"/>
+<contactref element="C23" pad="2"/>
+<contactref element="C24" pad="2"/>
 <wire x1="-47.991" y1="-197.104" x2="-50.978" y2="-197.997" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.872" y1="-203.538" x2="-50.978" y2="-197.997" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.372" y1="-203.538" x2="-54.872" y2="-203.538" width="0" layer="19" extent="1-1"/>
@@ -2335,6 +2396,10 @@ JST_2MM_MALE
 <wire x1="-76.272" y1="-241.554" x2="-75.112" y2="-238.252" width="0" layer="19" extent="1-1"/>
 <wire x1="-75.112" y1="-244.856" x2="-76.272" y2="-241.554" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.272" y1="-260.096" x2="-75.112" y2="-244.856" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.192" y1="-263.144" x2="-76.272" y2="-260.096" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.192" y1="-266.192" x2="-75.192" y2="-263.144" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.192" y1="-276.86" x2="-75.192" y2="-266.192" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.112" y1="-282.956" x2="-75.192" y2="-276.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.903" y1="-171.45" x2="-39.869" y2="-197.836" width="0" layer="19" extent="1-1"/>
 <wire x1="-17.708" y1="-157.48" x2="-16.903" y2="-171.45" width="0" layer="19" extent="1-1"/>
 <wire x1="-17.332" y1="-151.626" x2="-17.708" y2="-157.48" width="0" layer="19" extent="1-1"/>
@@ -2579,11 +2644,17 @@ JST_2MM_MALE
 <contactref element="C19" pad="1"/>
 <contactref element="U6" pad="12"/>
 <contactref element="U6" pad="1"/>
+<contactref element="U4" pad="1"/>
+<contactref element="U4" pad="10"/>
+<contactref element="C21" pad="1"/>
+<contactref element="C22" pad="1"/>
 <wire x1="-54.022" y1="-203.188" x2="-35.462" y2="-198.374" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.872" y1="-203.538" x2="-54.022" y2="-203.188" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.722" y1="-201.688" x2="-55.872" y2="-203.538" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.872" y1="-201.338" x2="-56.722" y2="-201.688" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.888" y1="-205.74" x2="-55.872" y2="-203.538" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.56" y1="-202.962" x2="-56.722" y2="-201.688" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.36" y1="-202.962" x2="-59.56" y2="-202.962" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.868" y1="-157.48" x2="-35.462" y2="-198.374" width="0" layer="19" extent="1-1"/>
 <wire x1="-12.132" y1="-150.126" x2="-18.868" y2="-157.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.868" y1="-144.018" x2="-12.132" y2="-150.126" width="0" layer="19" extent="1-1"/>
@@ -2619,6 +2690,8 @@ JST_2MM_MALE
 <wire x1="16.7956" y1="10.5081" x2="19.0321" y2="12.7446" width="0" layer="19" extent="1-1"/>
 <wire x1="33.556" y1="14.981" x2="23.3506" y2="12.7254" width="0" layer="19" extent="1-1"/>
 <wire x1="34.2434" y1="20.574" x2="34.798" y2="14.986" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.192" y1="-263.144" x2="-56.888" y2="-205.74" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.192" y1="-266.192" x2="-76.192" y2="-263.144" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!RESET">
 <contactref element="S2" pad="1"/>
@@ -3300,6 +3373,12 @@ JST_2MM_MALE
 </signal>
 <signal name="VIN">
 <contactref element="U8" pad="7"/>
+<contactref element="U4" pad="5"/>
+<contactref element="C23" pad="1"/>
+<contactref element="R21" pad="2"/>
+<wire x1="-76.192" y1="-276.86" x2="-75.192" y2="-279.908" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.392" y1="-210.241" x2="-76.192" y2="-276.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.36" y1="-204.962" x2="-61.392" y2="-210.241" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R16" pad="1"/>
@@ -3358,6 +3437,27 @@ JST_2MM_MALE
 <contactref element="R20" pad="2"/>
 <contactref element="U7" pad="6"/>
 <wire x1="-65.113" y1="-204.962" x2="-75.112" y2="-260.096" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$20">
+<contactref element="U4" pad="4"/>
+<contactref element="L3" pad="2"/>
+<wire x1="-62.36" y1="-204.462" x2="-73.068" y2="-271.526" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$21">
+<contactref element="U4" pad="2"/>
+<contactref element="L3" pad="1"/>
+<wire x1="-62.36" y1="-203.462" x2="-75.268" y2="-271.526" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$22">
+<contactref element="C24" pad="1"/>
+<contactref element="R21" pad="1"/>
+<contactref element="U4" pad="8"/>
+<contactref element="U4" pad="7"/>
+<contactref element="U4" pad="6"/>
+<wire x1="-76.192" y1="-279.908" x2="-76.272" y2="-282.956" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.56" y1="-204.962" x2="-76.192" y2="-279.908" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.56" y1="-204.462" x2="-59.56" y2="-204.962" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.56" y1="-203.962" x2="-59.56" y2="-204.462" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
