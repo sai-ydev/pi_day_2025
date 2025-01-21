@@ -2229,6 +2229,16 @@ JST_2MM_MALE
 <attribute name="PROD_ID" value="CAP-12417" x="-75.692" y="-289.052" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-75.692" y="-289.814" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
+<element name="C43" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" value="1.0uF" x="-75.692" y="-292.354" smashed="yes">
+<attribute name="NAME" x="-75.692" y="-291.592" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12417" x="-75.692" y="-292.354" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-75.692" y="-293.116" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="C44" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" value="1.0uF" x="-75.692" y="-295.656" smashed="yes">
+<attribute name="NAME" x="-75.692" y="-294.894" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-12417" x="-75.692" y="-295.656" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-75.692" y="-296.418" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2381,6 +2391,8 @@ JST_2MM_MALE
 <contactref element="C24" pad="2"/>
 <contactref element="C25" pad="2"/>
 <contactref element="C26" pad="2"/>
+<contactref element="C43" pad="2"/>
+<contactref element="C44" pad="2"/>
 <wire x1="-47.991" y1="-197.104" x2="-50.978" y2="-197.997" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.872" y1="-203.538" x2="-50.978" y2="-197.997" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.372" y1="-203.538" x2="-54.872" y2="-203.538" width="0" layer="19" extent="1-1"/>
@@ -2414,6 +2426,8 @@ JST_2MM_MALE
 <wire x1="-75.112" y1="-282.956" x2="-75.192" y2="-276.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-75.192" y1="-286.004" x2="-75.112" y2="-282.956" width="0" layer="19" extent="1-1"/>
 <wire x1="-75.112" y1="-289.052" x2="-75.192" y2="-286.004" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.112" y1="-292.354" x2="-75.112" y2="-289.052" width="0" layer="19" extent="1-1"/>
+<wire x1="-75.112" y1="-295.656" x2="-75.112" y2="-292.354" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.903" y1="-171.45" x2="-39.869" y2="-197.836" width="0" layer="19" extent="1-1"/>
 <wire x1="-17.708" y1="-157.48" x2="-16.903" y2="-171.45" width="0" layer="19" extent="1-1"/>
 <wire x1="-17.332" y1="-151.626" x2="-17.708" y2="-157.48" width="0" layer="19" extent="1-1"/>
@@ -3318,8 +3332,10 @@ JST_2MM_MALE
 <contactref element="MK1" pad="1"/>
 <contactref element="U3" pad="5"/>
 <contactref element="C25" pad="1"/>
+<contactref element="C43" pad="1"/>
 <wire x1="-39.869" y1="-195.539" x2="-45.481" y2="-196.154" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.192" y1="-286.004" x2="-45.481" y2="-196.154" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.272" y1="-292.354" x2="-76.192" y2="-286.004" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCCA">
 <contactref element="U5" pad="2"/>
@@ -3482,6 +3498,11 @@ JST_2MM_MALE
 <wire x1="-59.56" y1="-204.962" x2="-76.192" y2="-279.908" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.56" y1="-204.462" x2="-59.56" y2="-204.962" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.56" y1="-203.962" x2="-59.56" y2="-204.462" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$23">
+<contactref element="MK1" pad="2"/>
+<contactref element="C44" pad="1"/>
+<wire x1="-76.272" y1="-295.656" x2="-40.894" y2="-195.539" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
