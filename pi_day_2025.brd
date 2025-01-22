@@ -3532,6 +3532,46 @@ JST_2MM_MALE
 <contactref element="U5" pad="10"/>
 <wire x1="-75.112" y1="-305.562" x2="-56.718" y2="-197.997" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="PDM_CLK_LP">
+<contactref element="MK1" pad="3"/>
+<contactref element="U5" pad="1"/>
+<wire x1="-41.919" y1="-195.539" x2="-56.718" y2="-192.147" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PDM_SDO_LP">
+<contactref element="MK1" pad="5"/>
+<contactref element="U5" pad="3"/>
+<wire x1="-40.894" y1="-196.409" x2="-56.718" y2="-193.447" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="IA611_IRQ_LP">
+<contactref element="MK1" pad="6"/>
+<contactref element="U5" pad="4"/>
+<wire x1="-41.937" y1="-196.409" x2="-56.718" y2="-194.097" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="UART_RX_LP">
+<contactref element="MK1" pad="8"/>
+<contactref element="U5" pad="6"/>
+<wire x1="-40.894" y1="-197.836" x2="-56.718" y2="-195.397" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="UART_TX_LP">
+<contactref element="MK1" pad="9"/>
+<contactref element="U5" pad="5"/>
+<wire x1="-41.919" y1="-197.836" x2="-56.718" y2="-194.747" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PDM_CLK">
+<contactref element="U5" pad="20"/>
+</signal>
+<signal name="PDM_SDO">
+<contactref element="U5" pad="18"/>
+</signal>
+<signal name="IA611_IRQ">
+<contactref element="U5" pad="17"/>
+</signal>
+<signal name="UART_TX">
+<contactref element="U5" pad="16"/>
+</signal>
+<signal name="UART_RX">
+<contactref element="U5" pad="15"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
