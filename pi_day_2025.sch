@@ -1382,6 +1382,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
+<package name="0402@1" urn="urn:adsk.eagle:footprint:39625/2" library_version="2">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-0.2704" y1="0.2286" x2="0.2704" y2="0.2286" width="0.1524" layer="51"/>
+<wire x1="0.2704" y1="-0.2286" x2="-0.2704" y2="-0.2286" width="0.1524" layer="51"/>
+<wire x1="-1.2" y1="0.65" x2="1.2" y2="0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="0.65" x2="1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="1.2" y1="-0.65" x2="-1.2" y2="-0.65" width="0.0508" layer="39"/>
+<wire x1="-1.2" y1="-0.65" x2="-1.2" y2="0.65" width="0.0508" layer="39"/>
+<smd name="1" x="-0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<smd name="2" x="0.58" y="0" dx="0.85" dy="0.9" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.3048" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.3048" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
 <package name="0402-TIGHT" urn="urn:adsk.eagle:footprint:41389011/1" library_version="2">
 <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
 <smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
@@ -1398,7 +1415,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
 <rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
 </package>
-<package name="AXIAL-0.1" urn="urn:adsk.eagle:footprint:39620/2" library_version="2">
+<package name="AXIAL-0.1@1" urn="urn:adsk.eagle:footprint:39620/2" library_version="2">
 <description>&lt;h3&gt;AXIAL-0.1&lt;/h3&gt;
 &lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;</description>
 <wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
@@ -1410,7 +1427,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
-<package name="AXIAL-0.3" urn="urn:adsk.eagle:footprint:39622/2" library_version="2">
+<package name="AXIAL-0.3@1" urn="urn:adsk.eagle:footprint:39622/2" library_version="2">
 <description>&lt;h3&gt;AXIAL-0.3&lt;/h3&gt;
 &lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;</description>
 <wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
@@ -1446,7 +1463,7 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <circle x="-3.81" y="0" radius="1.02390625" width="0" layer="30"/>
 <circle x="3.81" y="0" radius="1.04726875" width="0" layer="30"/>
 </package>
-<package name="AXIAL-0.1-KIT" urn="urn:adsk.eagle:footprint:39621/2" library_version="2">
+<package name="AXIAL-0.1-KIT@1" urn="urn:adsk.eagle:footprint:39621/2" library_version="2">
 <description>&lt;h3&gt;AXIAL-0.1-KIT&lt;/h3&gt;
 &lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of the AXIAL-0.1 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;</description>
@@ -1464,7 +1481,7 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <circle x="-1.27" y="0" radius="0.4572" width="0" layer="29"/>
 <circle x="1.27" y="0" radius="0.4572" width="0" layer="29"/>
 </package>
-<package name="AXIAL-0.3-KIT" urn="urn:adsk.eagle:footprint:39623/2" library_version="2">
+<package name="AXIAL-0.3-KIT@1" urn="urn:adsk.eagle:footprint:39623/2" library_version="2">
 <description>&lt;h3&gt;AXIAL-0.3-KIT&lt;/h3&gt;
 &lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of the AXIAL-0.3 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;</description>
@@ -1534,6 +1551,93 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
+<package name="AXIAL-0.3" urn="urn:adsk.eagle:footprint:39622/2" library_version="2">
+<description>&lt;h3&gt;AXIAL-0.3&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;</description>
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
+<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="AXIAL-0.1" urn="urn:adsk.eagle:footprint:39620/2" library_version="2">
+<description>&lt;h3&gt;AXIAL-0.1&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;</description>
+<wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="AXIAL-0.1-KIT" urn="urn:adsk.eagle:footprint:39621/2" library_version="2">
+<description>&lt;h3&gt;AXIAL-0.1-KIT&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of the AXIAL-0.1 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;</description>
+<wire x1="0" y1="-0.762" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="0.254" y1="0" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="-0.254" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-1.27" y="0" drill="0.9" diameter="1.8796" stop="no"/>
+<pad name="P$2" x="1.27" y="0" drill="0.9" diameter="1.8796" stop="no"/>
+<text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<circle x="-1.27" y="0" radius="0.4572" width="0" layer="29"/>
+<circle x="-1.27" y="0" radius="1.016" width="0" layer="30"/>
+<circle x="1.27" y="0" radius="1.016" width="0" layer="30"/>
+<circle x="-1.27" y="0" radius="0.4572" width="0" layer="29"/>
+<circle x="1.27" y="0" radius="0.4572" width="0" layer="29"/>
+</package>
+<package name="AXIAL-0.3-KIT" urn="urn:adsk.eagle:footprint:39623/2" library_version="2">
+<description>&lt;h3&gt;AXIAL-0.3-KIT&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of the AXIAL-0.3 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;</description>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.254" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.254" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="1.016" diameter="2.032" stop="no"/>
+<pad name="P$2" x="3.81" y="0" drill="1.016" diameter="2.032" stop="no"/>
+<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<polygon width="0.127" layer="30">
+<vertex x="3.8201" y="-0.9449" curve="-90"/>
+<vertex x="2.8652" y="-0.0152" curve="-90.011749"/>
+<vertex x="3.8176" y="0.9602" curve="-90"/>
+<vertex x="4.7676" y="-0.0178" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="3.8176" y="-0.4369" curve="-90.012891"/>
+<vertex x="3.3731" y="-0.0127" curve="-90"/>
+<vertex x="3.8176" y="0.4546" curve="-90"/>
+<vertex x="4.2595" y="-0.0025" curve="-90.012967"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="-3.8075" y="-0.9525" curve="-90"/>
+<vertex x="-4.7624" y="-0.0228" curve="-90.011749"/>
+<vertex x="-3.81" y="0.9526" curve="-90"/>
+<vertex x="-2.86" y="-0.0254" curve="-90.024193"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-3.81" y="-0.4445" curve="-90.012891"/>
+<vertex x="-4.2545" y="-0.0203" curve="-90"/>
+<vertex x="-3.81" y="0.447" curve="-90"/>
+<vertex x="-3.3681" y="-0.0101" curve="-90.012967"/>
+</polygon>
+</package>
 </packages>
 <packages3d>
 <package3d name="0603" urn="urn:adsk.eagle:package:41389018/1" type="box" library_version="2">
@@ -1550,16 +1654,67 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <packageinstance name="0402"/>
 </packageinstances>
 </package3d>
+<package3d name="0402" urn="urn:adsk.eagle:package:39657@1/2" type="box" library_version="2">
+<description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="0402@1"/>
+</packageinstances>
+</package3d>
 <package3d name="0402-TIGHT" urn="urn:adsk.eagle:package:41389023/1" type="box" library_version="2">
 <packageinstances>
 <packageinstance name="0402-TIGHT"/>
 </packageinstances>
 </package3d>
-<package3d name="AXIAL-0.1" urn="urn:adsk.eagle:package:39656/2" type="box" library_version="2">
+<package3d name="AXIAL-0.1" urn="urn:adsk.eagle:package:39656@1/2" type="box" library_version="2">
 <description>&lt;h3&gt;AXIAL-0.1&lt;/h3&gt;
 &lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="AXIAL-0.1"/>
+<packageinstance name="AXIAL-0.1@1"/>
+</packageinstances>
+</package3d>
+<package3d name="AXIAL-0.3" urn="urn:adsk.eagle:package:39658@1/2" type="box" library_version="2">
+<description>&lt;h3&gt;AXIAL-0.3&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="AXIAL-0.3@1"/>
+</packageinstances>
+</package3d>
+<package3d name="AXIAL-0.3EZ" urn="urn:adsk.eagle:package:39655/2" type="box" library_version="2">
+<description>This is the "EZ" version of the standard .3" spaced resistor package.&lt;br&gt;
+It has a reduced top mask to make it harder to install upside-down.</description>
+<packageinstances>
+<packageinstance name="AXIAL-0.3EZ"/>
+</packageinstances>
+</package3d>
+<package3d name="AXIAL-0.1-KIT" urn="urn:adsk.eagle:package:39653@1/2" type="box" library_version="2">
+<description>&lt;h3&gt;AXIAL-0.1-KIT&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of the AXIAL-0.1 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="AXIAL-0.1-KIT@1"/>
+</packageinstances>
+</package3d>
+<package3d name="AXIAL-0.3-KIT" urn="urn:adsk.eagle:package:39661@1/2" type="box" library_version="2">
+<description>&lt;h3&gt;AXIAL-0.3-KIT&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of the AXIAL-0.3 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="AXIAL-0.3-KIT@1"/>
+</packageinstances>
+</package3d>
+<package3d name="0805" urn="urn:adsk.eagle:package:39651/2" type="box" library_version="2">
+<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="0805"/>
+</packageinstances>
+</package3d>
+<package3d name="1206" urn="urn:adsk.eagle:package:39654/2" type="box" library_version="2">
+<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="1206"/>
 </packageinstances>
 </package3d>
 <package3d name="AXIAL-0.3" urn="urn:adsk.eagle:package:39658/2" type="box" library_version="2">
@@ -1569,11 +1724,11 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <packageinstance name="AXIAL-0.3"/>
 </packageinstances>
 </package3d>
-<package3d name="AXIAL-0.3EZ" urn="urn:adsk.eagle:package:39655/2" type="box" library_version="2">
-<description>This is the "EZ" version of the standard .3" spaced resistor package.&lt;br&gt;
-It has a reduced top mask to make it harder to install upside-down.</description>
+<package3d name="AXIAL-0.1" urn="urn:adsk.eagle:package:39656/2" type="box" library_version="2">
+<description>&lt;h3&gt;AXIAL-0.1&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.1" pitch between holes.&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="AXIAL-0.3EZ"/>
+<packageinstance name="AXIAL-0.1"/>
 </packageinstances>
 </package3d>
 <package3d name="AXIAL-0.1-KIT" urn="urn:adsk.eagle:package:39653/2" type="box" library_version="2">
@@ -1590,20 +1745,6 @@ It has a reduced top mask to make it harder to install upside-down.</description
 &lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of the AXIAL-0.3 package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="AXIAL-0.3-KIT"/>
-</packageinstances>
-</package3d>
-<package3d name="0805" urn="urn:adsk.eagle:package:39651/2" type="box" library_version="2">
-<description>&lt;p&gt;&lt;b&gt;Generic 2012 (0805) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="0805"/>
-</packageinstances>
-</package3d>
-<package3d name="1206" urn="urn:adsk.eagle:package:39654/2" type="box" library_version="2">
-<description>&lt;p&gt;&lt;b&gt;Generic 3216 (1206) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="1206"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1649,13 +1790,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="AXIAL-0.3" package="AXIAL-0.3">
+<device name="AXIAL-0.3" package="AXIAL-0.3@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39658/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39658@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1664,13 +1805,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="AXIAL-0.3-KIT" package="AXIAL-0.3-KIT">
+<device name="AXIAL-0.3-KIT" package="AXIAL-0.3-KIT@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39661/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39661@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1679,13 +1820,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="0402" package="0402">
+<device name="0402" package="0402@1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39657/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39657@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1775,13 +1916,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-0402-1/10W-1%" package="0402">
+<device name="-0402-1/10W-1%" package="0402@1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39657/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39657@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1813,13 +1954,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
+<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39658/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39658@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1828,13 +1969,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
+<device name="-VERT-1/4W-1%" package="AXIAL-0.1@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39656/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39656@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1843,13 +1984,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
+<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39653/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39653@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1858,13 +1999,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT">
+<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39661/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39661@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1873,13 +2014,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-VERT-1/4W-5%" package="AXIAL-0.1">
+<device name="-VERT-1/4W-5%" package="AXIAL-0.1@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39656/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39656@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1888,13 +2029,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT">
+<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39653/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39653@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1903,13 +2044,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3">
+<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39658/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39658@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1918,13 +2059,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT">
+<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39661/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39661@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1933,13 +2074,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-VERT-1/6W-5%" package="AXIAL-0.1">
+<device name="-VERT-1/6W-5%" package="AXIAL-0.1@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39656/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39656@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1963,13 +2104,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-0402-1/16W-1%" package="0402">
+<device name="-0402-1/16W-1%" package="0402@1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39657/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39657@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2288,13 +2429,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
+<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39658/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39658@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2318,13 +2459,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
+<device name="-VERT-1/4W-1%" package="AXIAL-0.1@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39656/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39656@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2333,13 +2474,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
+<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39653/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39653@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2387,13 +2528,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 <gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3">
+<device name="-HORIZ-1/4W-1%" package="AXIAL-0.3@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39658/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39658@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2402,13 +2543,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-VERT-1/4W-1%" package="AXIAL-0.1">
+<device name="-VERT-1/4W-1%" package="AXIAL-0.1@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39656/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39656@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2417,13 +2558,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT">
+<device name="-VERT_KIT-1/4W-1%" package="AXIAL-0.1-KIT@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39653/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39653@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2432,13 +2573,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT">
+<device name="-HORIZ_KIT-1/4W-1%" package="AXIAL-0.3-KIT@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39661/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39661@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2447,13 +2588,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-VERT-1/4W-5%" package="AXIAL-0.1">
+<device name="-VERT-1/4W-5%" package="AXIAL-0.1@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39656/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39656@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2462,13 +2603,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT">
+<device name="-VERT_KIT-1/4W-5%" package="AXIAL-0.1-KIT@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39653/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39653@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2477,13 +2618,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3">
+<device name="-HORIZ-1/4W-5%" package="AXIAL-0.3@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39658/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39658@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2492,13 +2633,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT">
+<device name="-HORIZ_KIT-1/4W-5%" package="AXIAL-0.3-KIT@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39661/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39661@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2522,13 +2663,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-0402-1/16W-1%" package="0402">
+<device name="-0402-1/16W-1%" package="0402@1">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39657/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39657@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2619,13 +2760,13 @@ It has a reduced top mask to make it harder to install upside-down.</description
 </technology>
 </technologies>
 </device>
-<device name="-AXIAL-0.1" package="AXIAL-0.1">
+<device name="-AXIAL-0.1" package="AXIAL-0.1@1">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39656/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39656@1/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -7068,6 +7209,188 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </deviceset>
 </devicesets>
 </library>
+<library name="ESP32-C3-MINI-1-N4">
+<packages>
+<package name="XCVR_ESP32-C3-MINI-1-N4">
+<wire x1="-6.6" y1="8.3" x2="6.6" y2="8.3" width="0.127" layer="51"/>
+<wire x1="6.6" y1="8.3" x2="6.6" y2="2.9" width="0.127" layer="51"/>
+<wire x1="6.6" y1="2.9" x2="6.6" y2="-8.3" width="0.127" layer="51"/>
+<wire x1="6.6" y1="-8.3" x2="-6.6" y2="-8.3" width="0.127" layer="51"/>
+<wire x1="-6.6" y1="-8.3" x2="-6.6" y2="2.9" width="0.127" layer="51"/>
+<polygon width="0.01" layer="1">
+<vertex x="-1.25" y="-1.45"/>
+<vertex x="-2.7" y="-1.45"/>
+<vertex x="-2.7" y="-0.6"/>
+<vertex x="-2.1" y="0"/>
+<vertex x="-1.25" y="0"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-1.15" y="-1.55"/>
+<vertex x="-2.8" y="-1.55"/>
+<vertex x="-2.8" y="-0.56"/>
+<vertex x="-2.14" y="0.1"/>
+<vertex x="-1.15" y="0.1"/>
+</polygon>
+<polygon width="0.01" layer="31">
+<vertex x="-1.25" y="-1.45"/>
+<vertex x="-2.7" y="-1.45"/>
+<vertex x="-2.7" y="-0.6"/>
+<vertex x="-2.1" y="0"/>
+<vertex x="-1.25" y="0"/>
+</polygon>
+<rectangle x1="-6.6" y1="2.9" x2="6.6" y2="8.3" layer="41"/>
+<rectangle x1="-6.6" y1="2.9" x2="6.6" y2="8.3" layer="42"/>
+<rectangle x1="-6.6" y1="2.9" x2="6.6" y2="8.3" layer="43"/>
+<wire x1="-6.6" y1="2.9" x2="-6.6" y2="8.3" width="0.127" layer="51"/>
+<wire x1="6.6" y1="8.3" x2="6.6" y2="2.92" width="0.127" layer="21"/>
+<wire x1="-6.6" y1="2.92" x2="-6.6" y2="8.3" width="0.127" layer="21"/>
+<wire x1="-6.6" y1="8.3" x2="6.6" y2="8.3" width="0.127" layer="21"/>
+<wire x1="-6.85" y1="8.55" x2="-6.85" y2="-8.55" width="0.05" layer="39"/>
+<wire x1="-6.85" y1="-8.55" x2="6.85" y2="-8.55" width="0.05" layer="39"/>
+<wire x1="6.85" y1="-8.55" x2="6.85" y2="8.55" width="0.05" layer="39"/>
+<wire x1="6.85" y1="8.55" x2="-6.85" y2="8.55" width="0.05" layer="39"/>
+<circle x="-7.25" y="1.3" radius="0.1" width="0.2" layer="21"/>
+<circle x="-7.25" y="1.3" radius="0.1" width="0.2" layer="51"/>
+<text x="-6.85" y="9" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.85" y="-9" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-6.6" y1="2.9" x2="6.6" y2="2.9" width="0.127" layer="51"/>
+<smd name="1" x="-5.9" y="1.3" dx="0.8" dy="0.4" layer="1"/>
+<smd name="2" x="-5.9" y="0.5" dx="0.8" dy="0.4" layer="1"/>
+<smd name="3" x="-5.9" y="-0.3" dx="0.8" dy="0.4" layer="1"/>
+<smd name="4" x="-5.9" y="-1.1" dx="0.8" dy="0.4" layer="1"/>
+<smd name="5" x="-5.9" y="-1.9" dx="0.8" dy="0.4" layer="1"/>
+<smd name="6" x="-5.9" y="-2.7" dx="0.8" dy="0.4" layer="1"/>
+<smd name="7" x="-5.9" y="-3.5" dx="0.8" dy="0.4" layer="1"/>
+<smd name="8" x="-5.9" y="-4.3" dx="0.8" dy="0.4" layer="1"/>
+<smd name="9" x="-5.9" y="-5.1" dx="0.8" dy="0.4" layer="1"/>
+<smd name="10" x="-5.9" y="-5.9" dx="0.8" dy="0.4" layer="1"/>
+<smd name="11" x="-5.9" y="-6.7" dx="0.8" dy="0.4" layer="1"/>
+<smd name="12" x="-4.8" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="13" x="-4" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="14" x="-3.2" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="15" x="-2.4" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="16" x="-1.6" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="17" x="-0.8" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="18" x="0" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="19" x="0.8" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="20" x="1.6" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="21" x="2.4" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="22" x="3.2" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="23" x="4" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="24" x="4.8" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
+<smd name="25" x="5.9" y="-6.7" dx="0.8" dy="0.4" layer="1"/>
+<smd name="26" x="5.9" y="-5.9" dx="0.8" dy="0.4" layer="1"/>
+<smd name="27" x="5.9" y="-5.1" dx="0.8" dy="0.4" layer="1"/>
+<smd name="28" x="5.9" y="-4.3" dx="0.8" dy="0.4" layer="1"/>
+<smd name="29" x="5.9" y="-3.5" dx="0.8" dy="0.4" layer="1"/>
+<smd name="30" x="5.9" y="-2.7" dx="0.8" dy="0.4" layer="1"/>
+<smd name="31" x="5.9" y="-1.9" dx="0.8" dy="0.4" layer="1"/>
+<smd name="32" x="5.9" y="-1.1" dx="0.8" dy="0.4" layer="1"/>
+<smd name="33" x="5.9" y="-0.3" dx="0.8" dy="0.4" layer="1"/>
+<smd name="34" x="5.9" y="0.5" dx="0.8" dy="0.4" layer="1"/>
+<smd name="35" x="5.9" y="1.3" dx="0.8" dy="0.4" layer="1"/>
+<smd name="36" x="4.8" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="37" x="4" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="38" x="3.2" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="39" x="2.4" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="40" x="1.6" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="41" x="0.8" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="42" x="0" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="43" x="-0.8" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="44" x="-1.6" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="45" x="-2.4" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="46" x="-3.2" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="47" x="-4" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="48" x="-4.8" y="2.2" dx="0.4" dy="0.8" layer="1"/>
+<smd name="49_9" x="0" y="-2.7" dx="1.45" dy="1.45" layer="1"/>
+<smd name="49_3" x="1.975" y="-0.725" dx="1.45" dy="1.45" layer="1"/>
+<smd name="49_2" x="0" y="-0.725" dx="1.45" dy="1.45" layer="1"/>
+<smd name="49_1" x="-1.975" y="-0.725" dx="0.6" dy="0.6" layer="1" stop="no" cream="no"/>
+<smd name="49_8" x="-1.975" y="-2.7" dx="1.45" dy="1.45" layer="1"/>
+<smd name="49_7" x="-1.975" y="-4.675" dx="1.45" dy="1.45" layer="1"/>
+<smd name="49_6" x="0" y="-4.675" dx="1.45" dy="1.45" layer="1"/>
+<smd name="49_5" x="1.975" y="-4.675" dx="1.45" dy="1.45" layer="1"/>
+<smd name="49_4" x="1.975" y="-2.7" dx="1.45" dy="1.45" layer="1"/>
+<smd name="53" x="-5.95" y="2.25" dx="0.7" dy="0.7" layer="1"/>
+<smd name="52" x="-5.95" y="-7.65" dx="0.7" dy="0.7" layer="1"/>
+<smd name="51" x="5.95" y="-7.65" dx="0.7" dy="0.7" layer="1"/>
+<smd name="50" x="5.95" y="2.25" dx="0.7" dy="0.7" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ESP32-C3-MINI-1-N4">
+<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="17.78" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<text x="-12.7" y="18.796" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="17.78" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="3V3" x="17.78" y="15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="NC" x="17.78" y="-12.7" length="middle" direction="nc" rot="R180"/>
+<pin name="IO2" x="-17.78" y="2.54" length="middle"/>
+<pin name="IO3" x="-17.78" y="0" length="middle"/>
+<pin name="EN" x="-17.78" y="12.7" length="middle" direction="in"/>
+<pin name="IO0" x="-17.78" y="7.62" length="middle"/>
+<pin name="IO1" x="-17.78" y="5.08" length="middle"/>
+<pin name="IO10" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="IO4" x="-17.78" y="-2.54" length="middle"/>
+<pin name="IO5" x="-17.78" y="-5.08" length="middle"/>
+<pin name="IO6" x="-17.78" y="-7.62" length="middle"/>
+<pin name="IO7" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="IO8" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="IO9" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="IO18" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="IO19" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="RXD0" x="-17.78" y="-12.7" length="middle"/>
+<pin name="TXD0" x="-17.78" y="-15.24" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ESP32-C3-MINI-1-N4" prefix="U">
+<description> &lt;a href="https://pricing.snapeda.com/parts/ESP32-C3-MINI-1-N4/Espressif%20Systems/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ESP32-C3-MINI-1-N4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XCVR_ESP32-C3-MINI-1-N4">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3"/>
+<connect gate="G$1" pin="EN" pad="8"/>
+<connect gate="G$1" pin="GND" pad="1 2 11 14 36 37 38 39 40 41 42 43 44 45 46 47 48 49_1 49_2 49_3 49_4 49_5 49_6 49_7 49_8 49_9 50 51 52 53"/>
+<connect gate="G$1" pin="IO0" pad="12"/>
+<connect gate="G$1" pin="IO1" pad="13"/>
+<connect gate="G$1" pin="IO10" pad="16"/>
+<connect gate="G$1" pin="IO18" pad="26"/>
+<connect gate="G$1" pin="IO19" pad="27"/>
+<connect gate="G$1" pin="IO2" pad="5"/>
+<connect gate="G$1" pin="IO3" pad="6"/>
+<connect gate="G$1" pin="IO4" pad="18"/>
+<connect gate="G$1" pin="IO5" pad="19"/>
+<connect gate="G$1" pin="IO6" pad="20"/>
+<connect gate="G$1" pin="IO7" pad="21"/>
+<connect gate="G$1" pin="IO8" pad="22"/>
+<connect gate="G$1" pin="IO9" pad="23"/>
+<connect gate="G$1" pin="NC" pad="4 7 9 10 15 17 24 25 28 29 32 33 34 35"/>
+<connect gate="G$1" pin="RXD0" pad="30"/>
+<connect gate="G$1" pin="TXD0" pad="31"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.412GHz ~ 2.484GHz PCB Trace Surface Mount "/>
+<attribute name="MF" value="Espressif Systems"/>
+<attribute name="MP" value="ESP32-C3-MINI-1-N4"/>
+<attribute name="PACKAGE" value="SMD-53 Espressif Systems"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-C3-MINI-1-N4/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7086,7 +7409,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
-<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:44163397/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163397/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="L1" library="LQW18AN2N2D10D" deviceset="LQW18AN2N2D10D" device="" override_package3d_urn="urn:adsk.eagle:package:44163399/2" override_package_urn="urn:adsk.eagle:footprint:37563/1" override_locally_modified="yes" value="2.2nH"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
@@ -7097,14 +7420,14 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C17" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46455631/2" override_package_urn="urn:adsk.eagle:footprint:41385037/1" value="0.1uF"/>
 <part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:44163374/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
-<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:44163373/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
-<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:44163371/3" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
-<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:44163370/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163374/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163373/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
+<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163371/3" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
+<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163370/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="CONN1" library="GT_USB-8012A" deviceset="GT-USB_8012A" device="" override_package3d_urn="urn:adsk.eagle:package:44161671/9" override_package_urn="urn:adsk.eagle:footprint:44161672/1"/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:44163391/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
+<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163391/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
 <part name="GND24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="U2" library="RP2350A" deviceset="RP2350A" device="" override_package3d_urn="urn:adsk.eagle:package:46113661/2" override_package_urn="urn:adsk.eagle:footprint:46113662/1"/>
 <part name="GND25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -7122,7 +7445,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C35" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46141771/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="4.7uF"/>
 <part name="GND28" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="33OHM" device="-0402-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46143275/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" override_locally_modified="yes" value="33"/>
+<part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="33OHM" device="-0402-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:46143275/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" override_locally_modified="yes" value="33"/>
 <part name="L2" library="SparkFun-Coils" library_urn="urn:adsk.eagle:library:512" deviceset="INDUCTOR" device="-0805-3.3UH" package3d_urn="urn:adsk.eagle:package:37579/2" override_package3d_urn="urn:adsk.eagle:package:46143259/2" override_package_urn="urn:adsk.eagle:footprint:37561/2" value="3.3µH"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="1.1V" device=""/>
 <part name="C36" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46141773/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="4.7uF"/>
@@ -7138,7 +7461,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="GND31" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C41" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="15PF" device="-0402-50V-5%" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46141777/2" override_package_urn="urn:adsk.eagle:footprint:41385037/1" value="15pF"/>
 <part name="C42" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="15PF" device="-0402-50V-5%" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46141776/2" override_package_urn="urn:adsk.eagle:footprint:41385037/1" value="15pF"/>
-<part name="R15" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46141751/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" override_locally_modified="yes" value="1K"/>
+<part name="R15" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:46141751/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" override_locally_modified="yes" value="1K"/>
 <part name="U1" library="RP2350A" deviceset="APS6404L-3SQR-ZR" device="" override_package3d_urn="urn:adsk.eagle:package:46143253/2" override_package_urn="urn:adsk.eagle:footprint:46143254/1"/>
 <part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -7214,10 +7537,10 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
-<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="100K"/>
-<part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="100K"/>
+<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657@1/2" value="100K"/>
+<part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657@1/2" value="100K"/>
 <part name="GND23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657/2" value=" "/>
+<part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" value=" "/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
 <part name="C14" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-10V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF"/>
 <part name="GND26" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -7243,7 +7566,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="D14" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/2" value="GREEN"/>
 <part name="D15" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/2" value="GREEN"/>
 <part name="R19" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="220OHM" device="-0402-TIGHT-1/16W-1%" package3d_urn="urn:adsk.eagle:package:41389023/1" value="220"/>
-<part name="R20" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="1K"/>
+<part name="R20" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657@1/2" value="1K"/>
 <part name="GND39" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device="">
 <attribute name="SPICEPREFIX" value="G"/>
 </part>
@@ -7280,8 +7603,16 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="SUPPLY35" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C46" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF"/>
 <part name="GND49" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R22" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" value="100K"/>
+<part name="R22" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657@1/2" value="100K"/>
 <part name="GND50" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="FRAME5" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
+<part name="U9" library="ESP32-C3-MINI-1-N4" deviceset="ESP32-C3-MINI-1-N4" device="" override_package3d_urn="urn:adsk.eagle:package:46142977/2" override_package_urn="urn:adsk.eagle:footprint:46142978/1"/>
+<part name="GND51" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SUPPLY36" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="C47" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0402T-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46142982/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="10uF"/>
+<part name="GND52" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="R23" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46143162/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" value="10k"/>
+<part name="C48" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46142980/2" override_package_urn="urn:adsk.eagle:footprint:41385037/1" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -8184,12 +8515,22 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <wire x1="152.4" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
 <label x="157.48" y="25.4" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO15"/>
+<wire x1="119.38" y1="121.92" x2="124.46" y2="121.92" width="0.1524" layer="91"/>
+<label x="124.46" y="121.92" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
 </net>
 <net name="LSM6_INT2" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="INT2"/>
 <wire x1="152.4" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
 <label x="157.48" y="22.86" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO16"/>
+<wire x1="119.38" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
+<label x="124.46" y="119.38" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 </net>
 <net name="CHARGE_STAT" class="0">
@@ -8239,6 +8580,69 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="U2" gate="G$1" pin="GPIO6"/>
 <wire x1="119.38" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
 <label x="124.46" y="144.78" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="!ESP32_RST" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO18"/>
+<wire x1="119.38" y1="114.3" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
+<label x="124.46" y="114.3" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="!ESP32_BOOT" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO19"/>
+<wire x1="119.38" y1="111.76" x2="124.46" y2="111.76" width="0.1524" layer="91"/>
+<label x="124.46" y="111.76" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_MISO" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO20"/>
+<wire x1="119.38" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
+<label x="124.46" y="109.22" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_CS" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO21"/>
+<wire x1="119.38" y1="106.68" x2="124.46" y2="106.68" width="0.1524" layer="91"/>
+<label x="124.46" y="106.68" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_SCK" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO22"/>
+<wire x1="119.38" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
+<label x="124.46" y="104.14" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_MOSI" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO23"/>
+<wire x1="119.38" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<label x="124.46" y="101.6" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_HANDSHAKE" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO17"/>
+<wire x1="119.38" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
+<label x="124.46" y="116.84" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_RX" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO12"/>
+<wire x1="119.38" y1="129.54" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
+<label x="124.46" y="129.54" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_TX" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO13"/>
+<wire x1="119.38" y1="127" x2="124.46" y2="127" width="0.1524" layer="91"/>
+<label x="124.46" y="127" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -8619,6 +9023,158 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="U5" gate="G$1" pin="B5"/>
 <wire x1="149.86" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <label x="154.94" y="63.5" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+<text x="116.84" y="137.16" size="2.54" layer="97" font="vector" ratio="20">ESP32 Co-Processor</text>
+</plain>
+<instances>
+<instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes">
+<attribute name="DRAWING_NAME" x="181.61" y="11.43" size="2.54" layer="94" font="vector"/>
+<attribute name="LAST_DATE_TIME" x="181.61" y="6.35" size="2.286" layer="94" font="vector"/>
+<attribute name="SHEET" x="195.58" y="1.27" size="2.54" layer="94" font="vector"/>
+<attribute name="DESIGNER" x="226.26" y="6.35" size="2.54" layer="94" font="vector"/>
+</instance>
+<instance part="U9" gate="G$1" x="132.08" y="106.68" smashed="yes">
+<attribute name="NAME" x="119.38" y="125.476" size="1.27" layer="95" font="vector" ratio="20"/>
+<attribute name="VALUE" x="119.38" y="83.82" size="1.27" layer="96" font="vector" ratio="20"/>
+</instance>
+<instance part="GND51" gate="1" x="154.94" y="78.74" smashed="yes">
+<attribute name="VALUE" x="154.94" y="78.486" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
+<instance part="SUPPLY36" gate="G$1" x="154.94" y="137.16" smashed="yes">
+<attribute name="VALUE" x="154.94" y="139.954" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
+</instance>
+<instance part="C47" gate="G$1" x="167.64" y="124.46" smashed="yes" rot="R90">
+<attribute name="NAME" x="165.1" y="126.365" size="1.27" layer="95" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="171.704" y="126.111" size="1.27" layer="96" font="vector" ratio="20" rot="R180"/>
+</instance>
+<instance part="GND52" gate="1" x="175.26" y="114.3" smashed="yes">
+<attribute name="VALUE" x="175.26" y="114.046" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
+</instance>
+<instance part="R23" gate="G$1" x="180.34" y="121.92" smashed="yes" rot="R90">
+<attribute name="NAME" x="178.054" y="126.238" size="1.27" layer="95" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="178.308" y="117.602" size="1.27" layer="96" font="vector" ratio="20" rot="R180" align="top-center"/>
+</instance>
+<instance part="C48" gate="G$1" x="167.64" y="119.38" smashed="yes" rot="R90">
+<attribute name="NAME" x="165.354" y="121.031" size="1.27" layer="95" font="vector" ratio="20" rot="R180"/>
+<attribute name="VALUE" x="171.958" y="121.285" size="1.27" layer="96" font="vector" ratio="20" rot="R180"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="GND51" gate="1" pin="GND"/>
+<pinref part="U9" gate="G$1" pin="GND"/>
+<wire x1="154.94" y1="81.28" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND52" gate="1" pin="GND"/>
+<pinref part="C47" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="116.84" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="119.38" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="C48" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
+<junction x="175.26" y="119.38"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="3V3"/>
+<pinref part="SUPPLY36" gate="G$1" pin="3.3V"/>
+<wire x1="149.86" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="121.92" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="C47" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="124.46" x2="154.94" y2="133.096" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="133.096" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="124.46" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
+<junction x="154.94" y="124.46"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="127" x2="180.34" y2="133.096" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="133.096" x2="154.94" y2="133.096" width="0.1524" layer="91"/>
+<junction x="154.94" y="133.096"/>
+<pinref part="C48" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="119.38" x2="154.94" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="119.38" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
+<junction x="154.94" y="121.92"/>
+</segment>
+</net>
+<net name="ESP32_RX" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="RXD0"/>
+<wire x1="114.3" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
+<label x="106.68" y="93.98" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_TX" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="TXD0"/>
+<wire x1="114.3" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
+<label x="106.68" y="91.44" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_HANDSHAKE" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="IO3"/>
+<wire x1="114.3" y1="106.68" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
+<label x="106.68" y="106.68" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_CS" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="IO10"/>
+<wire x1="149.86" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
+<label x="154.94" y="106.68" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_MOSI" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="IO7"/>
+<wire x1="149.86" y1="114.3" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
+<label x="154.94" y="114.3" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_MISO" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="IO2"/>
+<wire x1="114.3" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
+<label x="106.68" y="109.22" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="ESP32_SCK" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="IO6"/>
+<wire x1="114.3" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
+<label x="106.68" y="99.06" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="!ESP32_RST" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="EN"/>
+<wire x1="114.3" y1="119.38" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
+<label x="106.68" y="119.38" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="IO8"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="111.76" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="111.76" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="!ESP32_BOOT" class="0">
+<segment>
+<pinref part="U9" gate="G$1" pin="IO9"/>
+<wire x1="149.86" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
+<label x="154.94" y="109.22" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 </net>
 </nets>
