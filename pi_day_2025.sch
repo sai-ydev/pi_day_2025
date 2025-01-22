@@ -8157,13 +8157,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <wire x1="78.74" y1="119.38" x2="83.82" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="BUZZER_DRIVER" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="GPIO6"/>
-<wire x1="119.38" y1="144.78" x2="127" y2="144.78" width="0.1524" layer="91"/>
-<label x="127" y="144.78" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
@@ -8204,6 +8197,48 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="U2" gate="G$1" pin="GPIO1"/>
 <wire x1="119.38" y1="157.48" x2="124.46" y2="157.48" width="0.1524" layer="91"/>
 <label x="124.46" y="157.48" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="PDM_SDO" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO2"/>
+<wire x1="119.38" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
+<label x="124.46" y="154.94" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="PDM_CLK" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO3"/>
+<wire x1="119.38" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
+<label x="124.46" y="152.4" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="UART_RX" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO4"/>
+<wire x1="119.38" y1="149.86" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
+<label x="124.46" y="149.86" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="UART_TX" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO5"/>
+<wire x1="119.38" y1="147.32" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
+<label x="124.46" y="147.32" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="BUZZER_DRIVER" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO10"/>
+<wire x1="119.38" y1="134.62" x2="124.46" y2="134.62" width="0.1524" layer="91"/>
+<label x="124.46" y="134.62" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
+</segment>
+</net>
+<net name="IA611_IRQ" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="GPIO6"/>
+<wire x1="119.38" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
+<label x="124.46" y="144.78" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 </net>
 </nets>

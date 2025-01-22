@@ -3273,11 +3273,11 @@ JST_2MM_MALE
 <wire x1="22.3664625" y1="13.7954" x2="24.2348" y2="13.7954" width="0.1524" layer="1"/>
 </signal>
 <signal name="BUZZER_DRIVER">
-<contactref element="U2" pad="9"/>
 <contactref element="R25" pad="2"/>
-<wire x1="15.9956" y1="10.5081" x2="15.9956" y2="9.4678" width="0.1524" layer="1"/>
 <wire x1="15.9956" y1="9.4678" x2="15.5702" y2="9.0424" width="0.1524" layer="1"/>
 <wire x1="15.5702" y1="9.0424" x2="15.5702" y2="7.5904" width="0.1524" layer="1"/>
+<contactref element="U2" pad="14"/>
+<wire x1="15.9956" y1="9.4678" x2="17.9956" y2="10.5081" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="Q2" pad="3"/>
@@ -3559,18 +3559,28 @@ JST_2MM_MALE
 </signal>
 <signal name="PDM_CLK">
 <contactref element="U5" pad="20"/>
+<contactref element="U2" pad="5"/>
+<wire x1="14.3956" y1="10.5081" x2="-50.978" y2="-192.147" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PDM_SDO">
 <contactref element="U5" pad="18"/>
+<contactref element="U2" pad="4"/>
+<wire x1="13.9956" y1="10.5081" x2="-50.978" y2="-193.447" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IA611_IRQ">
 <contactref element="U5" pad="17"/>
+<contactref element="U2" pad="9"/>
+<wire x1="15.9956" y1="10.5081" x2="-50.978" y2="-194.097" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART_TX">
 <contactref element="U5" pad="16"/>
+<contactref element="U2" pad="8"/>
+<wire x1="15.5956" y1="10.5081" x2="-50.978" y2="-194.747" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART_RX">
 <contactref element="U5" pad="15"/>
+<contactref element="U2" pad="7"/>
+<wire x1="15.1956" y1="10.5081" x2="-50.978" y2="-195.397" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
