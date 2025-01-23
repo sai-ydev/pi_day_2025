@@ -194,18 +194,18 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOTBlYmM4" projecturn="a.cGVyc29uYWw6dWUyOTBlYmM4IzIwMjUwMTIzODY0Mzk1ODU2" f3durn="urn:adsk.wipprod:dm.lineage:jG-qUKVUQXWRsBcO40GihA" pcbguid="" lastpulledtime="2025-01-23T08:35:31Z" lastsyncedchangeguid="" latestrevisionid="45c0a732-fc37-40a1-9d4a-bf55e1801cdd" lastsyncedrevisionid="45c0a732-fc37-40a1-9d4a-bf55e1801cdd" lastboardhashguid="2d4467fd-e7b1-bc34-90b2-d47db610a053" lastpushedtime="2025-01-14T03:59:34Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOTBlYmM4" projecturn="a.cGVyc29uYWw6dWUyOTBlYmM4IzIwMjUwMTIzODY0Mzk1ODU2" f3durn="urn:adsk.wipprod:dm.lineage:jG-qUKVUQXWRsBcO40GihA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="45c0a732-fc37-40a1-9d4a-bf55e1801cdd" lastsyncedrevisionid="ce5a9aef-3af1-4036-b435-ab7ef3a933dc" lastboardhashguid="2d4467fd-e7b1-bc34-90b2-d47db610a053" lastpushedtime="2025-01-14T03:59:34Z" linktopcb3d="true"/>
 <fusionteam huburn="a.cGVyc29uYWw6dWUyOTBlYmM4" projecturn="a.cGVyc29uYWw6dWUyOTBlYmM4IzIwMTgwMjI2MTIwMDEyOTA2" folderUrn="urn:adsk.wipprod:fs.folder:co.fe5effZoQdWfpMQ07PK-9Q" urn="urn:adsk.wipprod:dm.lineage:Uryq3xNzQpWo5x4RSJnwhw"  versionUrn="urn:adsk.wipprod:fs.file:vf.Uryq3xNzQpWo5x4RSJnwhw?version=2" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="d712bcb4-3351-3c99-3128-cb1ea3d88292"/>
 <plain>
 <text x="15.9258" y="3.6068" size="1.016" layer="25" font="vector" ratio="20">BOOT</text>
 <text x="16.9672" y="20.3708" size="1.016" layer="25" font="vector" ratio="20">RST</text>
 <text x="35.814" y="0.254" size="1.016" layer="26" font="vector" ratio="20" rot="MR0">GND</text>
-<wire x1="3.9097" y1="34.7809" x2="-3.0811" y2="34.8641" width="0" layer="20" curve="185.732" locked="yes"/>
-<wire x1="3.9097" y1="34.7809" x2="-3.0811" y2="34.8641" width="0" layer="20" curve="11.4639" locked="yes"/>
-<circle x="-31.5862" y="0" locked="yes" radius="1.7" width="0" layer="20"/>
-<circle x="31.6" y="0" locked="yes" radius="1.7" width="0" layer="20"/>
-<wire x1="-9.0032" y1="33.8222" x2="9.8053" y2="33.5985" width="0" layer="20" curve="328.8248" locked="yes"/>
-<wire x1="9.8053" y1="33.5985" x2="-9.0032" y2="33.8222" width="0" layer="20" curve="195.5876" locked="yes"/>
+<circle x="-16.6" y="0" locked="yes" radius="1.7" width="0" layer="20"/>
+<wire x1="3.4866" y1="19.6938" x2="-3.4866" y2="19.6938" width="0" layer="20" curve="190.0396" locked="yes"/>
+<wire x1="3.4866" y1="19.6938" x2="-3.4866" y2="19.6938" width="0" layer="20" curve="20.0792" locked="yes"/>
+<circle x="16.6" y="0" locked="yes" radius="1.7" width="0" layer="20"/>
+<wire x1="-4.9608" y1="19.375" x2="4.9608" y2="19.375" width="0" layer="20" curve="331.277" locked="yes"/>
+<wire x1="4.9608" y1="19.375" x2="-4.9608" y2="19.375" width="0" layer="20" curve="194.3615" locked="yes"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
@@ -714,37 +714,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="2.475" y1="-3.525" x2="3.125" y2="-3.325" layer="31" rot="R90"/>
 <rectangle x1="-3.75" y1="-2.9" x2="-3.1" y2="-2.7" layer="31"/>
 <rectangle x1="3.1" y1="2.7" x2="3.75" y2="2.9" layer="31" rot="R180"/>
-</package>
-<package name="APS6404L-3SQR-ZR">
-<wire x1="-1.7" y1="1.2" x2="-1.7" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="-1.7" y1="-1.2" x2="1.7" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="1.7" y1="-1.2" x2="1.7" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="1.7" y1="1.2" x2="-1.7" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.2032" layer="51"/>
-<wire x1="-1.5" y1="-1" x2="1.5" y2="-1" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="1" x2="-1.5" y2="1" width="0.2032" layer="51"/>
-<smd name="1" x="-1.25" y="0.75" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="2" x="-1.25" y="0.25" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="3" x="-1.25" y="-0.25" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="4" x="-1.25" y="-0.75" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="5" x="1.25" y="-0.75" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="6" x="1.25" y="-0.25" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="7" x="1.25" y="0.25" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="8" x="1.25" y="0.75" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<circle x="-2.1" y="1.1" radius="0.1" width="0.2032" layer="21"/>
-<rectangle x1="-1.4" y1="0.65" x2="-1.1" y2="0.85" layer="31"/>
-<rectangle x1="-1.4" y1="0.15" x2="-1.1" y2="0.35" layer="31"/>
-<rectangle x1="-1.4" y1="-0.35" x2="-1.1" y2="-0.15" layer="31"/>
-<rectangle x1="-1.4" y1="-0.85" x2="-1.1" y2="-0.65" layer="31"/>
-<rectangle x1="1.1" y1="-0.85" x2="1.4" y2="-0.65" layer="31"/>
-<rectangle x1="1.1" y1="-0.35" x2="1.4" y2="-0.15" layer="31"/>
-<rectangle x1="1.1" y1="0.15" x2="1.4" y2="0.35" layer="31"/>
-<rectangle x1="1.1" y1="0.65" x2="1.4" y2="0.85" layer="31"/>
-<smd name="9" x="0" y="0" dx="0.2" dy="1.6" layer="1" cream="no"/>
-<rectangle x1="-0.1" y1="-0.6" x2="0.1" y2="0.6" layer="31"/>
-<text x="0" y="2" size="0.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="-2" size="0.5" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1387,115 +1356,6 @@ JST_2MM_MALE
 </package>
 </packages>
 </library>
-<library name="ESP32-C3-MINI-1-N4">
-<packages>
-<package name="XCVR_ESP32-C3-MINI-1-N4">
-<wire x1="-6.6" y1="8.3" x2="6.6" y2="8.3" width="0.127" layer="51"/>
-<wire x1="6.6" y1="8.3" x2="6.6" y2="2.9" width="0.127" layer="51"/>
-<wire x1="6.6" y1="2.9" x2="6.6" y2="-8.3" width="0.127" layer="51"/>
-<wire x1="6.6" y1="-8.3" x2="-6.6" y2="-8.3" width="0.127" layer="51"/>
-<wire x1="-6.6" y1="-8.3" x2="-6.6" y2="2.9" width="0.127" layer="51"/>
-<polygon width="0.01" layer="1">
-<vertex x="-1.25" y="-1.45"/>
-<vertex x="-2.7" y="-1.45"/>
-<vertex x="-2.7" y="-0.6"/>
-<vertex x="-2.1" y="0"/>
-<vertex x="-1.25" y="0"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-1.15" y="-1.55"/>
-<vertex x="-2.8" y="-1.55"/>
-<vertex x="-2.8" y="-0.56"/>
-<vertex x="-2.14" y="0.1"/>
-<vertex x="-1.15" y="0.1"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.25" y="-1.45"/>
-<vertex x="-2.7" y="-1.45"/>
-<vertex x="-2.7" y="-0.6"/>
-<vertex x="-2.1" y="0"/>
-<vertex x="-1.25" y="0"/>
-</polygon>
-<rectangle x1="-6.6" y1="2.9" x2="6.6" y2="8.3" layer="41"/>
-<rectangle x1="-6.6" y1="2.9" x2="6.6" y2="8.3" layer="42"/>
-<rectangle x1="-6.6" y1="2.9" x2="6.6" y2="8.3" layer="43"/>
-<wire x1="-6.6" y1="2.9" x2="-6.6" y2="8.3" width="0.127" layer="51"/>
-<wire x1="6.6" y1="8.3" x2="6.6" y2="2.92" width="0.127" layer="21"/>
-<wire x1="-6.6" y1="2.92" x2="-6.6" y2="8.3" width="0.127" layer="21"/>
-<wire x1="-6.6" y1="8.3" x2="6.6" y2="8.3" width="0.127" layer="21"/>
-<wire x1="-6.85" y1="8.55" x2="-6.85" y2="-8.55" width="0.05" layer="39"/>
-<wire x1="-6.85" y1="-8.55" x2="6.85" y2="-8.55" width="0.05" layer="39"/>
-<wire x1="6.85" y1="-8.55" x2="6.85" y2="8.55" width="0.05" layer="39"/>
-<wire x1="6.85" y1="8.55" x2="-6.85" y2="8.55" width="0.05" layer="39"/>
-<circle x="-7.25" y="1.3" radius="0.1" width="0.2" layer="21"/>
-<circle x="-7.25" y="1.3" radius="0.1" width="0.2" layer="51"/>
-<text x="-6.85" y="9" size="1.27" layer="25">&gt;NAME</text>
-<text x="-6.85" y="-9" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-6.6" y1="2.9" x2="6.6" y2="2.9" width="0.127" layer="51"/>
-<smd name="1" x="-5.9" y="1.3" dx="0.8" dy="0.4" layer="1"/>
-<smd name="2" x="-5.9" y="0.5" dx="0.8" dy="0.4" layer="1"/>
-<smd name="3" x="-5.9" y="-0.3" dx="0.8" dy="0.4" layer="1"/>
-<smd name="4" x="-5.9" y="-1.1" dx="0.8" dy="0.4" layer="1"/>
-<smd name="5" x="-5.9" y="-1.9" dx="0.8" dy="0.4" layer="1"/>
-<smd name="6" x="-5.9" y="-2.7" dx="0.8" dy="0.4" layer="1"/>
-<smd name="7" x="-5.9" y="-3.5" dx="0.8" dy="0.4" layer="1"/>
-<smd name="8" x="-5.9" y="-4.3" dx="0.8" dy="0.4" layer="1"/>
-<smd name="9" x="-5.9" y="-5.1" dx="0.8" dy="0.4" layer="1"/>
-<smd name="10" x="-5.9" y="-5.9" dx="0.8" dy="0.4" layer="1"/>
-<smd name="11" x="-5.9" y="-6.7" dx="0.8" dy="0.4" layer="1"/>
-<smd name="12" x="-4.8" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="13" x="-4" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="14" x="-3.2" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="15" x="-2.4" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="16" x="-1.6" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="17" x="-0.8" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="18" x="0" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="19" x="0.8" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="20" x="1.6" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="21" x="2.4" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="22" x="3.2" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="23" x="4" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="24" x="4.8" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="25" x="5.9" y="-6.7" dx="0.8" dy="0.4" layer="1"/>
-<smd name="26" x="5.9" y="-5.9" dx="0.8" dy="0.4" layer="1"/>
-<smd name="27" x="5.9" y="-5.1" dx="0.8" dy="0.4" layer="1"/>
-<smd name="28" x="5.9" y="-4.3" dx="0.8" dy="0.4" layer="1"/>
-<smd name="29" x="5.9" y="-3.5" dx="0.8" dy="0.4" layer="1"/>
-<smd name="30" x="5.9" y="-2.7" dx="0.8" dy="0.4" layer="1"/>
-<smd name="31" x="5.9" y="-1.9" dx="0.8" dy="0.4" layer="1"/>
-<smd name="32" x="5.9" y="-1.1" dx="0.8" dy="0.4" layer="1"/>
-<smd name="33" x="5.9" y="-0.3" dx="0.8" dy="0.4" layer="1"/>
-<smd name="34" x="5.9" y="0.5" dx="0.8" dy="0.4" layer="1"/>
-<smd name="35" x="5.9" y="1.3" dx="0.8" dy="0.4" layer="1"/>
-<smd name="36" x="4.8" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="37" x="4" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="38" x="3.2" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="39" x="2.4" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="40" x="1.6" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="41" x="0.8" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="42" x="0" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="43" x="-0.8" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="44" x="-1.6" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="45" x="-2.4" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="46" x="-3.2" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="47" x="-4" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="48" x="-4.8" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="49_9" x="0" y="-2.7" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_3" x="1.975" y="-0.725" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_2" x="0" y="-0.725" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_1" x="-1.975" y="-0.725" dx="0.6" dy="0.6" layer="1" stop="no" cream="no"/>
-<smd name="49_8" x="-1.975" y="-2.7" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_7" x="-1.975" y="-4.675" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_6" x="0" y="-4.675" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_5" x="1.975" y="-4.675" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_4" x="1.975" y="-2.7" dx="1.45" dy="1.45" layer="1"/>
-<smd name="53" x="-5.95" y="2.25" dx="0.7" dy="0.7" layer="1"/>
-<smd name="52" x="-5.95" y="-7.65" dx="0.7" dy="0.7" layer="1"/>
-<smd name="51" x="5.95" y="-7.65" dx="0.7" dy="0.7" layer="1"/>
-<smd name="50" x="5.95" y="2.25" dx="0.7" dy="0.7" layer="1"/>
-</package>
-</packages>
-</library>
 <library name="TYPE-C-31-M-12">
 <packages>
 <package name="HRO_TYPE-C-31-M-12">
@@ -1917,15 +1777,15 @@ JST_2MM_MALE
 <attribute name="PURCHASE-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1503005&amp;manufacturer=Murata&amp;part_name=LQW18AN2N2D10D&amp;search_term=2.2nh 0603" x="9.779" y="23.876" size="1.778" layer="27" display="off"/>
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/LQW18AN2N2D10D/Murata/view-part/?ref=snap" x="9.779" y="23.876" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C12" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:44163394/2" override_package_urn="urn:adsk.eagle:footprint:37389/1" override_locally_modified="yes" value="0.1uF" x="7.239" y="23.876" smashed="yes" rot="R180">
-<attribute name="NAME" x="7.239" y="23.114" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center" display="off"/>
-<attribute name="PROD_ID" value="CAP-12416" x="7.239" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="7.239" y="24.638" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="C12" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:44163394/2" override_package_urn="urn:adsk.eagle:footprint:37389/1" override_locally_modified="yes" value="0.1uF" x="6.731" y="23.876" smashed="yes" rot="R180">
+<attribute name="NAME" x="6.731" y="23.114" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center" display="off"/>
+<attribute name="PROD_ID" value="CAP-12416" x="6.731" y="23.876" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="6.731" y="24.638" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C13" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:44163386/2" override_package_urn="urn:adsk.eagle:footprint:37389/1" override_locally_modified="yes" value="0.1uF" x="12.3698" y="23.876" smashed="yes">
-<attribute name="NAME" x="12.3698" y="24.638" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center" display="off"/>
-<attribute name="PROD_ID" value="CAP-12416" x="12.3698" y="23.876" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="12.3698" y="23.114" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="C13" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:44163386/2" override_package_urn="urn:adsk.eagle:footprint:37389/1" override_locally_modified="yes" value="0.1uF" x="12.6238" y="23.876" smashed="yes">
+<attribute name="NAME" x="12.6238" y="24.638" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center" display="off"/>
+<attribute name="PROD_ID" value="CAP-12416" x="12.6238" y="23.876" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="12.6238" y="23.114" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="IC1" library="SamacSys_Parts" package="SON80P400X400X50-9N" override_package3d_urn="urn:adsk.eagle:package:44163375/2" override_package_urn="urn:adsk.eagle:footprint:44163376/1" value="W25Q64JVXGIQ" x="7.3152" y="7.1882" smashed="yes" rot="R90">
 <attribute name="ARROW_PART_NUMBER" value="" x="7.3152" y="7.1882" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1964,24 +1824,24 @@ JST_2MM_MALE
 <attribute name="PROD_ID" value=" " x="34.8234" y="20.574" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="34.8234" y="21.336" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="CONN1" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" override_package3d_urn="urn:adsk.eagle:package:44161671/9" override_package_urn="urn:adsk.eagle:footprint:44161672/1" override_locally_modified="yes" value="TYPE-C-31-M-12" x="0" y="-32.9311" smashed="yes">
-<attribute name="AVAILABILITY" value="Not in stock" x="0" y="-32.9311" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda" x="0" y="-32.9311" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="0" y="-32.9311" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="HRO Electronics Co., Ltd." x="0" y="-32.9311" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="TYPE-C-31-M-12" x="0" y="-32.9311" size="1.778" layer="27" display="off"/>
-<attribute name="PACKAGE" value="Package " x="0" y="-32.9311" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="0" y="-32.9311" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap" x="0" y="-32.9311" size="1.778" layer="27" display="off"/>
+<element name="CONN1" library="TYPE-C-31-M-12" package="HRO_TYPE-C-31-M-12" override_package3d_urn="urn:adsk.eagle:package:44161671/9" override_package_urn="urn:adsk.eagle:footprint:44161672/1" override_locally_modified="yes" value="TYPE-C-31-M-12" x="-0.0762" y="-17.8181" smashed="yes">
+<attribute name="AVAILABILITY" value="Not in stock" x="-0.0762" y="-17.8181" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda" x="-0.0762" y="-17.8181" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS " x="-0.0762" y="-17.8181" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="HRO Electronics Co., Ltd." x="-0.0762" y="-17.8181" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="TYPE-C-31-M-12" x="-0.0762" y="-17.8181" size="1.778" layer="27" display="off"/>
+<attribute name="PACKAGE" value="Package " x="-0.0762" y="-17.8181" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-0.0762" y="-17.8181" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap" x="-0.0762" y="-17.8181" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0402@1" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163391/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="5.1K" x="1.4478" y="18.6182" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value=" " x="1.4478" y="18.6182" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="1.4478" y="19.3802" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="U2" library="RP2350A" package="RP2350A" override_package3d_urn="urn:adsk.eagle:package:46113661/2" override_package_urn="urn:adsk.eagle:footprint:46113662/1" value="RP2350A" x="0.7874" y="-9.0424" smashed="yes" rot="R180">
-<attribute name="NAME" x="0.7874" y="-11.2014" size="0.6096" layer="25" rot="R180" align="center"/>
-<attribute name="PROD_ID" value="IC-21276" x="0.7874" y="-9.0424" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="0.7874" y="-6.7424" size="0.6096" layer="27" rot="R180" align="center"/>
+<element name="U2" library="RP2350A" package="RP2350A" override_package3d_urn="urn:adsk.eagle:package:46113661/2" override_package_urn="urn:adsk.eagle:footprint:46113662/1" value="RP2350A" x="-0.4826" y="-5.9944" smashed="yes" rot="R180">
+<attribute name="NAME" x="-0.4826" y="-8.1534" size="0.6096" layer="25" rot="R180" align="center"/>
+<attribute name="PROD_ID" value="IC-21276" x="-0.4826" y="-5.9944" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="-0.4826" y="-3.6944" size="0.6096" layer="27" rot="R180" align="center"/>
 </element>
 <element name="C18" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46141770/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="0.1uF" x="12.573" y="8.9154" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CAP-16507" x="21.971" y="8.4074" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2075,21 +1935,9 @@ JST_2MM_MALE
 <attribute name="PROD_ID" value="RES-14342" x="-35.941" y="33.401" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="23.749" y="15.621" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="U1" library="RP2350A" package="APS6404L-3SQR-ZR" override_package3d_urn="urn:adsk.eagle:package:46143253/2" override_package_urn="urn:adsk.eagle:footprint:46143254/1" value="APS6404L-3SQR-ZR" x="12.0904" y="5.6134" smashed="yes" rot="R90">
-<attribute name="PROD_ID" value="IC-21870" x="6.7564" y="-0.2286" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="14.0904" y="5.6134" size="0.5" layer="27" font="vector" ratio="15" rot="R90" align="center"/>
-</element>
-<element name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46142664/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="0.1uF" x="11.2776" y="8.4328" smashed="yes" rot="R90">
-<attribute name="PROD_ID" value="CAP-16507" x="6.1976" y="0.8128" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="11.8396" y="8.4328" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
-</element>
-<element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0402" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46142663/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" override_locally_modified="yes" value="10k" x="10.4902" y="1.2446" smashed="yes">
-<attribute name="PROD_ID" value="RES-14241" x="5.4102" y="3.5306" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="10.4902" y="0.4826" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOT323" package3d_urn="urn:adsk.eagle:package:38456/2" override_package3d_urn="urn:adsk.eagle:package:46148389/2" override_package_urn="urn:adsk.eagle:footprint:38424/2" value="310mA/60V/1.6Ω" x="20.5994" y="7.8486" smashed="yes" rot="R270">
-<attribute name="PROD_ID" value="TRANS-11151" x="35.3314" y="7.8486" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="20.5994" y="6.5786" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" package="SOT323" package3d_urn="urn:adsk.eagle:package:38456/2" override_package3d_urn="urn:adsk.eagle:package:46148389/2" override_package_urn="urn:adsk.eagle:footprint:38424/2" value="310mA/60V/1.6Ω" x="31.0134" y="11.1506" smashed="yes" rot="R270">
+<attribute name="PROD_ID" value="TRANS-11151" x="45.7454" y="11.1506" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="31.0134" y="9.8806" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="LS1" library="CSS-0575A-SMT" package="CUI_CSS-0575A-SMT" override_package3d_urn="urn:adsk.eagle:package:46419512/2" override_package_urn="urn:adsk.eagle:footprint:46419513/1" value="MLT-5020" x="35.306" y="13.081" smashed="yes" rot="R270">
 <attribute name="AVAILABILITY" value="Unavailable" x="35.306" y="13.081" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2119,175 +1967,107 @@ JST_2MM_MALE
 <attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SM03B-SRSS-TB(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap" x="33.274" y="9.906" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="28.956" y="26.416" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="D1" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="-13.97" y="-26.416" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Not in stock" x="-13.97" y="-26.416" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="-13.97" y="-26.416" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="-13.97" y="-26.416" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="-13.97" y="-26.416" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="SK6812-E" x="-13.97" y="-26.416" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="-16.405990625" y="-30.286" size="1.905" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="Package " x="-13.97" y="-26.416" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="-13.97" y="-26.416" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="-13.97" y="-26.416" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="-9.845990625" y="-30.586" size="1.905" layer="27" rot="R90"/>
+<element name="D1" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="-11.176" y="-10.922" smashed="yes">
+<attribute name="AVAILABILITY" value="Not in stock" x="-11.176" y="-10.922" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="-11.176" y="-10.922" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="-11.176" y="-10.922" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="-11.176" y="-10.922" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="SK6812-E" x="-11.176" y="-10.922" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-15.046" y="-8.486009375" size="1.905" layer="25"/>
+<attribute name="PACKAGE" value="Package " x="-11.176" y="-10.922" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-11.176" y="-10.922" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="-11.176" y="-10.922" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-15.346" y="-15.046009375" size="1.905" layer="27"/>
 </element>
 <element name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF" x="-17.78" y="-49.53" smashed="yes">
 <attribute name="NAME" x="-17.78" y="-48.768" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15083" x="-17.78" y="-49.53" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-17.78" y="-50.292" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D2" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="-27.686" y="-12.7" smashed="yes">
-<attribute name="AVAILABILITY" value="Not in stock" x="-27.686" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="-27.686" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="-27.686" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="-27.686" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="SK6812-E" x="-27.686" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-31.556" y="-10.264009375" size="1.905" layer="25"/>
-<attribute name="PACKAGE" value="Package " x="-27.686" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-27.686" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="-27.686" y="-12.7" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-31.856" y="-16.824009375" size="1.905" layer="27"/>
+<element name="D2" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="-9.906" y="11.684" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Not in stock" x="-9.906" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="-9.906" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="-9.906" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="-9.906" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="SK6812-E" x="-9.906" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="-12.341990625" y="7.814" size="1.905" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="Package " x="-9.906" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="-9.906" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="-9.906" y="11.684" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="-5.781990625" y="7.514" size="1.905" layer="27" rot="R90"/>
 </element>
 <element name="C3" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF" x="-18.288" y="-62.992" smashed="yes">
 <attribute name="NAME" x="-18.288" y="-62.23" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15083" x="-17.78" y="-62.992" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-18.288" y="-63.754" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D3" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="-29.464" y="8.89" smashed="yes">
-<attribute name="AVAILABILITY" value="Not in stock" x="-29.464" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="-29.464" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="-29.464" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="-29.464" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="SK6812-E" x="-29.464" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-33.334" y="11.325990625" size="1.905" layer="25"/>
-<attribute name="PACKAGE" value="Package " x="-29.464" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-29.464" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="-29.464" y="8.89" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-33.634" y="4.765990625" size="1.905" layer="27"/>
+<element name="D3" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="11.43" y="11.176" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Not in stock" x="11.43" y="11.176" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="11.43" y="11.176" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="11.43" y="11.176" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="11.43" y="11.176" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="SK6812-E" x="11.43" y="11.176" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="8.994009375" y="7.306" size="1.905" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="Package " x="11.43" y="11.176" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="11.43" y="11.176" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="11.43" y="11.176" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="15.554009375" y="7.006" size="1.905" layer="27" rot="R90"/>
 </element>
 <element name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF" x="-18.288" y="-76.454" smashed="yes">
 <attribute name="NAME" x="-18.288" y="-75.692" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15083" x="-17.78" y="-76.454" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-18.288" y="-77.216" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D4" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="-15.748" y="27.178" smashed="yes">
-<attribute name="AVAILABILITY" value="Not in stock" x="-15.748" y="27.178" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="-15.748" y="27.178" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="-15.748" y="27.178" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="-15.748" y="27.178" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="SK6812-E" x="-15.748" y="27.178" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-19.618" y="29.613990625" size="1.905" layer="25"/>
-<attribute name="PACKAGE" value="Package " x="-15.748" y="27.178" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-15.748" y="27.178" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="-15.748" y="27.178" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-19.918" y="23.053990625" size="1.905" layer="27"/>
+<element name="D4" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="12.446" y="-9.652" smashed="yes" rot="R90">
+<attribute name="AVAILABILITY" value="Not in stock" x="12.446" y="-9.652" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="12.446" y="-9.652" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="12.446" y="-9.652" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="12.446" y="-9.652" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MP" value="SK6812-E" x="12.446" y="-9.652" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="10.010009375" y="-13.522" size="1.905" layer="25" rot="R90"/>
+<attribute name="PACKAGE" value="Package " x="12.446" y="-9.652" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PRICE" value="None" x="12.446" y="-9.652" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="12.446" y="-9.652" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="16.570009375" y="-13.822" size="1.905" layer="27" rot="R90"/>
 </element>
 <element name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF" x="-3.048" y="-100.076" smashed="yes">
 <attribute name="NAME" x="-3.048" y="-99.314" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15083" x="-17.78" y="-89.916" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-3.048" y="-100.838" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D5" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="0" y="32.004" smashed="yes">
-<attribute name="AVAILABILITY" value="Not in stock" x="0" y="28.702" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="0" y="28.702" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="0" y="28.702" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="0" y="28.702" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="SK6812-E" x="0" y="28.702" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-3.87" y="34.439990625" size="1.905" layer="25"/>
-<attribute name="PACKAGE" value="Package " x="0" y="28.702" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="0" y="28.702" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="0" y="28.702" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-4.17" y="27.879990625" size="1.905" layer="27"/>
+<element name="D5" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="0" y="17.78" smashed="yes">
+<attribute name="AVAILABILITY" value="Not in stock" x="0" y="14.478" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="0" y="14.478" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="0" y="14.478" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="0" y="14.478" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="SK6812-E" x="0" y="14.478" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-3.87" y="20.215990625" size="1.905" layer="25"/>
+<attribute name="PACKAGE" value="Package " x="0" y="14.478" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="0" y="14.478" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="0" y="14.478" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-4.17" y="13.655990625" size="1.905" layer="27"/>
 </element>
 <element name="C6" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF" x="-0.254" y="-100.076" smashed="yes">
 <attribute name="NAME" x="-0.254" y="-99.314" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15083" x="-17.78" y="-103.378" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-0.254" y="-100.838" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="D6" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="12.954" y="28.194" smashed="yes">
-<attribute name="AVAILABILITY" value="Not in stock" x="12.954" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="12.954" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="12.954" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="12.954" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="SK6812-E" x="12.954" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="9.084" y="30.629990625" size="1.905" layer="25"/>
-<attribute name="PACKAGE" value="Package " x="12.954" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="12.954" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="12.954" y="21.59" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="8.784" y="24.069990625" size="1.905" layer="27"/>
+<element name="D6" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="-14.732" y="-103.632" smashed="yes">
+<attribute name="AVAILABILITY" value="Not in stock" x="-14.732" y="-110.236" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="-14.732" y="-110.236" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="-14.732" y="-110.236" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="-14.732" y="-110.236" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="SK6812-E" x="-14.732" y="-110.236" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-18.602" y="-101.196009375" size="1.905" layer="25"/>
+<attribute name="PACKAGE" value="Package " x="-14.732" y="-110.236" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-14.732" y="-110.236" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="-14.732" y="-110.236" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-18.902" y="-107.756009375" size="1.905" layer="27"/>
 </element>
 <element name="C7" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF" x="-18.288" y="-110.236" smashed="yes">
 <attribute name="NAME" x="-18.288" y="-109.474" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-15083" x="-17.78" y="-116.84" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-18.288" y="-110.998" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="D7" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="31.496" y="6.35" smashed="yes" rot="R90">
-<attribute name="AVAILABILITY" value="Not in stock" x="31.496" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="31.496" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="31.496" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="31.496" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MP" value="SK6812-E" x="31.496" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="29.060009375" y="2.48" size="1.905" layer="25" rot="R90"/>
-<attribute name="PACKAGE" value="Package " x="31.496" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PRICE" value="None" x="31.496" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="31.496" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="35.620009375" y="2.18" size="1.905" layer="27" rot="R90"/>
-</element>
-<element name="C8" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF" x="-3.048" y="-133.858" smashed="yes">
-<attribute name="NAME" x="-3.048" y="-133.096" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-15083" x="-17.78" y="-123.698" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-3.048" y="-134.62" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="D8" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="30.988" y="-7.874" smashed="yes">
-<attribute name="AVAILABILITY" value="Not in stock" x="30.988" y="-11.176" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="30.988" y="-11.176" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="30.988" y="-11.176" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="30.988" y="-11.176" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="SK6812-E" x="30.988" y="-11.176" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="27.118" y="-5.438009375" size="1.905" layer="25"/>
-<attribute name="PACKAGE" value="Package " x="30.988" y="-11.176" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="30.988" y="-11.176" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="30.988" y="-11.176" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="26.818" y="-11.998009375" size="1.905" layer="27"/>
-</element>
-<element name="C9" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF" x="-0.254" y="-133.858" smashed="yes">
-<attribute name="NAME" x="-0.254" y="-133.096" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-15083" x="-17.78" y="-137.16" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-0.254" y="-134.62" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="D9" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="10.414" y="-30.734" smashed="yes" rot="R180">
-<attribute name="AVAILABILITY" value="Not in stock" x="10.414" y="-24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="10.414" y="-24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="10.414" y="-24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="10.414" y="-24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MP" value="SK6812-E" x="10.414" y="-24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.284" y="-33.169990625" size="1.905" layer="25" rot="R180"/>
-<attribute name="PACKAGE" value="Package " x="10.414" y="-24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PRICE" value="None" x="10.414" y="-24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="10.414" y="-24.13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="14.584" y="-26.609990625" size="1.905" layer="27" rot="R180"/>
-</element>
-<element name="C10" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF" x="-18.288" y="-144.018" smashed="yes">
-<attribute name="NAME" x="-18.288" y="-143.256" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-15083" x="-17.78" y="-150.622" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-18.288" y="-144.78" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="D10" library="SK6812-E" package="LED_SK6812-E" value="SK6812-EJ" x="-14.732" y="-150.876" smashed="yes">
-<attribute name="AVAILABILITY" value="Not in stock" x="-14.732" y="-150.876" size="1.778" layer="27" display="off"/>
-<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=eda" x="-14.732" y="-150.876" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="                                                      SK6812MINI-E is a smart LED control circuit and light emitting circuit in one controlled LED source, which has the shape of a 3528  LED chip.                                              " x="-14.732" y="-150.876" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="DONGGUANG OPSCO OPTOELECTRONICS CO., LTD" x="-14.732" y="-150.876" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="SK6812-E" x="-14.732" y="-150.876" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-18.602" y="-148.440009375" size="1.905" layer="25"/>
-<attribute name="PACKAGE" value="Package " x="-14.732" y="-150.876" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-14.732" y="-150.876" size="1.778" layer="27" display="off"/>
-<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/SK6812-E/DONGGUANG+OPSCO+OPTOELECTRONICS+CO.%252C+LTD/view-part/?ref=snap" x="-14.732" y="-150.876" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-18.902" y="-155.000009375" size="1.905" layer="27"/>
-</element>
-<element name="C11" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF" x="-18.288" y="-157.48" smashed="yes">
-<attribute name="NAME" x="-18.288" y="-156.718" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-15083" x="-17.78" y="-157.48" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-18.288" y="-158.242" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="D11" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/2" value="BLUE" x="-17.78" y="-171.45" smashed="yes">
 <attribute name="NAME" x="-17.78" y="-170.815" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -2422,11 +2202,11 @@ JST_2MM_MALE
 <attribute name="PROD_ID" value="DIO-00821" x="-67.056" y="-231.648" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-67.056" y="-232.283" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:2652347" package="JST-2-SMD" package3d_urn="urn:adsk.eagle:package:2652493/1" value="" x="-73.406" y="-226.822" smashed="yes">
-<attribute name="NAME" x="-74.803" y="-225.044" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="PROD_ID" value="CONN-11443" x="-73.406" y="-226.822" size="1.778" layer="27" display="off"/>
-<attribute name="SF_ID" value="PRT-08612" x="-73.406" y="-226.822" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-75.057" y="-226.187" size="0.6096" layer="27" font="vector" ratio="20"/>
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:2652347" package="JST-2-SMD" package3d_urn="urn:adsk.eagle:package:2652493/1" value="" x="-8.89" y="-1.016" smashed="yes" rot="R180">
+<attribute name="NAME" x="-7.493" y="-2.794" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="PROD_ID" value="CONN-11443" x="-8.89" y="-1.016" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SF_ID" value="PRT-08612" x="-8.89" y="-1.016" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="-7.239" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="R17" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:41389018/1" value="10k" x="-75.692" y="-234.95" smashed="yes">
 <attribute name="NAME" x="-75.692" y="-234.188" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -2545,32 +2325,6 @@ JST_2MM_MALE
 <attribute name="PROD_ID" value="RES-13495" x="-75.692" y="-305.562" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-75.692" y="-306.324" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U9" library="ESP32-C3-MINI-1-N4" package="XCVR_ESP32-C3-MINI-1-N4" override_package3d_urn="urn:adsk.eagle:package:46142977/2" override_package_urn="urn:adsk.eagle:footprint:46142978/1" value="ESP32-C3-MINI-1-N4" x="23.0124" y="-21.0566" smashed="yes" rot="R225">
-<attribute name="AVAILABILITY" value="In Stock" x="48.516325" y="-26.085540625" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="DESCRIPTION" value=" Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.412GHz ~ 2.484GHz PCB Trace Surface Mount " x="48.516325" y="-26.085540625" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="MF" value="Espressif Systems" x="48.516325" y="-26.085540625" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="MP" value="ESP32-C3-MINI-1-N4" x="48.516325" y="-26.085540625" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="NAME" x="34.220040625" y="-22.576878125" size="1.27" layer="25" rot="R225"/>
-<attribute name="PACKAGE" value="SMD-53 Espressif Systems" x="48.516325" y="-26.085540625" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="PRICE" value="None" x="48.516325" y="-26.085540625" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-C3-MINI-1-N4/?ref=eda" x="48.516325" y="-26.085540625" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="VALUE" x="21.49211875" y="-9.84895625" size="1.27" layer="27" rot="R225" align="top-left"/>
-</element>
-<element name="C47" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402-TIGHT" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46142982/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="10uF" x="-71.12" y="-330.2" smashed="yes">
-<attribute name="NAME" x="-71.12" y="-329.638" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14848" x="-90.17" y="-308.61" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-71.12" y="-330.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="R23" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0402" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46143162/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" value="10k" x="-73.66" y="-330.454" smashed="yes">
-<attribute name="NAME" x="-73.66" y="-329.692" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-14241" x="-90.17" y="-311.658" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-73.66" y="-331.216" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="C48" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0402" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46142980/2" override_package_urn="urn:adsk.eagle:footprint:41385037/1" value="0.1uF" x="-76.2" y="-330.454" smashed="yes">
-<attribute name="NAME" x="-76.2" y="-329.692" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14993" x="-90.17" y="-314.96" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-76.2" y="-331.216" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2610,9 +2364,6 @@ JST_2MM_MALE
 <contactref element="C38" pad="2"/>
 <contactref element="C42" pad="2"/>
 <contactref element="C41" pad="2"/>
-<contactref element="U1" pad="9"/>
-<contactref element="U1" pad="4"/>
-<contactref element="C1" pad="2"/>
 <contactref element="Q2" pad="2"/>
 <contactref element="J4" pad="S1"/>
 <contactref element="J4" pad="S2"/>
@@ -2629,14 +2380,6 @@ JST_2MM_MALE
 <contactref element="C5" pad="2"/>
 <contactref element="C6" pad="2"/>
 <contactref element="C7" pad="2"/>
-<contactref element="D7" pad="3"/>
-<contactref element="D8" pad="3"/>
-<contactref element="D9" pad="3"/>
-<contactref element="C8" pad="2"/>
-<contactref element="C9" pad="2"/>
-<contactref element="C10" pad="2"/>
-<contactref element="D10" pad="3"/>
-<contactref element="C11" pad="2"/>
 <contactref element="D11" pad="C"/>
 <contactref element="MK1" pad="7"/>
 <contactref element="U3" pad="2"/>
@@ -2677,38 +2420,6 @@ JST_2MM_MALE
 <contactref element="C45" pad="1"/>
 <contactref element="C46" pad="2"/>
 <contactref element="R22" pad="1"/>
-<contactref element="U9" pad="2"/>
-<contactref element="U9" pad="45"/>
-<contactref element="U9" pad="41"/>
-<contactref element="U9" pad="43"/>
-<contactref element="U9" pad="51"/>
-<contactref element="U9" pad="39"/>
-<contactref element="U9" pad="36"/>
-<contactref element="U9" pad="11"/>
-<contactref element="U9" pad="49_1"/>
-<contactref element="U9" pad="49_4"/>
-<contactref element="U9" pad="53"/>
-<contactref element="U9" pad="48"/>
-<contactref element="U9" pad="52"/>
-<contactref element="U9" pad="49_8"/>
-<contactref element="U9" pad="49_6"/>
-<contactref element="U9" pad="42"/>
-<contactref element="U9" pad="49_3"/>
-<contactref element="U9" pad="50"/>
-<contactref element="U9" pad="46"/>
-<contactref element="U9" pad="49_5"/>
-<contactref element="U9" pad="47"/>
-<contactref element="U9" pad="14"/>
-<contactref element="U9" pad="38"/>
-<contactref element="U9" pad="49_2"/>
-<contactref element="U9" pad="1"/>
-<contactref element="U9" pad="44"/>
-<contactref element="U9" pad="49_9"/>
-<contactref element="U9" pad="37"/>
-<contactref element="U9" pad="40"/>
-<contactref element="U9" pad="49_7"/>
-<contactref element="C47" pad="2"/>
-<contactref element="C48" pad="2"/>
 <contactref element="CONN1" pad="S3"/>
 <contactref element="CONN1" pad="S4"/>
 <wire x1="-47.991" y1="-197.104" x2="-50.978" y2="-197.997" width="0" layer="19" extent="1-1"/>
@@ -2732,8 +2443,8 @@ JST_2MM_MALE
 <wire x1="-66.476" y1="-218.948" x2="-67.132" y2="-210.241" width="0" layer="19" extent="1-1"/>
 <wire x1="-67.636" y1="-222.25" x2="-66.476" y2="-218.948" width="0" layer="19" extent="1-1"/>
 <wire x1="-67.636" y1="-225.552" x2="-67.636" y2="-222.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.406" y1="-230.522" x2="-67.636" y2="-225.552" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.542" y1="-234.95" x2="-74.406" y2="-230.522" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.89" y1="2.684" x2="-67.636" y2="-225.552" width="0" layer="19" extent="1-1"/>
+<wire x1="-76.542" y1="-234.95" x2="-7.89" y2="2.684" width="0" layer="19" extent="1-1"/>
 <wire x1="-75.112" y1="-238.252" x2="-76.542" y2="-234.95" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.272" y1="-241.554" x2="-75.112" y2="-238.252" width="0" layer="19" extent="1-1"/>
 <wire x1="-75.112" y1="-244.856" x2="-76.272" y2="-241.554" width="0" layer="19" extent="1-1"/>
@@ -2749,104 +2460,61 @@ JST_2MM_MALE
 <wire x1="-76.272" y1="-298.958" x2="-75.112" y2="-295.656" width="0" layer="19" extent="1-1"/>
 <wire x1="-75.112" y1="-302.26" x2="-76.272" y2="-298.958" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.272" y1="-305.562" x2="-75.112" y2="-302.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-75.62" y1="-330.454" x2="-76.272" y2="-305.562" width="0" layer="19" extent="1-1"/>
-<wire x1="-70.62" y1="-330.2" x2="-75.62" y2="-330.454" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.903" y1="-171.45" x2="-39.869" y2="-197.836" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.708" y1="-157.48" x2="-16.903" y2="-171.45" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.332" y1="-151.626" x2="-17.708" y2="-157.48" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.708" y1="-144.018" x2="-17.332" y2="-151.626" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.468" y1="-133.858" x2="-17.708" y2="-144.018" width="0" layer="19" extent="1-1"/>
-<wire x1="0.326" y1="-133.858" x2="-2.468" y2="-133.858" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.708" y1="-110.236" x2="-2.468" y2="-133.858" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.468" y1="-100.076" x2="-17.708" y2="-110.236" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.708" y1="-110.236" x2="-16.903" y2="-171.45" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.332" y1="-104.382" x2="-17.708" y2="-110.236" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.6" y1="17.03" x2="-17.332" y2="-104.382" width="0" layer="19" extent="1-1"/>
+<wire x1="13.196" y1="-12.252" x2="-2.6" y2="17.03" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.708" y1="-76.454" x2="13.196" y2="-12.252" width="0" layer="19" extent="1-1"/>
+<wire x1="12.18" y1="8.576" x2="-17.708" y2="-76.454" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.708" y1="-62.992" x2="12.18" y2="8.576" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.156" y1="9.084" x2="-17.708" y2="-62.992" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.2" y1="-49.53" x2="-9.156" y2="9.084" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.468" y1="-100.076" x2="-17.332" y2="-104.382" width="0" layer="19" extent="1-1"/>
 <wire x1="0.326" y1="-100.076" x2="-2.468" y2="-100.076" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.708" y1="-76.454" x2="-2.468" y2="-100.076" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.708" y1="-62.992" x2="-17.708" y2="-76.454" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.2" y1="-49.53" x2="-17.708" y2="-62.992" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.22" y1="-29.016" x2="-17.2" y2="-49.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-30.286" y1="-13.45" x2="-13.22" y2="-29.016" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.064" y1="8.14" x2="-30.286" y2="-13.45" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.348" y1="26.428" x2="-32.064" y2="8.14" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.6" y1="31.254" x2="-18.348" y2="26.428" width="0" layer="19" extent="1-1"/>
-<wire x1="10.354" y1="27.444" x2="-2.6" y2="31.254" width="0" layer="19" extent="1-1"/>
-<wire x1="6.659" y1="23.876" x2="10.354" y2="27.444" width="0" layer="19" extent="1-1"/>
-<wire x1="12.9498" y1="23.876" x2="6.659" y2="23.876" width="0" layer="19" extent="1-1"/>
-<wire x1="15.3998" y1="22.441" x2="12.9498" y2="23.876" width="0" layer="19" extent="1-1"/>
-<wire x1="15.2146" y1="20.3628" x2="15.3998" y2="22.441" width="0" layer="19" extent="1-1"/>
-<wire x1="16.2052" y1="20.3374" x2="15.2146" y2="20.3628" width="0" layer="19" extent="1-1"/>
-<wire x1="13.843" y1="20.439" x2="15.2146" y2="20.3628" width="0" layer="19" extent="1-1"/>
-<wire x1="12.9032" y1="20.439" x2="13.843" y2="20.439" width="0" layer="19" extent="1-1"/>
-<wire x1="19.2278" y1="19.1944" x2="16.2052" y2="20.3374" width="0" layer="19" extent="1-1"/>
-<wire x1="28.388" y1="-8.624" x2="19.2278" y2="19.1944" width="0" layer="19" extent="1-1"/>
-<wire x1="19.4998" y1="22.441" x2="28.388" y2="-8.624" width="0" layer="19" extent="1-1"/>
-<wire x1="10.9648" y1="17.7038" x2="12.9032" y2="20.439" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.6126" y1="-12.4789" x2="10.9648" y2="17.7038" width="0" layer="19" extent="1-1"/>
-<wire x1="7.8566" y1="16.0274" x2="10.9648" y2="17.7038" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.2" y1="-28.1811" x2="7.8566" y2="16.0274" width="0" layer="19" extent="1-1"/>
-<wire x1="4.699" y1="16.2988" x2="-3.2" y2="-28.1811" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.325" y1="-28.7611" x2="4.699" y2="16.2988" width="0" layer="19" extent="1-1"/>
-<wire x1="2.0278" y1="18.6182" x2="-4.325" y2="-28.7611" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.325" y1="-32.9311" x2="2.0278" y2="18.6182" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6976" y1="12.3952" x2="-3.2" y2="-28.1811" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6976" y1="11.4046" x2="5.6976" y2="12.3952" width="0" layer="19" extent="1-1"/>
-<wire x1="4.2418" y1="10.2828" x2="5.6976" y2="11.4046" width="0" layer="19" extent="1-1"/>
-<wire x1="3.2" y1="-28.1811" x2="4.2418" y2="10.2828" width="0" layer="19" extent="1-1"/>
-<wire x1="4.325" y1="-28.7611" x2="3.2" y2="-28.1811" width="0" layer="19" extent="1-1"/>
-<wire x1="4.2164" y1="6.3542" x2="4.325" y2="-28.7611" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.4012" y1="-17.8181" x2="-17.2" y2="-49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.4012" y1="-13.6481" x2="-4.4012" y2="-17.8181" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.2762" y1="-13.0681" x2="-4.4012" y2="-13.6481" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.8826" y1="-9.4309" x2="-3.2762" y2="-13.0681" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.4826" y1="-5.9944" x2="-2.8826" y2="-9.4309" width="0" layer="19" extent="1-1"/>
+<wire x1="3.1238" y1="-13.0681" x2="-3.2762" y2="-13.0681" width="0" layer="19" extent="1-1"/>
+<wire x1="4.2488" y1="-13.6481" x2="3.1238" y2="-13.0681" width="0" layer="19" extent="1-1"/>
+<wire x1="4.2488" y1="-17.8181" x2="4.2488" y2="-13.6481" width="0" layer="19" extent="1-1"/>
+<wire x1="-13.776" y1="-11.672" x2="-2.8826" y2="-9.4309" width="0" layer="19" extent="1-1"/>
+<wire x1="4.2164" y1="6.3542" x2="-0.4826" y2="-5.9944" width="0" layer="19" extent="1-1"/>
 <wire x1="7.3152" y1="7.1882" x2="4.2164" y2="6.3542" width="0" layer="19" extent="1-1"/>
 <wire x1="8.5152" y1="5.2382" x2="7.3152" y2="7.1882" width="0" layer="19" extent="1-1"/>
-<wire x1="12.0904" y1="5.6134" x2="8.5152" y2="5.2382" width="0" layer="19" extent="1-1"/>
-<wire x1="12.8404" y1="4.3634" x2="12.0904" y2="5.6134" width="0" layer="19" extent="1-1"/>
-<wire x1="14.4018" y1="6.7898" x2="12.0904" y2="5.6134" width="0" layer="19" extent="1-1"/>
-<wire x1="16.7894" y1="6.7898" x2="14.4018" y2="6.7898" width="0" layer="19" extent="1-1"/>
-<wire x1="12.573" y1="8.4154" x2="14.4018" y2="6.7898" width="0" layer="19" extent="1-1"/>
-<wire x1="11.2776" y1="8.9328" x2="12.573" y2="8.4154" width="0" layer="19" extent="1-1"/>
-<wire x1="15.3998" y1="2.6542" x2="12.8404" y2="4.3634" width="0" layer="19" extent="1-1"/>
-<wire x1="25.146" y1="20.066" x2="28.388" y2="-8.624" width="0" layer="19" extent="1-1"/>
+<wire x1="4.2418" y1="10.2828" x2="4.2164" y2="6.3542" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6976" y1="11.4046" x2="4.2418" y2="10.2828" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6976" y1="12.3952" x2="5.6976" y2="11.4046" width="0" layer="19" extent="1-1"/>
+<wire x1="4.699" y1="16.2988" x2="5.6976" y2="12.3952" width="0" layer="19" extent="1-1"/>
+<wire x1="7.8566" y1="16.0274" x2="4.699" y2="16.2988" width="0" layer="19" extent="1-1"/>
+<wire x1="10.9648" y1="17.7038" x2="7.8566" y2="16.0274" width="0" layer="19" extent="1-1"/>
+<wire x1="12.9032" y1="20.439" x2="10.9648" y2="17.7038" width="0" layer="19" extent="1-1"/>
+<wire x1="13.843" y1="20.439" x2="12.9032" y2="20.439" width="0" layer="19" extent="1-1"/>
+<wire x1="15.2146" y1="20.3628" x2="13.843" y2="20.439" width="0" layer="19" extent="1-1"/>
+<wire x1="16.2052" y1="20.3374" x2="15.2146" y2="20.3628" width="0" layer="19" extent="1-1"/>
+<wire x1="15.3998" y1="22.441" x2="15.2146" y2="20.3628" width="0" layer="19" extent="1-1"/>
+<wire x1="13.2038" y1="23.876" x2="15.3998" y2="22.441" width="0" layer="19" extent="1-1"/>
+<wire x1="19.2278" y1="19.1944" x2="16.2052" y2="20.3374" width="0" layer="19" extent="1-1"/>
+<wire x1="19.4998" y1="22.441" x2="19.2278" y2="19.1944" width="0" layer="19" extent="1-1"/>
+<wire x1="2.0278" y1="18.6182" x2="4.699" y2="16.2988" width="0" layer="19" extent="1-1"/>
 <wire x1="22.846" y1="23.941" x2="19.4998" y2="22.441" width="0" layer="19" extent="1-1"/>
-<wire x1="19.4998" y1="2.6542" x2="15.3998" y2="2.6542" width="0" layer="19" extent="1-1"/>
-<wire x1="4.325" y1="-32.9311" x2="4.325" y2="-28.7611" width="0" layer="19" extent="1-1"/>
-<wire x1="0.7874" y1="-9.0424" x2="-1.6126" y2="-12.4789" width="0" layer="19" extent="1-1"/>
+<wire x1="25.146" y1="20.066" x2="22.846" y2="23.941" width="0" layer="19" extent="1-1"/>
 <wire x1="27.0722" y1="16.2052" x2="25.146" y2="20.066" width="0" layer="19" extent="1-1"/>
 <wire x1="27.5962" y1="14.7398" x2="27.0722" y2="16.2052" width="0" layer="19" extent="1-1"/>
 <wire x1="25.8962" y1="12.5398" x2="27.5962" y2="14.7398" width="0" layer="19" extent="1-1"/>
 <wire x1="24.3506" y1="12.7254" x2="25.8962" y2="12.5398" width="0" layer="19" extent="1-1"/>
 <wire x1="26.3948" y1="10.9728" x2="25.8962" y2="12.5398" width="0" layer="19" extent="1-1"/>
-<wire x1="13.014" y1="-29.984" x2="26.3948" y2="10.9728" width="0" layer="19" extent="1-1"/>
 <wire x1="23.3426" y1="15.8924" x2="24.3506" y2="12.7254" width="0" layer="19" extent="1-1"/>
-<wire x1="19.6744" y1="7.1986" x2="13.014" y2="-29.984" width="0" layer="19" extent="1-1"/>
+<wire x1="30.0884" y1="10.5006" x2="26.3948" y2="10.9728" width="0" layer="19" extent="1-1"/>
 <wire x1="27.446" y1="23.941" x2="25.146" y2="20.066" width="0" layer="19" extent="1-1"/>
-<wire x1="32.246" y1="3.75" x2="12.9498" y2="23.876" width="0" layer="19" extent="1-1"/>
-<wire x1="27.53788125" y1="-17.238221875" x2="19.4998" y2="2.6542" width="0" layer="19" extent="1-1"/>
-<wire x1="28.10356875" y1="-17.80390625" x2="27.53788125" y2="-17.238221875" width="0" layer="19" extent="1-1"/>
-<wire x1="28.810675" y1="-18.440303125" x2="28.10356875" y2="-17.80390625" width="0" layer="19" extent="1-1"/>
-<wire x1="27.962146875" y1="-19.218121875" x2="28.810675" y2="-18.440303125" width="0" layer="19" extent="1-1"/>
-<wire x1="27.396459375" y1="-19.78380625" x2="27.962146875" y2="-19.218121875" width="0" layer="19" extent="1-1"/>
-<wire x1="26.830775" y1="-20.349490625" x2="27.396459375" y2="-19.78380625" width="0" layer="19" extent="1-1"/>
-<wire x1="26.265090625" y1="-20.915178125" x2="26.830775" y2="-20.349490625" width="0" layer="19" extent="1-1"/>
-<wire x1="25.699403125" y1="-21.4808625" x2="26.265090625" y2="-20.915178125" width="0" layer="19" extent="1-1"/>
-<wire x1="25.13371875" y1="-22.046546875" x2="25.699403125" y2="-21.4808625" width="0" layer="19" extent="1-1"/>
-<wire x1="24.568034375" y1="-22.612234375" x2="25.13371875" y2="-22.046546875" width="0" layer="19" extent="1-1"/>
-<wire x1="24.002346875" y1="-23.17791875" x2="24.568034375" y2="-22.612234375" width="0" layer="19" extent="1-1"/>
-<wire x1="23.4366625" y1="-23.743603125" x2="24.002346875" y2="-23.17791875" width="0" layer="19" extent="1-1"/>
-<wire x1="22.870978125" y1="-24.309290625" x2="23.4366625" y2="-23.743603125" width="0" layer="19" extent="1-1"/>
-<wire x1="22.305290625" y1="-24.874975" x2="22.870978125" y2="-24.309290625" width="0" layer="19" extent="1-1"/>
-<wire x1="21.73960625" y1="-25.440659375" x2="22.305290625" y2="-24.874975" width="0" layer="19" extent="1-1"/>
-<wire x1="21.173921875" y1="-26.006346875" x2="21.73960625" y2="-25.440659375" width="0" layer="19" extent="1-1"/>
-<wire x1="20.396103125" y1="-26.854875" x2="21.173921875" y2="-26.006346875" width="0" layer="19" extent="1-1"/>
-<wire x1="22.499746875" y1="-20.543946875" x2="24.568034375" y2="-22.612234375" width="0" layer="19" extent="1-1"/>
-<wire x1="21.103209375" y1="-21.94048125" x2="22.499746875" y2="-20.543946875" width="0" layer="19" extent="1-1"/>
-<wire x1="19.706675" y1="-20.543946875" x2="21.103209375" y2="-21.94048125" width="0" layer="19" extent="1-1"/>
-<wire x1="18.3101375" y1="-19.147409375" x2="19.706675" y2="-20.543946875" width="0" layer="19" extent="1-1"/>
-<wire x1="19.706675" y1="-17.750875" x2="18.3101375" y2="-19.147409375" width="0" layer="19" extent="1-1"/>
-<wire x1="21.103209375" y1="-19.147409375" x2="22.499746875" y2="-20.543946875" width="0" layer="19" extent="1-1"/>
-<wire x1="21.103209375" y1="-16.3543375" x2="19.706675" y2="-17.750875" width="0" layer="19" extent="1-1"/>
-<wire x1="22.499746875" y1="-17.750875" x2="21.103209375" y2="-19.147409375" width="0" layer="19" extent="1-1"/>
-<wire x1="23.89628125" y1="-19.147409375" x2="22.499746875" y2="-20.543946875" width="0" layer="19" extent="1-1"/>
-<wire x1="19.901128125" y1="-13.41984375" x2="21.103209375" y2="-16.3543375" width="0" layer="19" extent="1-1"/>
-<wire x1="21.810315625" y1="-11.439946875" x2="19.901128125" y2="-13.41984375" width="0" layer="19" extent="1-1"/>
-<wire x1="22.4467125" y1="-12.147053125" x2="21.810315625" y2="-11.439946875" width="0" layer="19" extent="1-1"/>
-<wire x1="13.395746875" y1="-19.854515625" x2="18.3101375" y2="-19.147409375" width="0" layer="19" extent="1-1"/>
+<wire x1="12.573" y1="8.4154" x2="8.5152" y2="5.2382" width="0" layer="19" extent="1-1"/>
+<wire x1="14.4018" y1="6.7898" x2="12.573" y2="8.4154" width="0" layer="19" extent="1-1"/>
+<wire x1="16.7894" y1="6.7898" x2="14.4018" y2="6.7898" width="0" layer="19" extent="1-1"/>
+<wire x1="15.3998" y1="2.6542" x2="14.4018" y2="6.7898" width="0" layer="19" extent="1-1"/>
+<wire x1="19.4998" y1="2.6542" x2="15.3998" y2="2.6542" width="0" layer="19" extent="1-1"/>
+<wire x1="6.151" y1="23.876" x2="2.0278" y2="18.6182" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="IC1" pad="8"/>
@@ -2875,11 +2543,7 @@ JST_2MM_MALE
 <contactref element="U2" pad="49"/>
 <contactref element="C37" pad="1"/>
 <contactref element="R11" pad="1"/>
-<contactref element="U1" pad="8"/>
-<contactref element="C1" pad="1"/>
-<contactref element="R1" pad="1"/>
 <contactref element="LS1" pad="1"/>
-<wire x1="7.3618" y1="0.9144" x2="8.0264" y2="0.9144" width="0.1524" layer="1"/>
 <contactref element="D1" pad="1"/>
 <contactref element="C2" pad="1"/>
 <contactref element="D2" pad="1"/>
@@ -2892,14 +2556,6 @@ JST_2MM_MALE
 <contactref element="C6" pad="1"/>
 <contactref element="D6" pad="1"/>
 <contactref element="C7" pad="1"/>
-<contactref element="D7" pad="1"/>
-<contactref element="C8" pad="1"/>
-<contactref element="D8" pad="1"/>
-<contactref element="C9" pad="1"/>
-<contactref element="D9" pad="1"/>
-<contactref element="C10" pad="1"/>
-<contactref element="D10" pad="1"/>
-<contactref element="C11" pad="1"/>
 <contactref element="D12" pad="C"/>
 <contactref element="U6" pad="8"/>
 <contactref element="U6" pad="5"/>
@@ -2915,10 +2571,6 @@ JST_2MM_MALE
 <contactref element="C26" pad="1"/>
 <contactref element="U5" pad="19"/>
 <contactref element="C46" pad="1"/>
-<contactref element="U9" pad="3"/>
-<contactref element="C47" pad="1"/>
-<contactref element="R23" pad="2"/>
-<contactref element="C48" pad="1"/>
 <wire x1="-47.991" y1="-198.054" x2="-47.991" y2="-196.154" width="0" layer="19" extent="1-1"/>
 <wire x1="-50.978" y1="-192.797" x2="-47.991" y2="-196.154" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.872" y1="-201.338" x2="-47.991" y2="-198.054" width="0" layer="19" extent="1-1"/>
@@ -2929,99 +2581,84 @@ JST_2MM_MALE
 <wire x1="-59.56" y1="-202.962" x2="-56.722" y2="-201.688" width="0" layer="19" extent="1-1"/>
 <wire x1="-62.36" y1="-202.962" x2="-59.56" y2="-202.962" width="0" layer="19" extent="1-1"/>
 <wire x1="-35.462" y1="-198.374" x2="-47.991" y2="-198.054" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.868" y1="-157.48" x2="-35.462" y2="-198.374" width="0" layer="19" extent="1-1"/>
-<wire x1="-12.132" y1="-150.126" x2="-18.868" y2="-157.48" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.868" y1="-144.018" x2="-12.132" y2="-150.126" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.628" y1="-133.858" x2="-18.868" y2="-144.018" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.834" y1="-133.858" x2="-3.628" y2="-133.858" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.868" y1="-110.236" x2="-3.628" y2="-133.858" width="0" layer="19" extent="1-1"/>
-<wire x1="-3.628" y1="-100.076" x2="-18.868" y2="-110.236" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.834" y1="-100.076" x2="-3.628" y2="-100.076" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.868" y1="-76.454" x2="-3.628" y2="-100.076" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.868" y1="-62.992" x2="-18.868" y2="-76.454" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.36" y1="-49.53" x2="-18.868" y2="-62.992" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.72" y1="-23.816" x2="-18.36" y2="-49.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.086" y1="-11.95" x2="-14.72" y2="-23.816" width="0" layer="19" extent="1-1"/>
-<wire x1="-26.864" y1="9.64" x2="-25.086" y2="-11.95" width="0" layer="19" extent="1-1"/>
-<wire x1="-13.148" y1="27.928" x2="-26.864" y2="9.64" width="0" layer="19" extent="1-1"/>
-<wire x1="2.6" y1="32.754" x2="-13.148" y2="27.928" width="0" layer="19" extent="1-1"/>
-<wire x1="15.554" y1="28.944" x2="2.6" y2="32.754" width="0" layer="19" extent="1-1"/>
-<wire x1="30.746" y1="8.95" x2="15.554" y2="28.944" width="0" layer="19" extent="1-1"/>
-<wire x1="13.843" y1="19.439" x2="30.746" y2="8.95" width="0" layer="19" extent="1-1"/>
-<wire x1="12.9032" y1="19.439" x2="13.843" y2="19.439" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.6491" y1="-11.8424" x2="12.9032" y2="19.439" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.6491" y1="-11.4424" x2="-2.6491" y2="-11.8424" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.8126" y1="-12.4789" x2="-2.6491" y2="-11.8424" width="0" layer="19" extent="1-1"/>
-<wire x1="0.7874" y1="-12.4789" x2="-0.8126" y2="-12.4789" width="0" layer="19" extent="1-1"/>
-<wire x1="1.1874" y1="-12.4789" x2="0.7874" y2="-12.4789" width="0" layer="19" extent="1-1"/>
-<wire x1="16.2052" y1="19.3374" x2="13.843" y2="19.439" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.6491" y1="-9.0424" x2="16.2052" y2="19.3374" width="0" layer="19" extent="1-1"/>
-<wire x1="4.2239" y1="-11.8424" x2="1.1874" y2="-12.4789" width="0" layer="19" extent="1-1"/>
-<wire x1="12.573" y1="9.4154" x2="4.2239" y2="-11.8424" width="0" layer="19" extent="1-1"/>
-<wire x1="11.2776" y1="7.9328" x2="12.573" y2="9.4154" width="0" layer="19" extent="1-1"/>
-<wire x1="11.3404" y1="6.8634" x2="11.2776" y2="7.9328" width="0" layer="19" extent="1-1"/>
-<wire x1="19.2278" y1="18.1944" x2="16.2052" y2="19.3374" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.0126" y1="-5.6059" x2="19.2278" y2="18.1944" width="0" layer="19" extent="1-1"/>
-<wire x1="8.8566" y1="16.0274" x2="-0.8126" y2="-12.4789" width="0" layer="19" extent="1-1"/>
-<wire x1="7.5988" y1="17.7038" x2="8.8566" y2="16.0274" width="0" layer="19" extent="1-1"/>
-<wire x1="1.9874" y1="-5.6059" x2="-2.0126" y2="-5.6059" width="0" layer="19" extent="1-1"/>
-<wire x1="4.2239" y1="-7.8424" x2="1.9874" y2="-5.6059" width="0" layer="19" extent="1-1"/>
-<wire x1="16.7894" y1="7.7898" x2="4.2239" y2="-7.8424" width="0" layer="19" extent="1-1"/>
-<wire x1="6.6976" y1="12.3952" x2="8.8566" y2="16.0274" width="0" layer="19" extent="1-1"/>
-<wire x1="6.6976" y1="11.4046" x2="6.6976" y2="12.3952" width="0" layer="19" extent="1-1"/>
-<wire x1="6.1152" y1="9.1382" x2="6.6976" y2="11.4046" width="0" layer="19" extent="1-1"/>
-<wire x1="4.2418" y1="9.1228" x2="6.1152" y2="9.1382" width="0" layer="19" extent="1-1"/>
-<wire x1="23.3506" y1="12.7254" x2="1.9874" y2="-5.6059" width="0" layer="19" extent="1-1"/>
-<wire x1="9.9102" y1="1.2446" x2="11.3404" y2="6.8634" width="0" layer="19" extent="1-1"/>
-<wire x1="8.0264" y1="0.9144" x2="9.9102" y2="1.2446" width="0" layer="19" extent="1-1"/>
-<wire x1="33.588" y1="-7.124" x2="19.2278" y2="18.1944" width="0" layer="19" extent="1-1"/>
-<wire x1="34.2434" y1="22.0218" x2="33.588" y2="-7.124" width="0" layer="19" extent="1-1"/>
-<wire x1="34.2434" y1="20.574" x2="34.2434" y2="22.0218" width="0" layer="19" extent="1-1"/>
-<wire x1="33.556" y1="14.981" x2="34.2434" y2="20.574" width="0" layer="19" extent="1-1"/>
-<wire x1="7.814" y1="-31.484" x2="33.556" y2="14.981" width="0" layer="19" extent="1-1"/>
-<wire x1="26.972196875" y1="-16.6725375" x2="9.9102" y2="1.2446" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.192" y1="-263.144" x2="-56.888" y2="-205.74" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.192" y1="-266.192" x2="-76.192" y2="-263.144" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.272" y1="-289.052" x2="-76.192" y2="-266.192" width="0" layer="19" extent="1-1"/>
 <wire x1="-76.272" y1="-302.26" x2="-76.272" y2="-289.052" width="0" layer="19" extent="1-1"/>
-<wire x1="-76.78" y1="-330.454" x2="-76.272" y2="-302.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-73.08" y1="-330.454" x2="-76.78" y2="-330.454" width="0" layer="19" extent="1-1"/>
-<wire x1="-71.62" y1="-330.2" x2="-73.08" y2="-330.454" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.868" y1="-110.236" x2="-50.978" y2="-192.797" width="0" layer="19" extent="1-1"/>
+<wire x1="-12.132" y1="-102.882" x2="-18.868" y2="-110.236" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.628" y1="-100.076" x2="-12.132" y2="-102.882" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.834" y1="-100.076" x2="-3.628" y2="-100.076" width="0" layer="19" extent="1-1"/>
+<wire x1="2.6" y1="18.53" x2="-12.132" y2="-102.882" width="0" layer="19" extent="1-1"/>
+<wire x1="11.696" y1="-7.052" x2="2.6" y2="18.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.868" y1="-76.454" x2="11.696" y2="-7.052" width="0" layer="19" extent="1-1"/>
+<wire x1="10.68" y1="13.776" x2="-18.868" y2="-76.454" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.868" y1="-62.992" x2="10.68" y2="13.776" width="0" layer="19" extent="1-1"/>
+<wire x1="-10.656" y1="14.284" x2="-18.868" y2="-62.992" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.36" y1="-49.53" x2="-10.656" y2="14.284" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.576" y1="-10.172" x2="-18.36" y2="-49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.9191" y1="-8.7944" x2="-8.576" y2="-10.172" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.9191" y1="-8.3944" x2="-3.9191" y2="-8.7944" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.0826" y1="-9.4309" x2="-3.9191" y2="-8.7944" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.4826" y1="-9.4309" x2="-2.0826" y2="-9.4309" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.0826" y1="-9.4309" x2="-0.4826" y2="-9.4309" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.9191" y1="-5.9944" x2="-3.9191" y2="-8.3944" width="0" layer="19" extent="1-1"/>
+<wire x1="2.9539" y1="-8.7944" x2="-0.0826" y2="-9.4309" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.2826" y1="-2.5579" x2="-3.9191" y2="-5.9944" width="0" layer="19" extent="1-1"/>
+<wire x1="0.7174" y1="-2.5579" x2="-3.2826" y2="-2.5579" width="0" layer="19" extent="1-1"/>
+<wire x1="2.9539" y1="-4.7944" x2="0.7174" y2="-2.5579" width="0" layer="19" extent="1-1"/>
+<wire x1="7.3618" y1="0.9144" x2="2.9539" y2="-4.7944" width="0" layer="19" extent="1-1"/>
+<wire x1="6.1152" y1="9.1382" x2="7.3618" y2="0.9144" width="0" layer="19" extent="1-1"/>
+<wire x1="4.2418" y1="9.1228" x2="6.1152" y2="9.1382" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6976" y1="11.4046" x2="6.1152" y2="9.1382" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6976" y1="12.3952" x2="6.6976" y2="11.4046" width="0" layer="19" extent="1-1"/>
+<wire x1="8.8566" y1="16.0274" x2="6.6976" y2="12.3952" width="0" layer="19" extent="1-1"/>
+<wire x1="7.5988" y1="17.7038" x2="8.8566" y2="16.0274" width="0" layer="19" extent="1-1"/>
+<wire x1="12.9032" y1="19.439" x2="8.8566" y2="16.0274" width="0" layer="19" extent="1-1"/>
+<wire x1="13.843" y1="19.439" x2="12.9032" y2="19.439" width="0" layer="19" extent="1-1"/>
+<wire x1="16.2052" y1="19.3374" x2="13.843" y2="19.439" width="0" layer="19" extent="1-1"/>
+<wire x1="19.2278" y1="18.1944" x2="16.2052" y2="19.3374" width="0" layer="19" extent="1-1"/>
+<wire x1="12.573" y1="9.4154" x2="6.6976" y2="11.4046" width="0" layer="19" extent="1-1"/>
+<wire x1="16.7894" y1="7.7898" x2="12.573" y2="9.4154" width="0" layer="19" extent="1-1"/>
+<wire x1="23.3506" y1="12.7254" x2="19.2278" y2="18.1944" width="0" layer="19" extent="1-1"/>
+<wire x1="33.556" y1="14.981" x2="23.3506" y2="12.7254" width="0" layer="19" extent="1-1"/>
+<wire x1="34.2434" y1="20.574" x2="33.556" y2="14.981" width="0" layer="19" extent="1-1"/>
+<wire x1="34.2434" y1="22.0218" x2="34.2434" y2="20.574" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!RESET">
 <contactref element="S2" pad="1"/>
 <contactref element="S2" pad="2"/>
 <contactref element="U2" pad="26"/>
 <wire x1="15.3998" y1="24.041" x2="19.4998" y2="24.041" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.4126" y1="-5.6059" x2="19.4998" y2="24.041" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.6826" y1="-2.5579" x2="19.4998" y2="24.041" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="U2" pad="36"/>
 <contactref element="R6" pad="1"/>
 <contactref element="U6" pad="14"/>
-<wire x1="-2.6491" y1="-8.2424" x2="35.4034" y2="22.0218" width="0" layer="19" extent="1-1"/>
-<wire x1="-55.872" y1="-201.338" x2="-2.6491" y2="-8.2424" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.9191" y1="-5.1944" x2="35.4034" y2="22.0218" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.872" y1="-201.338" x2="-3.9191" y2="-5.1944" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="U2" pad="37"/>
 <contactref element="R7" pad="1"/>
 <contactref element="U6" pad="13"/>
-<wire x1="-2.6491" y1="-8.6424" x2="35.4034" y2="20.574" width="0" layer="19" extent="1-1"/>
-<wire x1="-55.372" y1="-201.338" x2="-2.6491" y2="-8.6424" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.9191" y1="-5.5944" x2="35.4034" y2="20.574" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.372" y1="-201.338" x2="-3.9191" y2="-5.5944" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB_N" class="1">
 <contactref element="CONN1" pad="A7"/>
 <contactref element="CONN1" pad="B7"/>
 <contactref element="R13" pad="1"/>
-<wire x1="-0.75" y1="-28.1811" x2="5.6468" y2="14.2748" width="0" layer="19" extent="1-1"/>
-<wire x1="0.25" y1="-28.1811" x2="-0.75" y2="-28.1811" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.8262" y1="-13.0681" x2="5.6468" y2="14.2748" width="0" layer="19" extent="1-1"/>
+<wire x1="0.1738" y1="-13.0681" x2="-0.8262" y2="-13.0681" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB_P" class="1">
 <contactref element="CONN1" pad="A6"/>
 <contactref element="CONN1" pad="B6"/>
 <contactref element="R12" pad="1"/>
-<wire x1="-0.25" y1="-28.1811" x2="5.6722" y2="13.335" width="0" layer="19" extent="1-1"/>
-<wire x1="0.75" y1="-28.1811" x2="-0.25" y2="-28.1811" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.3262" y1="-13.0681" x2="5.6722" y2="13.335" width="0" layer="19" extent="1-1"/>
+<wire x1="0.6738" y1="-13.0681" x2="-0.3262" y2="-13.0681" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!BOOT">
 <contactref element="S1" pad="1"/>
@@ -3051,34 +2688,34 @@ JST_2MM_MALE
 <wire x1="-67.983" y1="-203.462" x2="-61.392" y2="-209.591" width="0" layer="19" extent="1-1"/>
 <wire x1="-67.983" y1="-202.962" x2="-67.983" y2="-203.462" width="0" layer="19" extent="1-1"/>
 <wire x1="10.593" y1="23.876" x2="-67.983" y2="-202.962" width="0" layer="19" extent="1-1"/>
-<wire x1="11.7898" y1="23.876" x2="10.593" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="12.0438" y1="23.876" x2="10.593" y2="23.876" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="U2" pad="24"/>
 <contactref element="J4" pad="1"/>
-<wire x1="0.3874" y1="-5.6059" x2="26.146" y2="20.066" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.8826" y1="-2.5579" x2="26.146" y2="20.066" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="R3" pad="2"/>
 <contactref element="CONN1" pad="A5"/>
-<wire x1="4.2164" y1="7.5142" x2="-1.25" y2="-28.1811" width="0" layer="19" extent="1-1"/>
+<wire x1="4.2164" y1="7.5142" x2="-1.3262" y2="-13.0681" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R8" pad="2"/>
 <contactref element="CONN1" pad="B5"/>
-<wire x1="1.75" y1="-28.1811" x2="0.8678" y2="18.6182" width="0" layer="19" extent="1-1"/>
+<wire x1="1.6738" y1="-13.0681" x2="0.8678" y2="18.6182" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="C35" pad="1"/>
 <contactref element="U2" pad="46"/>
 <contactref element="R11" pad="2"/>
-<wire x1="9.9648" y1="17.7038" x2="-2.0126" y2="-12.4789" width="0" layer="19" extent="1-1"/>
+<wire x1="9.9648" y1="17.7038" x2="-3.2826" y2="-9.4309" width="0" layer="19" extent="1-1"/>
 <wire x1="8.7588" y1="17.7038" x2="9.9648" y2="17.7038" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U2" pad="48"/>
 <contactref element="L2" pad="1"/>
-<wire x1="6.0452" y1="17.283" x2="-1.2126" y2="-12.4789" width="0" layer="19" extent="1-1"/>
+<wire x1="6.0452" y1="17.283" x2="-2.4826" y2="-9.4309" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="1.1V">
 <contactref element="U2" pad="50"/>
@@ -3090,64 +2727,54 @@ JST_2MM_MALE
 <contactref element="C38" pad="1"/>
 <contactref element="C39" pad="1"/>
 <contactref element="C40" pad="1"/>
-<wire x1="0.7874" y1="-5.6059" x2="23.3426" y2="14.8924" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.6491" y1="-9.4424" x2="0.7874" y2="-5.6059" width="0" layer="19" extent="1-1"/>
-<wire x1="15.2146" y1="19.3628" x2="-2.6491" y2="-9.4424" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.4126" y1="-12.4789" x2="-2.6491" y2="-9.4424" width="0" layer="19" extent="1-1"/>
-<wire x1="4.2239" y1="-9.8424" x2="-0.4126" y2="-12.4789" width="0" layer="19" extent="1-1"/>
-<wire x1="14.4018" y1="7.7898" x2="4.2239" y2="-9.8424" width="0" layer="19" extent="1-1"/>
-<wire x1="6.0452" y1="15.483" x2="-0.4126" y2="-12.4789" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.4826" y1="-2.5579" x2="23.3426" y2="14.8924" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.9191" y1="-6.3944" x2="-0.4826" y2="-2.5579" width="0" layer="19" extent="1-1"/>
+<wire x1="15.2146" y1="19.3628" x2="-3.9191" y2="-6.3944" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.6826" y1="-9.4309" x2="-3.9191" y2="-6.3944" width="0" layer="19" extent="1-1"/>
+<wire x1="2.9539" y1="-6.7944" x2="-1.6826" y2="-9.4309" width="0" layer="19" extent="1-1"/>
+<wire x1="14.4018" y1="7.7898" x2="2.9539" y2="-6.7944" width="0" layer="19" extent="1-1"/>
+<wire x1="6.0452" y1="15.483" x2="-1.6826" y2="-9.4309" width="0" layer="19" extent="1-1"/>
 <wire x1="4.699" y1="15.2988" x2="6.0452" y2="15.483" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="U2" pad="25"/>
 <contactref element="J4" pad="3"/>
-<wire x1="-0.0126" y1="-5.6059" x2="24.146" y2="20.066" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.2826" y1="-2.5579" x2="24.146" y2="20.066" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIO0">
 <contactref element="U2" pad="57"/>
-<contactref element="U1" pad="5"/>
 <contactref element="IC1" pad="5"/>
-<wire x1="8.5152" y1="9.1382" x2="2.3874" y2="-12.4789" width="0" layer="19" extent="1-1"/>
-<wire x1="12.8404" y1="6.8634" x2="8.5152" y2="9.1382" width="0" layer="19" extent="1-1"/>
+<wire x1="1.1174" y1="-9.4309" x2="8.5152" y2="9.1382" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIO1">
 <contactref element="U2" pad="59"/>
-<contactref element="U1" pad="2"/>
 <contactref element="IC1" pad="2"/>
-<wire x1="11.8404" y1="4.3634" x2="3.1874" y2="-12.4789" width="0" layer="19" extent="1-1"/>
-<wire x1="6.9152" y1="5.2382" x2="11.8404" y2="4.3634" width="0" layer="19" extent="1-1"/>
+<wire x1="1.9174" y1="-9.4309" x2="6.9152" y2="5.2382" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIO2">
 <contactref element="U2" pad="58"/>
-<contactref element="U1" pad="3"/>
 <contactref element="IC1" pad="3"/>
-<wire x1="12.3404" y1="4.3634" x2="2.7874" y2="-12.4789" width="0" layer="19" extent="1-1"/>
-<wire x1="7.7152" y1="5.2382" x2="12.3404" y2="4.3634" width="0" layer="19" extent="1-1"/>
+<wire x1="1.5174" y1="-9.4309" x2="7.7152" y2="5.2382" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SIO3">
 <contactref element="U2" pad="55"/>
-<contactref element="U1" pad="7"/>
 <contactref element="IC1" pad="7"/>
-<wire x1="11.8404" y1="6.8634" x2="1.5874" y2="-12.4789" width="0" layer="19" extent="1-1"/>
-<wire x1="6.9152" y1="9.1382" x2="11.8404" y2="6.8634" width="0" layer="19" extent="1-1"/>
+<wire x1="0.3174" y1="-9.4309" x2="6.9152" y2="9.1382" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U_P">
 <contactref element="U2" pad="52"/>
 <contactref element="R12" pad="2"/>
-<wire x1="6.6722" y1="13.335" x2="0.3874" y2="-12.4789" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6722" y1="13.335" x2="-0.8826" y2="-9.4309" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="U_N">
 <contactref element="U2" pad="51"/>
 <contactref element="R13" pad="2"/>
-<wire x1="6.6468" y1="14.2748" x2="-0.0126" y2="-12.4789" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6468" y1="14.2748" x2="-1.2826" y2="-9.4309" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="QSPI_CLK">
 <contactref element="U2" pad="56"/>
-<contactref element="U1" pad="6"/>
 <contactref element="IC1" pad="6"/>
-<wire x1="7.7152" y1="9.1382" x2="1.9874" y2="-12.4789" width="0" layer="19" extent="1-1"/>
-<wire x1="12.3404" y1="6.8634" x2="7.7152" y2="9.1382" width="0" layer="19" extent="1-1"/>
+<wire x1="0.7174" y1="-9.4309" x2="7.7152" y2="9.1382" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="Y1" pad="3"/>
@@ -3161,50 +2788,43 @@ JST_2MM_MALE
 <contactref element="Y1" pad="1"/>
 <contactref element="C42" pad="1"/>
 <wire x1="27.5548" y1="10.9728" x2="27.5962" y2="12.5398" width="0" layer="19" extent="1-1"/>
-<wire x1="1.5874" y1="-5.6059" x2="27.5962" y2="12.5398" width="0" layer="19" extent="1-1"/>
+<wire x1="0.3174" y1="-2.5579" x2="27.5962" y2="12.5398" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!QSPI_CS">
 <contactref element="U2" pad="60"/>
 <contactref element="IC1" pad="1"/>
 <contactref element="R4" pad="1"/>
 <contactref element="R5" pad="1"/>
-<wire x1="6.1152" y1="5.2382" x2="3.5874" y2="-12.4789" width="0" layer="19" extent="1-1"/>
+<wire x1="6.1152" y1="5.2382" x2="2.3174" y2="-9.4309" width="0" layer="19" extent="1-1"/>
 <wire x1="6.1002" y1="2.3876" x2="6.1152" y2="5.2382" width="0" layer="19" extent="1-1"/>
 <wire x1="6.2018" y1="0.9144" x2="6.1002" y2="2.3876" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="!FLASH_CS">
-<contactref element="U2" pad="2"/>
-<contactref element="U1" pad="1"/>
-<contactref element="R1" pad="2"/>
-<wire x1="11.3404" y1="4.3634" x2="4.2239" y2="-11.4424" width="0" layer="19" extent="1-1"/>
-<wire x1="11.0702" y1="1.2446" x2="11.3404" y2="4.3634" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R15" pad="2"/>
 <contactref element="U2" pad="22"/>
-<wire x1="1.1874" y1="-5.6059" x2="24.511" y2="15.041" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.0826" y1="-2.5579" x2="24.511" y2="15.041" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUZZER_DRIVER">
 <contactref element="R25" pad="2"/>
 <contactref element="U2" pad="14"/>
-<wire x1="15.5702" y1="7.5904" x2="4.2239" y2="-6.6424" width="0" layer="19" extent="1-1"/>
+<wire x1="15.5702" y1="7.5904" x2="2.9539" y2="-3.5944" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$26">
 <contactref element="Q2" pad="3"/>
 <contactref element="LS1" pad="2"/>
 <contactref element="D12" pad="A"/>
-<wire x1="21.5244" y1="7.8486" x2="-32.102" y2="-198.374" width="0" layer="19" extent="1-1"/>
-<wire x1="33.556" y1="11.181" x2="21.5244" y2="7.8486" width="0" layer="19" extent="1-1"/>
+<wire x1="31.9384" y1="11.1506" x2="-32.102" y2="-198.374" width="0" layer="19" extent="1-1"/>
+<wire x1="33.556" y1="11.181" x2="31.9384" y2="11.1506" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$27">
 <contactref element="R25" pad="1"/>
 <contactref element="Q2" pad="1"/>
-<wire x1="15.5702" y1="6.4304" x2="19.6744" y2="8.4986" width="0" layer="19" extent="1-1"/>
+<wire x1="15.5702" y1="6.4304" x2="30.0884" y2="11.8006" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2" pad="1"/>
 <contactref element="U2" pad="12"/>
-<wire x1="17.7546" y1="7.7898" x2="4.2239" y2="-7.4424" width="0" layer="19" extent="1-1"/>
+<wire x1="17.7546" y1="7.7898" x2="2.9539" y2="-4.3944" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="R2" pad="2"/>
@@ -3216,9 +2836,9 @@ JST_2MM_MALE
 <contactref element="CONN1" pad="B4_A9"/>
 <contactref element="L1" pad="1"/>
 <contactref element="C12" pad="1"/>
-<wire x1="7.819" y1="23.876" x2="8.965" y2="23.876" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.4" y1="-28.1811" x2="7.819" y2="23.876" width="0" layer="19" extent="1-1"/>
-<wire x1="2.4" y1="-28.1811" x2="-2.4" y2="-28.1811" width="0" layer="19" extent="1-1"/>
+<wire x1="7.311" y1="23.876" x2="8.965" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.4762" y1="-13.0681" x2="7.311" y2="23.876" width="0" layer="19" extent="1-1"/>
+<wire x1="2.3238" y1="-13.0681" x2="-2.4762" y2="-13.0681" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="1.8V">
 <contactref element="MK1" pad="1"/>
@@ -3236,62 +2856,42 @@ JST_2MM_MALE
 <signal name="NPXL_1_OUT">
 <contactref element="D1" pad="2"/>
 <contactref element="D2" pad="4"/>
-<wire x1="-13.22" y1="-23.816" x2="-30.286" y2="-11.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.576" y1="-11.672" x2="-10.656" y2="9.084" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NPXL_1_IN">
 <contactref element="D1" pad="4"/>
 <contactref element="U2" pad="13"/>
-<wire x1="4.2239" y1="-7.0424" x2="-14.72" y2="-29.016" width="0" layer="19" extent="1-1"/>
+<wire x1="2.9539" y1="-3.9944" x2="-13.776" y2="-10.172" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NPXL_2_OUT">
 <contactref element="D2" pad="2"/>
 <contactref element="D3" pad="4"/>
-<wire x1="-25.086" y1="-13.45" x2="-32.064" y2="9.64" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.156" y1="14.284" x2="10.68" y2="8.576" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NPXL_3_OUT">
 <contactref element="D3" pad="2"/>
 <contactref element="D4" pad="4"/>
-<wire x1="-26.864" y1="8.14" x2="-18.348" y2="27.928" width="0" layer="19" extent="1-1"/>
+<wire x1="12.18" y1="13.776" x2="11.696" y2="-12.252" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NPXL_4_OUT">
 <contactref element="D4" pad="2"/>
 <contactref element="D5" pad="4"/>
-<wire x1="-13.148" y1="26.428" x2="-2.6" y2="32.754" width="0" layer="19" extent="1-1"/>
+<wire x1="13.196" y1="-7.052" x2="-2.6" y2="18.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NPXL_5_OUT">
 <contactref element="D5" pad="2"/>
 <contactref element="D6" pad="4"/>
-<wire x1="2.6" y1="31.254" x2="10.354" y2="28.944" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="NPXL_6_OUT">
-<contactref element="D6" pad="2"/>
-<contactref element="D7" pad="4"/>
-<wire x1="15.554" y1="27.444" x2="30.746" y2="3.75" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="NPXL_7_OUT">
-<contactref element="D7" pad="2"/>
-<contactref element="D8" pad="4"/>
-<wire x1="32.246" y1="8.95" x2="28.388" y2="-7.124" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="NPXL_8_OUT">
-<contactref element="D8" pad="2"/>
-<contactref element="D9" pad="4"/>
-<wire x1="33.588" y1="-8.624" x2="13.014" y2="-31.484" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="NPXL_9_OUT">
-<contactref element="D9" pad="2"/>
-<contactref element="D10" pad="4"/>
-<wire x1="7.814" y1="-29.984" x2="-17.332" y2="-150.126" width="0" layer="19" extent="1-1"/>
+<wire x1="2.6" y1="17.03" x2="-17.332" y2="-102.882" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LSM6_INT1">
 <contactref element="U6" pad="4"/>
 <contactref element="U2" pad="19"/>
-<wire x1="-56.722" y1="-203.188" x2="2.3874" y2="-5.6059" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.722" y1="-203.188" x2="1.1174" y2="-2.5579" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LSM6_INT2">
 <contactref element="U6" pad="9"/>
 <contactref element="U2" pad="27"/>
-<wire x1="-54.022" y1="-202.688" x2="-0.8126" y2="-5.6059" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.022" y1="-202.688" x2="-2.0826" y2="-2.5579" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R10" pad="1"/>
@@ -3332,8 +2932,8 @@ JST_2MM_MALE
 <contactref element="U7" pad="10"/>
 <contactref element="C20" pad="1"/>
 <wire x1="-76.272" y1="-238.252" x2="-76.272" y2="-244.856" width="0" layer="19" extent="1-1"/>
-<wire x1="-72.406" y1="-230.522" x2="-76.272" y2="-238.252" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.392" y1="-210.891" x2="-72.406" y2="-230.522" width="0" layer="19" extent="1-1"/>
+<wire x1="-9.89" y1="2.684" x2="-76.272" y2="-238.252" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.392" y1="-210.891" x2="-9.89" y2="2.684" width="0" layer="19" extent="1-1"/>
 <wire x1="-65.113" y1="-203.462" x2="-61.392" y2="-210.891" width="0" layer="19" extent="1-1"/>
 <wire x1="-65.113" y1="-202.962" x2="-65.113" y2="-203.462" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3365,7 +2965,7 @@ JST_2MM_MALE
 <signal name="CHARGE_STAT">
 <contactref element="U7" pad="3"/>
 <contactref element="U2" pad="3"/>
-<wire x1="-67.983" y1="-203.962" x2="4.2239" y2="-11.0424" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.983" y1="-203.962" x2="2.9539" y2="-7.9944" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="R20" pad="2"/>
@@ -3431,77 +3031,27 @@ JST_2MM_MALE
 <signal name="PDM_CLK">
 <contactref element="U5" pad="20"/>
 <contactref element="U2" pad="5"/>
-<wire x1="4.2239" y1="-10.2424" x2="-50.978" y2="-192.147" width="0" layer="19" extent="1-1"/>
+<wire x1="2.9539" y1="-7.1944" x2="-50.978" y2="-192.147" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PDM_SDO">
 <contactref element="U5" pad="18"/>
 <contactref element="U2" pad="4"/>
-<wire x1="4.2239" y1="-10.6424" x2="-50.978" y2="-193.447" width="0" layer="19" extent="1-1"/>
+<wire x1="2.9539" y1="-7.5944" x2="-50.978" y2="-193.447" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IA611_IRQ">
 <contactref element="U5" pad="17"/>
 <contactref element="U2" pad="9"/>
-<wire x1="4.2239" y1="-8.6424" x2="-50.978" y2="-194.097" width="0" layer="19" extent="1-1"/>
+<wire x1="2.9539" y1="-5.5944" x2="-50.978" y2="-194.097" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART_TX">
 <contactref element="U5" pad="16"/>
 <contactref element="U2" pad="8"/>
-<wire x1="4.2239" y1="-9.0424" x2="-50.978" y2="-194.747" width="0" layer="19" extent="1-1"/>
+<wire x1="2.9539" y1="-5.9944" x2="-50.978" y2="-194.747" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="UART_RX">
 <contactref element="U5" pad="15"/>
 <contactref element="U2" pad="7"/>
-<wire x1="4.2239" y1="-9.4424" x2="-50.978" y2="-195.397" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ESP32_RX">
-<contactref element="U9" pad="30"/>
-<contactref element="U2" pad="16"/>
-<wire x1="3.5874" y1="-5.6059" x2="16.93128125" y2="-23.319340625" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ESP32_TX">
-<contactref element="U9" pad="31"/>
-<contactref element="U2" pad="17"/>
-<wire x1="3.1874" y1="-5.6059" x2="17.496965625" y2="-23.885025" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ESP32_HANDSHAKE">
-<contactref element="U9" pad="6"/>
-<contactref element="U2" pad="28"/>
-<wire x1="-1.2126" y1="-5.6059" x2="25.275140625" y2="-14.97548125" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ESP32_CS">
-<contactref element="U9" pad="16"/>
-<contactref element="U2" pad="33"/>
-<wire x1="-2.6491" y1="-7.0424" x2="18.76975625" y2="-14.551215625" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ESP32_MOSI">
-<contactref element="U9" pad="21"/>
-<contactref element="U2" pad="35"/>
-<wire x1="-2.6491" y1="-7.8424" x2="15.94133125" y2="-17.37964375" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ESP32_MISO">
-<contactref element="U9" pad="5"/>
-<contactref element="U2" pad="32"/>
-<wire x1="-2.6491" y1="-6.6424" x2="25.840825" y2="-15.541165625" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="ESP32_SCK">
-<contactref element="U9" pad="20"/>
-<contactref element="U2" pad="34"/>
-<wire x1="-2.6491" y1="-7.4424" x2="16.507015625" y2="-16.81395625" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="!ESP32_RST">
-<contactref element="U9" pad="8"/>
-<contactref element="U2" pad="29"/>
-<wire x1="-1.6126" y1="-5.6059" x2="24.14376875" y2="-13.844109375" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$25">
-<contactref element="U9" pad="22"/>
-<contactref element="R23" pad="1"/>
-<wire x1="15.37564375" y1="-17.945328125" x2="-74.24" y2="-330.454" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="!ESP32_BOOT">
-<contactref element="U9" pad="23"/>
-<contactref element="U2" pad="31"/>
-<wire x1="-2.6491" y1="-6.2424" x2="14.809959375" y2="-18.5110125" width="0" layer="19" extent="1-1"/>
+<wire x1="2.9539" y1="-6.3944" x2="-50.978" y2="-195.397" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
