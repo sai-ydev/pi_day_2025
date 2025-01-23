@@ -4619,37 +4619,6 @@ Source: &lt;a href="https://www.winbond.com/hq/search-resource-file.jsp?partNo=W
 <rectangle x1="-3.75" y1="-2.9" x2="-3.1" y2="-2.7" layer="31"/>
 <rectangle x1="3.1" y1="2.7" x2="3.75" y2="2.9" layer="31" rot="R180"/>
 </package>
-<package name="APS6404L-3SQR-ZR">
-<wire x1="-1.7" y1="1.2" x2="-1.7" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="-1.7" y1="-1.2" x2="1.7" y2="-1.2" width="0.2032" layer="21"/>
-<wire x1="1.7" y1="-1.2" x2="1.7" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="1.7" y1="1.2" x2="-1.7" y2="1.2" width="0.2032" layer="21"/>
-<wire x1="-1.5" y1="1" x2="-1.5" y2="-1" width="0.2032" layer="51"/>
-<wire x1="-1.5" y1="-1" x2="1.5" y2="-1" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="-1" x2="1.5" y2="1" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="1" x2="-1.5" y2="1" width="0.2032" layer="51"/>
-<smd name="1" x="-1.25" y="0.75" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="2" x="-1.25" y="0.25" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="3" x="-1.25" y="-0.25" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="4" x="-1.25" y="-0.75" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="5" x="1.25" y="-0.75" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="6" x="1.25" y="-0.25" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="7" x="1.25" y="0.25" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<smd name="8" x="1.25" y="0.75" dx="0.4" dy="0.25" layer="1" cream="no"/>
-<circle x="-2.1" y="1.1" radius="0.1" width="0.2032" layer="21"/>
-<rectangle x1="-1.4" y1="0.65" x2="-1.1" y2="0.85" layer="31"/>
-<rectangle x1="-1.4" y1="0.15" x2="-1.1" y2="0.35" layer="31"/>
-<rectangle x1="-1.4" y1="-0.35" x2="-1.1" y2="-0.15" layer="31"/>
-<rectangle x1="-1.4" y1="-0.85" x2="-1.1" y2="-0.65" layer="31"/>
-<rectangle x1="1.1" y1="-0.85" x2="1.4" y2="-0.65" layer="31"/>
-<rectangle x1="1.1" y1="-0.35" x2="1.4" y2="-0.15" layer="31"/>
-<rectangle x1="1.1" y1="0.15" x2="1.4" y2="0.35" layer="31"/>
-<rectangle x1="1.1" y1="0.65" x2="1.4" y2="0.85" layer="31"/>
-<smd name="9" x="0" y="0" dx="0.2" dy="1.6" layer="1" cream="no"/>
-<rectangle x1="-0.1" y1="-0.6" x2="0.1" y2="0.6" layer="31"/>
-<text x="0" y="2" size="0.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="-2" size="0.5" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="RP2350A">
@@ -4713,22 +4682,6 @@ Source: &lt;a href="https://www.winbond.com/hq/search-resource-file.jsp?partNo=W
 <pin name="VREG_LX" x="-17.78" y="22.86" length="short"/>
 <pin name="VREG_FB" x="-17.78" y="20.32" length="short"/>
 <pin name="QSPI_IOVDD" x="-17.78" y="35.56" length="short"/>
-</symbol>
-<symbol name="APS6404L-3SQR-ZR">
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<pin name="VDD" x="-10.16" y="5.08" length="short"/>
-<pin name="VSS" x="-10.16" y="-7.62" length="short"/>
-<pin name="!CE!" x="10.16" y="5.08" length="short" rot="R180"/>
-<pin name="SCLK" x="10.16" y="2.54" length="short" rot="R180"/>
-<pin name="SI/SIO0" x="10.16" y="0" length="short" rot="R180"/>
-<pin name="SO/SIO1" x="10.16" y="-2.54" length="short" rot="R180"/>
-<pin name="SIO2" x="10.16" y="-5.08" length="short" rot="R180"/>
-<pin name="SIO3" x="10.16" y="-7.62" length="short" rot="R180"/>
-<text x="-7.62" y="7.874" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4797,30 +4750,6 @@ Source: &lt;a href="https://www.winbond.com/hq/search-resource-file.jsp?partNo=W
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="IC-21276"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="APS6404L-3SQR-ZR" prefix="U">
-<gates>
-<gate name="G$1" symbol="APS6404L-3SQR-ZR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="APS6404L-3SQR-ZR">
-<connects>
-<connect gate="G$1" pin="!CE!" pad="1"/>
-<connect gate="G$1" pin="SCLK" pad="6"/>
-<connect gate="G$1" pin="SI/SIO0" pad="5"/>
-<connect gate="G$1" pin="SIO2" pad="3"/>
-<connect gate="G$1" pin="SIO3" pad="7"/>
-<connect gate="G$1" pin="SO/SIO1" pad="2"/>
-<connect gate="G$1" pin="VDD" pad="8"/>
-<connect gate="G$1" pin="VSS" pad="4 9"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="IC-21870"/>
 </technology>
 </technologies>
 </device>
@@ -7109,188 +7038,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </deviceset>
 </devicesets>
 </library>
-<library name="ESP32-C3-MINI-1-N4">
-<packages>
-<package name="XCVR_ESP32-C3-MINI-1-N4">
-<wire x1="-6.6" y1="8.3" x2="6.6" y2="8.3" width="0.127" layer="51"/>
-<wire x1="6.6" y1="8.3" x2="6.6" y2="2.9" width="0.127" layer="51"/>
-<wire x1="6.6" y1="2.9" x2="6.6" y2="-8.3" width="0.127" layer="51"/>
-<wire x1="6.6" y1="-8.3" x2="-6.6" y2="-8.3" width="0.127" layer="51"/>
-<wire x1="-6.6" y1="-8.3" x2="-6.6" y2="2.9" width="0.127" layer="51"/>
-<polygon width="0.01" layer="1">
-<vertex x="-1.25" y="-1.45"/>
-<vertex x="-2.7" y="-1.45"/>
-<vertex x="-2.7" y="-0.6"/>
-<vertex x="-2.1" y="0"/>
-<vertex x="-1.25" y="0"/>
-</polygon>
-<polygon width="0.01" layer="29">
-<vertex x="-1.15" y="-1.55"/>
-<vertex x="-2.8" y="-1.55"/>
-<vertex x="-2.8" y="-0.56"/>
-<vertex x="-2.14" y="0.1"/>
-<vertex x="-1.15" y="0.1"/>
-</polygon>
-<polygon width="0.01" layer="31">
-<vertex x="-1.25" y="-1.45"/>
-<vertex x="-2.7" y="-1.45"/>
-<vertex x="-2.7" y="-0.6"/>
-<vertex x="-2.1" y="0"/>
-<vertex x="-1.25" y="0"/>
-</polygon>
-<rectangle x1="-6.6" y1="2.9" x2="6.6" y2="8.3" layer="41"/>
-<rectangle x1="-6.6" y1="2.9" x2="6.6" y2="8.3" layer="42"/>
-<rectangle x1="-6.6" y1="2.9" x2="6.6" y2="8.3" layer="43"/>
-<wire x1="-6.6" y1="2.9" x2="-6.6" y2="8.3" width="0.127" layer="51"/>
-<wire x1="6.6" y1="8.3" x2="6.6" y2="2.92" width="0.127" layer="21"/>
-<wire x1="-6.6" y1="2.92" x2="-6.6" y2="8.3" width="0.127" layer="21"/>
-<wire x1="-6.6" y1="8.3" x2="6.6" y2="8.3" width="0.127" layer="21"/>
-<wire x1="-6.85" y1="8.55" x2="-6.85" y2="-8.55" width="0.05" layer="39"/>
-<wire x1="-6.85" y1="-8.55" x2="6.85" y2="-8.55" width="0.05" layer="39"/>
-<wire x1="6.85" y1="-8.55" x2="6.85" y2="8.55" width="0.05" layer="39"/>
-<wire x1="6.85" y1="8.55" x2="-6.85" y2="8.55" width="0.05" layer="39"/>
-<circle x="-7.25" y="1.3" radius="0.1" width="0.2" layer="21"/>
-<circle x="-7.25" y="1.3" radius="0.1" width="0.2" layer="51"/>
-<text x="-6.85" y="9" size="1.27" layer="25">&gt;NAME</text>
-<text x="-6.85" y="-9" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-6.6" y1="2.9" x2="6.6" y2="2.9" width="0.127" layer="51"/>
-<smd name="1" x="-5.9" y="1.3" dx="0.8" dy="0.4" layer="1"/>
-<smd name="2" x="-5.9" y="0.5" dx="0.8" dy="0.4" layer="1"/>
-<smd name="3" x="-5.9" y="-0.3" dx="0.8" dy="0.4" layer="1"/>
-<smd name="4" x="-5.9" y="-1.1" dx="0.8" dy="0.4" layer="1"/>
-<smd name="5" x="-5.9" y="-1.9" dx="0.8" dy="0.4" layer="1"/>
-<smd name="6" x="-5.9" y="-2.7" dx="0.8" dy="0.4" layer="1"/>
-<smd name="7" x="-5.9" y="-3.5" dx="0.8" dy="0.4" layer="1"/>
-<smd name="8" x="-5.9" y="-4.3" dx="0.8" dy="0.4" layer="1"/>
-<smd name="9" x="-5.9" y="-5.1" dx="0.8" dy="0.4" layer="1"/>
-<smd name="10" x="-5.9" y="-5.9" dx="0.8" dy="0.4" layer="1"/>
-<smd name="11" x="-5.9" y="-6.7" dx="0.8" dy="0.4" layer="1"/>
-<smd name="12" x="-4.8" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="13" x="-4" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="14" x="-3.2" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="15" x="-2.4" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="16" x="-1.6" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="17" x="-0.8" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="18" x="0" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="19" x="0.8" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="20" x="1.6" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="21" x="2.4" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="22" x="3.2" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="23" x="4" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="24" x="4.8" y="-7.6" dx="0.4" dy="0.8" layer="1"/>
-<smd name="25" x="5.9" y="-6.7" dx="0.8" dy="0.4" layer="1"/>
-<smd name="26" x="5.9" y="-5.9" dx="0.8" dy="0.4" layer="1"/>
-<smd name="27" x="5.9" y="-5.1" dx="0.8" dy="0.4" layer="1"/>
-<smd name="28" x="5.9" y="-4.3" dx="0.8" dy="0.4" layer="1"/>
-<smd name="29" x="5.9" y="-3.5" dx="0.8" dy="0.4" layer="1"/>
-<smd name="30" x="5.9" y="-2.7" dx="0.8" dy="0.4" layer="1"/>
-<smd name="31" x="5.9" y="-1.9" dx="0.8" dy="0.4" layer="1"/>
-<smd name="32" x="5.9" y="-1.1" dx="0.8" dy="0.4" layer="1"/>
-<smd name="33" x="5.9" y="-0.3" dx="0.8" dy="0.4" layer="1"/>
-<smd name="34" x="5.9" y="0.5" dx="0.8" dy="0.4" layer="1"/>
-<smd name="35" x="5.9" y="1.3" dx="0.8" dy="0.4" layer="1"/>
-<smd name="36" x="4.8" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="37" x="4" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="38" x="3.2" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="39" x="2.4" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="40" x="1.6" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="41" x="0.8" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="42" x="0" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="43" x="-0.8" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="44" x="-1.6" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="45" x="-2.4" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="46" x="-3.2" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="47" x="-4" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="48" x="-4.8" y="2.2" dx="0.4" dy="0.8" layer="1"/>
-<smd name="49_9" x="0" y="-2.7" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_3" x="1.975" y="-0.725" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_2" x="0" y="-0.725" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_1" x="-1.975" y="-0.725" dx="0.6" dy="0.6" layer="1" stop="no" cream="no"/>
-<smd name="49_8" x="-1.975" y="-2.7" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_7" x="-1.975" y="-4.675" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_6" x="0" y="-4.675" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_5" x="1.975" y="-4.675" dx="1.45" dy="1.45" layer="1"/>
-<smd name="49_4" x="1.975" y="-2.7" dx="1.45" dy="1.45" layer="1"/>
-<smd name="53" x="-5.95" y="2.25" dx="0.7" dy="0.7" layer="1"/>
-<smd name="52" x="-5.95" y="-7.65" dx="0.7" dy="0.7" layer="1"/>
-<smd name="51" x="5.95" y="-7.65" dx="0.7" dy="0.7" layer="1"/>
-<smd name="50" x="5.95" y="2.25" dx="0.7" dy="0.7" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ESP32-C3-MINI-1-N4">
-<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-20.32" x2="12.7" y2="17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="17.78" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
-<text x="-12.7" y="18.796" size="1.778" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="17.78" y="-17.78" length="middle" direction="pwr" rot="R180"/>
-<pin name="3V3" x="17.78" y="15.24" length="middle" direction="pwr" rot="R180"/>
-<pin name="NC" x="17.78" y="-12.7" length="middle" direction="nc" rot="R180"/>
-<pin name="IO2" x="-17.78" y="2.54" length="middle"/>
-<pin name="IO3" x="-17.78" y="0" length="middle"/>
-<pin name="EN" x="-17.78" y="12.7" length="middle" direction="in"/>
-<pin name="IO0" x="-17.78" y="7.62" length="middle"/>
-<pin name="IO1" x="-17.78" y="5.08" length="middle"/>
-<pin name="IO10" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="IO4" x="-17.78" y="-2.54" length="middle"/>
-<pin name="IO5" x="-17.78" y="-5.08" length="middle"/>
-<pin name="IO6" x="-17.78" y="-7.62" length="middle"/>
-<pin name="IO7" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="IO8" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="IO9" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="IO18" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="IO19" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="RXD0" x="-17.78" y="-12.7" length="middle"/>
-<pin name="TXD0" x="-17.78" y="-15.24" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ESP32-C3-MINI-1-N4" prefix="U">
-<description> &lt;a href="https://pricing.snapeda.com/parts/ESP32-C3-MINI-1-N4/Espressif%20Systems/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="ESP32-C3-MINI-1-N4" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="XCVR_ESP32-C3-MINI-1-N4">
-<connects>
-<connect gate="G$1" pin="3V3" pad="3"/>
-<connect gate="G$1" pin="EN" pad="8"/>
-<connect gate="G$1" pin="GND" pad="1 2 11 14 36 37 38 39 40 41 42 43 44 45 46 47 48 49_1 49_2 49_3 49_4 49_5 49_6 49_7 49_8 49_9 50 51 52 53"/>
-<connect gate="G$1" pin="IO0" pad="12"/>
-<connect gate="G$1" pin="IO1" pad="13"/>
-<connect gate="G$1" pin="IO10" pad="16"/>
-<connect gate="G$1" pin="IO18" pad="26"/>
-<connect gate="G$1" pin="IO19" pad="27"/>
-<connect gate="G$1" pin="IO2" pad="5"/>
-<connect gate="G$1" pin="IO3" pad="6"/>
-<connect gate="G$1" pin="IO4" pad="18"/>
-<connect gate="G$1" pin="IO5" pad="19"/>
-<connect gate="G$1" pin="IO6" pad="20"/>
-<connect gate="G$1" pin="IO7" pad="21"/>
-<connect gate="G$1" pin="IO8" pad="22"/>
-<connect gate="G$1" pin="IO9" pad="23"/>
-<connect gate="G$1" pin="NC" pad="4 7 9 10 15 17 24 25 28 29 32 33 34 35"/>
-<connect gate="G$1" pin="RXD0" pad="30"/>
-<connect gate="G$1" pin="TXD0" pad="31"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="In Stock"/>
-<attribute name="DESCRIPTION" value=" Bluetooth, WiFi 802.11b/g/n, Bluetooth v5.0 Transceiver Module 2.412GHz ~ 2.484GHz PCB Trace Surface Mount "/>
-<attribute name="MF" value="Espressif Systems"/>
-<attribute name="MP" value="ESP32-C3-MINI-1-N4"/>
-<attribute name="PACKAGE" value="SMD-53 Espressif Systems"/>
-<attribute name="PRICE" value="None"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/ESP32-C3-MINI-1-N4/?ref=eda"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="TYPE-C-31-M-12">
 <packages>
 <package name="HRO_TYPE-C-31-M-12">
@@ -7627,11 +7374,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="C41" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="15PF" device="-0402-50V-5%" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46141777/2" override_package_urn="urn:adsk.eagle:footprint:41385037/1" value="15pF"/>
 <part name="C42" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="15PF" device="-0402-50V-5%" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46141776/2" override_package_urn="urn:adsk.eagle:footprint:41385037/1" value="15pF"/>
 <part name="R15" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:46141751/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" override_locally_modified="yes" value="1K"/>
-<part name="U1" library="RP2350A" deviceset="APS6404L-3SQR-ZR" device="" override_package3d_urn="urn:adsk.eagle:package:46143253/2" override_package_urn="urn:adsk.eagle:footprint:46143254/1"/>
-<part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402T-16V-10%-X7R-WE" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46142664/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="0.1uF"/>
-<part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46142663/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" override_locally_modified="yes" value="10k"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-2N7002PW" package3d_urn="urn:adsk.eagle:package:38456/2" override_package3d_urn="urn:adsk.eagle:package:46148389/2" override_package_urn="urn:adsk.eagle:footprint:38424/2" value="310mA/60V/1.6Ω"/>
 <part name="LS1" library="CSS-0575A-SMT" deviceset="CSS-0575A-SMT" device="" override_package3d_urn="urn:adsk.eagle:package:46419512/2" override_package_urn="urn:adsk.eagle:footprint:46419513/1" value="MLT-5020"/>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -7666,22 +7408,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C7" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-10V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF"/>
-<part name="D7" library="SK6812-E" deviceset="SK6812-E" device="J"/>
-<part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C8" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-10V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF"/>
-<part name="D8" library="SK6812-E" deviceset="SK6812-E" device="J"/>
-<part name="SUPPLY16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C9" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-10V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF"/>
-<part name="D9" library="SK6812-E" deviceset="SK6812-E" device="J"/>
-<part name="SUPPLY17" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C10" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-10V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF"/>
-<part name="D10" library="SK6812-E" deviceset="SK6812-E" device="J"/>
-<part name="SUPPLY18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="GND19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C11" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-10V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF"/>
 <part name="D11" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/2" value="BLUE"/>
 <part name="D12" library="1N5819HW-7" deviceset="1N5819HW-7" device=""/>
 <part name="FRAME4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
@@ -7770,20 +7496,11 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="GND49" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R22" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657@1/2" value="100K"/>
 <part name="GND50" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="FRAME5" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
-<part name="U9" library="ESP32-C3-MINI-1-N4" deviceset="ESP32-C3-MINI-1-N4" device="" override_package3d_urn="urn:adsk.eagle:package:46142977/2" override_package_urn="urn:adsk.eagle:footprint:46142978/1"/>
-<part name="GND51" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY36" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="C47" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0402T-6.3V-20%" package3d_urn="urn:adsk.eagle:package:41385069/1" override_package3d_urn="urn:adsk.eagle:package:46142982/2" override_package_urn="urn:adsk.eagle:footprint:41385056/1" value="10uF"/>
-<part name="GND52" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R23" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657/2" override_package3d_urn="urn:adsk.eagle:package:46143162/2" override_package_urn="urn:adsk.eagle:footprint:39625/2" value="10k"/>
-<part name="C48" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-6.3V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46142980/2" override_package_urn="urn:adsk.eagle:footprint:41385037/1" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="93.98" y="167.64" size="2.54" layer="97" font="vector" ratio="20">RP2350A</text>
-<text x="208.28" y="76.2" size="2.54" layer="97" font="vector" ratio="20">PSRAM</text>
 <text x="220.98" y="160.02" size="2.54" layer="95" font="vector" ratio="20">Flash</text>
 <text x="27.94" y="53.34" size="2.54" layer="97" font="vector" ratio="20">Debug</text>
 </plain>
@@ -7954,24 +7671,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <instance part="R15" gate="G$1" x="73.66" y="119.38" smashed="yes">
 <attribute name="NAME" x="69.85" y="119.634" size="1.27" layer="95" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="77.216" y="120.904" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
-</instance>
-<instance part="U1" gate="G$1" x="218.44" y="45.72" smashed="yes">
-<attribute name="NAME" x="210.82" y="53.594" size="1.27" layer="95" font="vector" ratio="20"/>
-<attribute name="VALUE" x="210.566" y="33.782" size="1.27" layer="96" font="vector" ratio="20"/>
-</instance>
-<instance part="GND1" gate="1" x="203.2" y="25.4" smashed="yes">
-<attribute name="VALUE" x="203.2" y="25.146" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
-</instance>
-<instance part="SUPPLY1" gate="G$1" x="201.168" y="66.04" smashed="yes">
-<attribute name="VALUE" x="201.168" y="68.834" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
-</instance>
-<instance part="C1" gate="G$1" x="197.612" y="43.434" smashed="yes">
-<attribute name="NAME" x="197.866" y="45.593" size="1.27" layer="95" font="vector" ratio="20"/>
-<attribute name="VALUE" x="197.866" y="42.545" size="1.27" layer="96" font="vector" ratio="20"/>
-</instance>
-<instance part="R1" gate="G$1" x="213.36" y="63.5" smashed="yes">
-<attribute name="NAME" x="209.55" y="63.754" size="1.27" layer="95" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="VALUE" x="217.17" y="65.024" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
 </instance>
 <instance part="R6" gate="G$1" x="162.56" y="111.76" smashed="yes" rot="R90">
 <attribute name="NAME" x="161.798" y="116.078" size="1.016" layer="95" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -8145,16 +7844,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <wire x1="63.5" y1="94.234" x2="58.42" y2="94.234" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="U1" gate="G$1" pin="VSS"/>
-<wire x1="203.2" y1="27.94" x2="203.2" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="38.1" x2="208.28" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="197.612" y1="40.894" x2="197.612" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="197.612" y1="38.1" x2="203.2" y2="38.1" width="0.1524" layer="91"/>
-<junction x="203.2" y="38.1"/>
-</segment>
-<segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="149.86" y1="139.7" x2="157.48" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="139.7" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
@@ -8274,20 +7963,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="5.588" y1="148.082" x2="5.588" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="16.256" y1="148.082" x2="5.588" y2="148.082" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="VDD"/>
-<pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-<wire x1="208.28" y1="50.8" x2="201.168" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="201.168" y1="50.8" x2="201.168" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="201.168" y1="63.5" x2="201.168" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="197.612" y1="48.514" x2="197.612" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="197.612" y1="50.8" x2="201.168" y2="50.8" width="0.1524" layer="91"/>
-<junction x="201.168" y="50.8"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="208.28" y1="63.5" x2="201.168" y2="63.5" width="0.1524" layer="91"/>
-<junction x="201.168" y="63.5"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
@@ -8488,11 +8163,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <label x="78.74" y="106.68" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="SI/SIO0"/>
-<wire x1="228.6" y1="45.72" x2="233.68" y2="45.72" width="0.1524" layer="91"/>
-<label x="233.68" y="45.72" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="DI(IO0)"/>
 <wire x1="246.38" y1="119.38" x2="251.46" y2="119.38" width="0.1524" layer="91"/>
 <label x="251.46" y="119.38" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
@@ -8503,11 +8173,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="U2" gate="G$1" pin="QSPI_SD1"/>
 <wire x1="83.82" y1="104.14" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
 <label x="78.74" y="104.14" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="SO/SIO1"/>
-<wire x1="228.6" y1="43.18" x2="233.68" y2="43.18" width="0.1524" layer="91"/>
-<label x="233.68" y="43.18" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="DO(IO1)"/>
@@ -8522,11 +8187,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <label x="78.74" y="101.6" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="SIO2"/>
-<wire x1="228.6" y1="40.64" x2="233.68" y2="40.64" width="0.1524" layer="91"/>
-<label x="233.68" y="40.64" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="!WP(IO2)"/>
 <wire x1="190.5" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
 <label x="185.42" y="121.92" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
@@ -8537,11 +8197,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="U2" gate="G$1" pin="QSPI_SD3"/>
 <wire x1="83.82" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
 <label x="78.74" y="99.06" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="SIO3"/>
-<wire x1="228.6" y1="38.1" x2="233.68" y2="38.1" width="0.1524" layer="91"/>
-<label x="233.68" y="38.1" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="!HOLD_OR_!RESET_(IO3)"/>
@@ -8570,11 +8225,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="U2" gate="G$1" pin="QSPI_SCLK"/>
 <wire x1="83.82" y1="96.52" x2="78.74" y2="96.52" width="0.1524" layer="91"/>
 <label x="78.74" y="96.52" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="SCLK"/>
-<wire x1="228.6" y1="48.26" x2="233.68" y2="48.26" width="0.1524" layer="91"/>
-<label x="233.68" y="48.26" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="CLK"/>
@@ -8627,23 +8277,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="186.69" y1="139.446" x2="186.69" y2="127" width="0.1524" layer="91"/>
 <junction x="186.69" y="127"/>
-</segment>
-</net>
-<net name="!FLASH_CS" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="GPIO0"/>
-<wire x1="119.38" y1="160.02" x2="127" y2="160.02" width="0.1524" layer="91"/>
-<label x="127" y="160.02" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="!CE!"/>
-<wire x1="228.6" y1="50.8" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
-<label x="233.68" y="50.8" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="231.14" y1="50.8" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="63.5" x2="231.14" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="63.5" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
-<junction x="231.14" y="50.8"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -8745,69 +8378,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="U2" gate="G$1" pin="GPIO6"/>
 <wire x1="119.38" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
 <label x="124.46" y="144.78" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
-<net name="!ESP32_RST" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="GPIO18"/>
-<wire x1="119.38" y1="114.3" x2="124.46" y2="114.3" width="0.1524" layer="91"/>
-<label x="124.46" y="114.3" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
-<net name="!ESP32_BOOT" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="GPIO19"/>
-<wire x1="119.38" y1="111.76" x2="124.46" y2="111.76" width="0.1524" layer="91"/>
-<label x="124.46" y="111.76" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_MISO" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="GPIO20"/>
-<wire x1="119.38" y1="109.22" x2="124.46" y2="109.22" width="0.1524" layer="91"/>
-<label x="124.46" y="109.22" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_CS" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="GPIO21"/>
-<wire x1="119.38" y1="106.68" x2="124.46" y2="106.68" width="0.1524" layer="91"/>
-<label x="124.46" y="106.68" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_SCK" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="GPIO22"/>
-<wire x1="119.38" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
-<label x="124.46" y="104.14" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_MOSI" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="GPIO23"/>
-<wire x1="119.38" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
-<label x="124.46" y="101.6" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_HANDSHAKE" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="GPIO17"/>
-<wire x1="119.38" y1="116.84" x2="124.46" y2="116.84" width="0.1524" layer="91"/>
-<label x="124.46" y="116.84" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_RX" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="GPIO12"/>
-<wire x1="119.38" y1="129.54" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
-<label x="124.46" y="129.54" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_TX" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="GPIO13"/>
-<wire x1="119.38" y1="127" x2="124.46" y2="127" width="0.1524" layer="91"/>
-<label x="124.46" y="127" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -9188,158 +8758,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <pinref part="U5" gate="G$1" pin="B5"/>
 <wire x1="149.86" y1="63.5" x2="154.94" y2="63.5" width="0.1524" layer="91"/>
 <label x="154.94" y="63.5" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
-</nets>
-</sheet>
-<sheet>
-<plain>
-<text x="116.84" y="137.16" size="2.54" layer="97" font="vector" ratio="20">ESP32 Co-Processor</text>
-</plain>
-<instances>
-<instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes">
-<attribute name="DRAWING_NAME" x="181.61" y="11.43" size="2.54" layer="94" font="vector"/>
-<attribute name="LAST_DATE_TIME" x="181.61" y="6.35" size="2.286" layer="94" font="vector"/>
-<attribute name="SHEET" x="195.58" y="1.27" size="2.54" layer="94" font="vector"/>
-<attribute name="DESIGNER" x="226.26" y="6.35" size="2.54" layer="94" font="vector"/>
-</instance>
-<instance part="U9" gate="G$1" x="132.08" y="106.68" smashed="yes">
-<attribute name="NAME" x="119.38" y="125.476" size="1.27" layer="95" font="vector" ratio="20"/>
-<attribute name="VALUE" x="119.38" y="83.82" size="1.27" layer="96" font="vector" ratio="20"/>
-</instance>
-<instance part="GND51" gate="1" x="154.94" y="78.74" smashed="yes">
-<attribute name="VALUE" x="154.94" y="78.486" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
-</instance>
-<instance part="SUPPLY36" gate="G$1" x="154.94" y="137.16" smashed="yes">
-<attribute name="VALUE" x="154.94" y="139.954" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
-</instance>
-<instance part="C47" gate="G$1" x="167.64" y="124.46" smashed="yes" rot="R90">
-<attribute name="NAME" x="165.1" y="126.365" size="1.27" layer="95" font="vector" ratio="20" rot="R180"/>
-<attribute name="VALUE" x="171.704" y="126.111" size="1.27" layer="96" font="vector" ratio="20" rot="R180"/>
-</instance>
-<instance part="GND52" gate="1" x="175.26" y="114.3" smashed="yes">
-<attribute name="VALUE" x="175.26" y="114.046" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
-</instance>
-<instance part="R23" gate="G$1" x="180.34" y="121.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="178.054" y="126.238" size="1.27" layer="95" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="178.308" y="117.602" size="1.27" layer="96" font="vector" ratio="20" rot="R180" align="top-center"/>
-</instance>
-<instance part="C48" gate="G$1" x="167.64" y="119.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="165.354" y="121.031" size="1.27" layer="95" font="vector" ratio="20" rot="R180"/>
-<attribute name="VALUE" x="171.958" y="121.285" size="1.27" layer="96" font="vector" ratio="20" rot="R180"/>
-</instance>
-</instances>
-<busses>
-</busses>
-<nets>
-<net name="GND" class="0">
-<segment>
-<pinref part="GND51" gate="1" pin="GND"/>
-<pinref part="U9" gate="G$1" pin="GND"/>
-<wire x1="154.94" y1="81.28" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND52" gate="1" pin="GND"/>
-<pinref part="C47" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="116.84" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="119.38" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C48" gate="G$1" pin="2"/>
-<wire x1="170.18" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
-<junction x="175.26" y="119.38"/>
-</segment>
-</net>
-<net name="3.3V" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="3V3"/>
-<pinref part="SUPPLY36" gate="G$1" pin="3.3V"/>
-<wire x1="149.86" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="121.92" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="C47" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="124.46" x2="154.94" y2="133.096" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="133.096" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="124.46" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
-<junction x="154.94" y="124.46"/>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="180.34" y1="127" x2="180.34" y2="133.096" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="133.096" x2="154.94" y2="133.096" width="0.1524" layer="91"/>
-<junction x="154.94" y="133.096"/>
-<pinref part="C48" gate="G$1" pin="1"/>
-<wire x1="162.56" y1="119.38" x2="154.94" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="119.38" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
-<junction x="154.94" y="121.92"/>
-</segment>
-</net>
-<net name="ESP32_RX" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="RXD0"/>
-<wire x1="114.3" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
-<label x="106.68" y="93.98" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_TX" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="TXD0"/>
-<wire x1="114.3" y1="91.44" x2="106.68" y2="91.44" width="0.1524" layer="91"/>
-<label x="106.68" y="91.44" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_HANDSHAKE" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="IO3"/>
-<wire x1="114.3" y1="106.68" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
-<label x="106.68" y="106.68" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_CS" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="IO10"/>
-<wire x1="149.86" y1="106.68" x2="154.94" y2="106.68" width="0.1524" layer="91"/>
-<label x="154.94" y="106.68" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_MOSI" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="IO7"/>
-<wire x1="149.86" y1="114.3" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
-<label x="154.94" y="114.3" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_MISO" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="IO2"/>
-<wire x1="114.3" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
-<label x="106.68" y="109.22" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="ESP32_SCK" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="IO6"/>
-<wire x1="114.3" y1="99.06" x2="106.68" y2="99.06" width="0.1524" layer="91"/>
-<label x="106.68" y="99.06" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="!ESP32_RST" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="EN"/>
-<wire x1="114.3" y1="119.38" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
-<label x="106.68" y="119.38" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="IO8"/>
-<pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="149.86" y1="111.76" x2="180.34" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="111.76" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="!ESP32_BOOT" class="0">
-<segment>
-<pinref part="U9" gate="G$1" pin="IO9"/>
-<wire x1="149.86" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
-<label x="154.94" y="109.22" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -10101,62 +9519,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <attribute name="NAME" x="226.568" y="114.173" size="1.27" layer="95" font="vector" ratio="20"/>
 <attribute name="VALUE" x="226.568" y="110.617" size="1.27" layer="96" font="vector" ratio="20"/>
 </instance>
-<instance part="D7" gate="G$1" x="35.56" y="71.12" smashed="yes">
-<attribute name="NAME" x="25.654" y="79.248" size="1.27" layer="95" font="vector" ratio="20"/>
-<attribute name="VALUE" x="25.654" y="61.722" size="1.27" layer="96" font="vector" ratio="20"/>
-</instance>
-<instance part="SUPPLY12" gate="G$1" x="55.88" y="86.36" smashed="yes">
-<attribute name="VALUE" x="55.88" y="89.154" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
-</instance>
-<instance part="GND16" gate="1" x="55.88" y="55.88" smashed="yes">
-<attribute name="VALUE" x="55.88" y="55.626" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
-</instance>
-<instance part="C8" gate="G$1" x="71.12" y="71.12" smashed="yes">
-<attribute name="NAME" x="71.628" y="73.533" size="1.27" layer="95" font="vector" ratio="20"/>
-<attribute name="VALUE" x="71.628" y="69.977" size="1.27" layer="96" font="vector" ratio="20"/>
-</instance>
-<instance part="D8" gate="G$1" x="114.3" y="71.12" smashed="yes">
-<attribute name="NAME" x="104.394" y="79.248" size="1.27" layer="95" font="vector" ratio="20"/>
-<attribute name="VALUE" x="104.394" y="61.722" size="1.27" layer="96" font="vector" ratio="20"/>
-</instance>
-<instance part="SUPPLY16" gate="G$1" x="134.62" y="86.36" smashed="yes">
-<attribute name="VALUE" x="134.62" y="89.154" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
-</instance>
-<instance part="GND17" gate="1" x="134.62" y="55.88" smashed="yes">
-<attribute name="VALUE" x="134.62" y="55.626" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
-</instance>
-<instance part="C9" gate="G$1" x="149.86" y="71.12" smashed="yes">
-<attribute name="NAME" x="150.368" y="73.533" size="1.27" layer="95" font="vector" ratio="20"/>
-<attribute name="VALUE" x="150.368" y="69.977" size="1.27" layer="96" font="vector" ratio="20"/>
-</instance>
-<instance part="D9" gate="G$1" x="190.5" y="71.12" smashed="yes">
-<attribute name="NAME" x="180.594" y="79.248" size="1.27" layer="95" font="vector" ratio="20"/>
-<attribute name="VALUE" x="180.594" y="61.722" size="1.27" layer="96" font="vector" ratio="20"/>
-</instance>
-<instance part="SUPPLY17" gate="G$1" x="210.82" y="86.36" smashed="yes">
-<attribute name="VALUE" x="210.82" y="89.154" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
-</instance>
-<instance part="GND18" gate="1" x="210.82" y="55.88" smashed="yes">
-<attribute name="VALUE" x="210.82" y="55.626" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
-</instance>
-<instance part="C10" gate="G$1" x="226.06" y="71.12" smashed="yes">
-<attribute name="NAME" x="226.568" y="73.533" size="1.27" layer="95" font="vector" ratio="20"/>
-<attribute name="VALUE" x="226.568" y="69.977" size="1.27" layer="96" font="vector" ratio="20"/>
-</instance>
-<instance part="D10" gate="G$1" x="35.56" y="27.94" smashed="yes">
-<attribute name="NAME" x="25.654" y="36.068" size="1.27" layer="95" font="vector" ratio="20"/>
-<attribute name="VALUE" x="25.654" y="18.542" size="1.27" layer="96" font="vector" ratio="20"/>
-</instance>
-<instance part="SUPPLY18" gate="G$1" x="55.88" y="43.18" smashed="yes">
-<attribute name="VALUE" x="55.88" y="45.974" size="1.27" layer="96" font="vector" ratio="20" align="bottom-center"/>
-</instance>
-<instance part="GND19" gate="1" x="55.88" y="12.7" smashed="yes">
-<attribute name="VALUE" x="55.88" y="12.446" size="1.27" layer="96" font="vector" ratio="20" align="top-center"/>
-</instance>
-<instance part="C11" gate="G$1" x="71.12" y="27.94" smashed="yes">
-<attribute name="NAME" x="71.628" y="30.353" size="1.27" layer="95" font="vector" ratio="20"/>
-<attribute name="VALUE" x="71.628" y="26.797" size="1.27" layer="96" font="vector" ratio="20"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -10228,50 +9590,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <wire x1="226.06" y1="121.158" x2="210.82" y2="121.158" width="0.1524" layer="91"/>
 <junction x="210.82" y="121.158"/>
 </segment>
-<segment>
-<pinref part="D7" gate="G$1" pin="VDD"/>
-<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
-<wire x1="50.8" y1="76.2" x2="55.88" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="76.2" x2="55.88" y2="80.518" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="80.518" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="76.2" x2="71.12" y2="80.518" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="80.518" x2="55.88" y2="80.518" width="0.1524" layer="91"/>
-<junction x="55.88" y="80.518"/>
-</segment>
-<segment>
-<pinref part="D8" gate="G$1" pin="VDD"/>
-<pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
-<wire x1="129.54" y1="76.2" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="76.2" x2="134.62" y2="80.518" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="80.518" x2="134.62" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="76.2" x2="149.86" y2="80.518" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="80.518" x2="134.62" y2="80.518" width="0.1524" layer="91"/>
-<junction x="134.62" y="80.518"/>
-</segment>
-<segment>
-<pinref part="D9" gate="G$1" pin="VDD"/>
-<pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
-<wire x1="205.74" y1="76.2" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="76.2" x2="210.82" y2="80.518" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="210.82" y1="80.518" x2="210.82" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="76.2" x2="226.06" y2="80.518" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="80.518" x2="210.82" y2="80.518" width="0.1524" layer="91"/>
-<junction x="210.82" y="80.518"/>
-</segment>
-<segment>
-<pinref part="D10" gate="G$1" pin="VDD"/>
-<pinref part="SUPPLY18" gate="G$1" pin="3.3V"/>
-<wire x1="50.8" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="33.02" x2="55.88" y2="37.338" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="55.88" y1="37.338" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="33.02" x2="71.12" y2="37.338" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="37.338" x2="55.88" y2="37.338" width="0.1524" layer="91"/>
-<junction x="55.88" y="37.338"/>
-</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -10339,50 +9657,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <wire x1="226.06" y1="109.22" x2="226.06" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="101.6" x2="210.82" y2="101.6" width="0.1524" layer="91"/>
 <junction x="210.82" y="101.6"/>
-</segment>
-<segment>
-<pinref part="GND16" gate="1" pin="GND"/>
-<pinref part="D7" gate="G$1" pin="GND"/>
-<wire x1="55.88" y1="58.42" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="60.96" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="66.04" x2="50.8" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="68.58" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
-<junction x="55.88" y="60.96"/>
-</segment>
-<segment>
-<pinref part="GND17" gate="1" pin="GND"/>
-<pinref part="D8" gate="G$1" pin="GND"/>
-<wire x1="134.62" y1="58.42" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="60.96" x2="134.62" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="66.04" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="68.58" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
-<junction x="134.62" y="60.96"/>
-</segment>
-<segment>
-<pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="D9" gate="G$1" pin="GND"/>
-<wire x1="210.82" y1="58.42" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="60.96" x2="210.82" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="66.04" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="68.58" x2="226.06" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="60.96" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
-<junction x="210.82" y="60.96"/>
-</segment>
-<segment>
-<pinref part="GND19" gate="1" pin="GND"/>
-<pinref part="D10" gate="G$1" pin="GND"/>
-<wire x1="55.88" y1="15.24" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="17.78" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="22.86" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="25.4" x2="71.12" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
-<junction x="55.88" y="17.78"/>
 </segment>
 </net>
 <net name="NPXL_1_OUT" class="0">
@@ -10452,76 +9726,27 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <label x="172.72" y="111.76" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="NPXL_6_OUT" class="0">
-<segment>
-<pinref part="D6" gate="G$1" pin="DOUT"/>
-<wire x1="205.74" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
-<label x="208.28" y="111.76" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-<segment>
-<pinref part="D7" gate="G$1" pin="DIN"/>
-<wire x1="20.32" y1="71.12" x2="17.78" y2="71.12" width="0.1524" layer="91"/>
-<label x="17.78" y="71.12" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="NPXL_7_OUT" class="0">
-<segment>
-<pinref part="D7" gate="G$1" pin="DOUT"/>
-<wire x1="50.8" y1="71.12" x2="53.34" y2="71.12" width="0.1524" layer="91"/>
-<label x="53.34" y="71.12" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-<segment>
-<pinref part="D8" gate="G$1" pin="DIN"/>
-<wire x1="99.06" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<label x="96.52" y="71.12" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="NPXL_8_OUT" class="0">
-<segment>
-<pinref part="D8" gate="G$1" pin="DOUT"/>
-<wire x1="129.54" y1="71.12" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
-<label x="132.08" y="71.12" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-<segment>
-<pinref part="D9" gate="G$1" pin="DIN"/>
-<wire x1="175.26" y1="71.12" x2="172.72" y2="71.12" width="0.1524" layer="91"/>
-<label x="172.72" y="71.12" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="NPXL_9_OUT" class="0">
-<segment>
-<pinref part="D9" gate="G$1" pin="DOUT"/>
-<wire x1="205.74" y1="71.12" x2="208.28" y2="71.12" width="0.1524" layer="91"/>
-<label x="208.28" y="71.12" size="1.27" layer="95" font="vector" ratio="20" xref="yes"/>
-</segment>
-<segment>
-<pinref part="D10" gate="G$1" pin="DIN"/>
-<wire x1="20.32" y1="27.94" x2="17.78" y2="27.94" width="0.1524" layer="91"/>
-<label x="17.78" y="27.94" size="1.27" layer="95" font="vector" ratio="20" rot="R180" xref="yes"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,5,58.674,159.258,D1,VDD,3.3V,,,"/>
-<approved hash="104,5,129.54,160.02,D2,VDD,3.3V,,,"/>
-<approved hash="104,5,205.74,160.02,D3,VDD,3.3V,,,"/>
-<approved hash="104,5,50.8,116.84,D4,VDD,3.3V,,,"/>
-<approved hash="104,5,129.54,116.84,D5,VDD,3.3V,,,"/>
-<approved hash="104,5,205.74,116.84,D6,VDD,3.3V,,,"/>
-<approved hash="104,5,50.8,76.2,D7,VDD,3.3V,,,"/>
-<approved hash="104,5,129.54,76.2,D8,VDD,3.3V,,,"/>
-<approved hash="104,5,205.74,76.2,D9,VDD,3.3V,,,"/>
-<approved hash="104,5,50.8,33.02,D10,VDD,3.3V,,,"/>
+<approved hash="104,4,58.674,159.258,D1,VDD,3.3V,,,"/>
+<approved hash="104,4,129.54,160.02,D2,VDD,3.3V,,,"/>
+<approved hash="104,4,205.74,160.02,D3,VDD,3.3V,,,"/>
+<approved hash="104,4,50.8,116.84,D4,VDD,3.3V,,,"/>
+<approved hash="104,4,129.54,116.84,D5,VDD,3.3V,,,"/>
+<approved hash="104,4,205.74,116.84,D6,VDD,3.3V,,,"/>
+<approved hash="104,4,50.8,76.2,D7,VDD,3.3V,,,"/>
+<approved hash="104,4,129.54,76.2,D8,VDD,3.3V,,,"/>
+<approved hash="104,4,205.74,76.2,D9,VDD,3.3V,,,"/>
+<approved hash="104,4,50.8,33.02,D10,VDD,3.3V,,,"/>
 <approved hash="104,2,73.66,154.94,MK1,VDD,1.8V,,,"/>
 <approved hash="104,2,149.86,88.9,U5,VCCA,1.8V,,,"/>
 <approved hash="104,2,149.86,86.36,U5,VCCB,3.3V,,,"/>
-<approved hash="104,4,241.3,127,U4,PGND,GND,,,"/>
-<approved hash="104,4,215.9,71.12,U7,VDD,V_USB,,,"/>
-<approved hash="104,4,215.9,48.26,U7,VSS,GND,,,"/>
-<approved hash="104,4,76.2,81.28,U8,VSNS,N$6,,,"/>
-<approved hash="104,3,149.86,121.92,U9,3V3,3.3V,,,"/>
+<approved hash="104,3,241.3,127,U4,PGND,GND,,,"/>
+<approved hash="104,3,215.9,71.12,U7,VDD,V_USB,,,"/>
+<approved hash="104,3,215.9,48.26,U7,VSS,GND,,,"/>
+<approved hash="104,3,76.2,81.28,U8,VSNS,N$6,,,"/>
 <approved hash="208,2,76.2,167.64,1.8V,sup,,,,"/>
 <approved hash="208,2,195.58,152.4,1.8V,out,,,,"/>
 <approved hash="208,2,200.66,165.1,1.8V,sup,,,,"/>
@@ -10536,26 +9761,25 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <approved hash="208,2,256.54,68.58,3.3V,sup,,,,"/>
 <approved hash="208,2,152.4,167.64,3.3V,sup,,,,"/>
 <approved hash="208,2,162.56,111.76,3.3V,sup,,,,"/>
-<approved hash="208,3,154.94,137.16,3.3V,sup,,,,"/>
-<approved hash="208,4,241.3,154.94,3.3V,out,,,,"/>
-<approved hash="208,4,248.92,173.99,3.3V,sup,,,,"/>
-<approved hash="208,5,63.754,169.418,3.3V,sup,,,,"/>
-<approved hash="208,5,134.62,170.18,3.3V,sup,,,,"/>
-<approved hash="208,5,210.82,170.18,3.3V,sup,,,,"/>
-<approved hash="208,5,55.88,127,3.3V,sup,,,,"/>
-<approved hash="208,5,134.62,127,3.3V,sup,,,,"/>
-<approved hash="208,5,210.82,127,3.3V,sup,,,,"/>
-<approved hash="208,5,55.88,86.36,3.3V,sup,,,,"/>
-<approved hash="208,5,134.62,86.36,3.3V,sup,,,,"/>
-<approved hash="208,5,210.82,86.36,3.3V,sup,,,,"/>
-<approved hash="208,5,55.88,43.18,3.3V,sup,,,,"/>
-<approved hash="208,4,76.2,76.2,VIN,out,,,,"/>
-<approved hash="208,4,101.854,104.14,VIN,sup,,,,"/>
-<approved hash="208,4,162.814,170.18,VIN,sup,,,,"/>
-<approved hash="208,4,30.48,57.15,V_BATT,sup,,,,"/>
-<approved hash="208,4,215.9,68.58,V_BATT,out,,,,"/>
-<approved hash="208,4,229.362,91.44,V_BATT,sup,,,,"/>
-<approved hash="113,4,25.8445,36.83,J1,,,,,"/>
+<approved hash="208,3,241.3,154.94,3.3V,out,,,,"/>
+<approved hash="208,3,248.92,173.99,3.3V,sup,,,,"/>
+<approved hash="208,4,63.754,169.418,3.3V,sup,,,,"/>
+<approved hash="208,4,134.62,170.18,3.3V,sup,,,,"/>
+<approved hash="208,4,210.82,170.18,3.3V,sup,,,,"/>
+<approved hash="208,4,55.88,127,3.3V,sup,,,,"/>
+<approved hash="208,4,134.62,127,3.3V,sup,,,,"/>
+<approved hash="208,4,210.82,127,3.3V,sup,,,,"/>
+<approved hash="208,4,55.88,86.36,3.3V,sup,,,,"/>
+<approved hash="208,4,134.62,86.36,3.3V,sup,,,,"/>
+<approved hash="208,4,210.82,86.36,3.3V,sup,,,,"/>
+<approved hash="208,4,55.88,43.18,3.3V,sup,,,,"/>
+<approved hash="208,3,76.2,76.2,VIN,out,,,,"/>
+<approved hash="208,3,101.854,104.14,VIN,sup,,,,"/>
+<approved hash="208,3,162.814,170.18,VIN,sup,,,,"/>
+<approved hash="208,3,30.48,57.15,V_BATT,sup,,,,"/>
+<approved hash="208,3,215.9,68.58,V_BATT,out,,,,"/>
+<approved hash="208,3,229.362,91.44,V_BATT,sup,,,,"/>
+<approved hash="113,3,25.8445,36.83,J1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
