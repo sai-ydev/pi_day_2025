@@ -4414,106 +4414,6 @@ Source: &lt;a href="https://www.winbond.com/hq/search-resource-file.jsp?partNo=W
 </deviceset>
 </devicesets>
 </library>
-<library name="GT_USB-8012A">
-<packages>
-<package name="GT-USB-8012A">
-<pad name="TH1" x="-3.7" y="2.4" drill="0.5" shape="long" rot="R90"/>
-<wire x1="-3.937" y1="1.877" x2="-3.937" y2="2.923" width="0.0762" layer="46"/>
-<wire x1="-3.937" y1="2.923" x2="-3.429" y2="2.923" width="0.0762" layer="46" curve="-180"/>
-<wire x1="-3.429" y1="2.923" x2="-3.429" y2="1.877" width="0.0762" layer="46"/>
-<wire x1="-3.429" y1="1.877" x2="-3.937" y2="1.877" width="0.0762" layer="46" curve="-180"/>
-<pad name="TH2" x="3.7" y="2.4" drill="0.5" shape="long" rot="R90"/>
-<wire x1="3.429" y1="1.877" x2="3.429" y2="2.923" width="0.0762" layer="46"/>
-<wire x1="3.429" y1="2.923" x2="3.937" y2="2.923" width="0.0762" layer="46" curve="-180"/>
-<wire x1="3.937" y1="2.923" x2="3.937" y2="1.877" width="0.0762" layer="46"/>
-<wire x1="3.937" y1="1.877" x2="3.429" y2="1.877" width="0.0762" layer="46" curve="-180"/>
-<smd name="A10" x="-1.625" y="2.2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="A12" x="-2.625" y="2.2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="A11" x="-2.125" y="2.2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="A7" x="-0.125" y="2.2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="A9" x="-1.125" y="2.2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="A8" x="-0.625" y="2.2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="A4" x="1.375" y="2.2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="A6" x="0.375" y="2.2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="A5" x="0.875" y="2.2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="A1" x="2.875" y="2.2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="A3" x="1.875" y="2.2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="A2" x="2.375" y="2.2" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="B3" x="-1.875" y="0.7" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="B1" x="-2.875" y="0.7" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="B2" x="-2.375" y="0.7" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="B6" x="-0.375" y="0.7" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="B4" x="-1.375" y="0.7" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="B5" x="-0.875" y="0.7" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="B9" x="1.125" y="0.7" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="B7" x="0.125" y="0.7" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="B8" x="0.625" y="0.7" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="B12" x="2.625" y="0.7" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="B10" x="1.625" y="0.7" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<smd name="B11" x="2.125" y="0.7" dx="0.8" dy="0.3" layer="1" rot="R90"/>
-<wire x1="-4.5" y1="3.43" x2="-4.5" y2="0" width="0.0762" layer="21"/>
-<wire x1="-4.5" y1="0" x2="-4.5" y2="-4.07" width="0.0762" layer="21"/>
-<wire x1="-4.5" y1="-4.07" x2="-4.125" y2="-4.07" width="0.0762" layer="21"/>
-<wire x1="-4.125" y1="-4.07" x2="4.125" y2="-4.07" width="0.0762" layer="21"/>
-<wire x1="4.125" y1="-4.07" x2="4.5" y2="-4.07" width="0.0762" layer="21"/>
-<wire x1="4.5" y1="-4.07" x2="4.5" y2="0" width="0.0762" layer="21"/>
-<wire x1="4.5" y1="0" x2="4.5" y2="3.43" width="0.0762" layer="21"/>
-<wire x1="4.5" y1="3.43" x2="-4.5" y2="3.43" width="0.0762" layer="21"/>
-<wire x1="4.125" y1="-4.07" x2="4.125" y2="-12.07" width="0.0762" layer="21"/>
-<wire x1="4.125" y1="-12.07" x2="-4.125" y2="-12.07" width="0.0762" layer="21"/>
-<wire x1="-4.125" y1="-12.07" x2="-4.125" y2="-4.07" width="0.0762" layer="21"/>
-<wire x1="4.5" y1="0" x2="-4.5" y2="0" width="0.1524" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TYPE-C-31-M-12">
-<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
-<text x="-12.7" y="13.462" size="1.778" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-13.462" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
-<pin name="DP1" x="-17.78" y="2.54" length="middle"/>
-<pin name="CC1" x="-17.78" y="5.08" length="middle"/>
-<pin name="SBU1" x="-17.78" y="-2.54" length="middle"/>
-<pin name="DN1" x="-17.78" y="0" length="middle"/>
-<pin name="SHIELD" x="17.78" y="-7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="GND" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
-<pin name="VBUS" x="17.78" y="10.16" length="middle" direction="pwr" rot="R180"/>
-<pin name="DP2" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="CC2" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="SBU2" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="DN2" x="17.78" y="2.54" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GT-USB_8012A" prefix="CONN">
-<gates>
-<gate name="G$1" symbol="TYPE-C-31-M-12" x="-2.54" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="GT-USB-8012A">
-<connects>
-<connect gate="G$1" pin="CC1" pad="A5"/>
-<connect gate="G$1" pin="CC2" pad="B5"/>
-<connect gate="G$1" pin="DN1" pad="A7"/>
-<connect gate="G$1" pin="DN2" pad="B7"/>
-<connect gate="G$1" pin="DP1" pad="A6"/>
-<connect gate="G$1" pin="DP2" pad="B6"/>
-<connect gate="G$1" pin="GND" pad="A1 A12 B1 B12"/>
-<connect gate="G$1" pin="SBU1" pad="A8"/>
-<connect gate="G$1" pin="SBU2" pad="B8"/>
-<connect gate="G$1" pin="SHIELD" pad="TH1 TH2"/>
-<connect gate="G$1" pin="VBUS" pad="A4 A9 B4 B9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="RP2350A">
 <packages>
 <package name="RP2350A">
@@ -7391,6 +7291,271 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </deviceset>
 </devicesets>
 </library>
+<library name="TYPE-C-31-M-12">
+<packages>
+<package name="HRO_TYPE-C-31-M-12">
+<wire x1="-4.47" y1="-2.6" x2="4.47" y2="-2.6" width="0.127" layer="51"/>
+<wire x1="4.47" y1="-2.6" x2="4.47" y2="4.75" width="0.127" layer="51"/>
+<wire x1="4.47" y1="4.75" x2="-4.47" y2="4.75" width="0.127" layer="51"/>
+<wire x1="-4.47" y1="4.75" x2="-4.47" y2="-2.6" width="0.127" layer="51"/>
+<wire x1="-4.625" y1="4.72" x2="-4.325" y2="5.02" width="0" layer="46" curve="-90"/>
+<wire x1="-4.325" y1="5.02" x2="-4.025" y2="4.72" width="0" layer="46" curve="-90"/>
+<wire x1="-4.025" y1="4.72" x2="-4.025" y2="3.62" width="0" layer="46"/>
+<wire x1="-4.025" y1="3.62" x2="-4.325" y2="3.32" width="0" layer="46" curve="-90"/>
+<wire x1="-4.325" y1="3.32" x2="-4.625" y2="3.62" width="0" layer="46" curve="-90"/>
+<wire x1="-4.625" y1="3.62" x2="-4.625" y2="4.72" width="0" layer="46"/>
+<polygon width="0.01" layer="1">
+<vertex x="-4.775" y="3.62"/>
+<vertex x="-4.775" y="4.72" curve="-90"/>
+<vertex x="-4.325" y="5.17" curve="-90"/>
+<vertex x="-3.875" y="4.72"/>
+<vertex x="-3.875" y="3.62" curve="-90"/>
+<vertex x="-4.325" y="3.17" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="16">
+<vertex x="-4.775" y="3.62"/>
+<vertex x="-4.775" y="4.72" curve="-90"/>
+<vertex x="-4.325" y="5.17" curve="-90"/>
+<vertex x="-3.875" y="4.72"/>
+<vertex x="-3.875" y="3.62" curve="-90"/>
+<vertex x="-4.325" y="3.17" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-4.825" y="3.62"/>
+<vertex x="-4.825" y="4.72" curve="-90"/>
+<vertex x="-4.325" y="5.22" curve="-90"/>
+<vertex x="-3.825" y="4.72"/>
+<vertex x="-3.825" y="3.62" curve="-90"/>
+<vertex x="-4.325" y="3.12" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="30">
+<vertex x="-4.825" y="3.62"/>
+<vertex x="-4.825" y="4.72" curve="-90"/>
+<vertex x="-4.325" y="5.22" curve="-90"/>
+<vertex x="-3.825" y="4.72"/>
+<vertex x="-3.825" y="3.62" curve="-90"/>
+<vertex x="-4.325" y="3.12" curve="-90"/>
+</polygon>
+<wire x1="4.025" y1="4.72" x2="4.325" y2="5.02" width="0" layer="46" curve="-90"/>
+<wire x1="4.325" y1="5.02" x2="4.625" y2="4.72" width="0" layer="46" curve="-90"/>
+<wire x1="4.625" y1="4.72" x2="4.625" y2="3.62" width="0" layer="46"/>
+<wire x1="4.625" y1="3.62" x2="4.325" y2="3.32" width="0" layer="46" curve="-90"/>
+<wire x1="4.325" y1="3.32" x2="4.025" y2="3.62" width="0" layer="46" curve="-90"/>
+<wire x1="4.025" y1="3.62" x2="4.025" y2="4.72" width="0" layer="46"/>
+<polygon width="0.01" layer="1">
+<vertex x="3.875" y="3.62"/>
+<vertex x="3.875" y="4.72" curve="-90"/>
+<vertex x="4.325" y="5.17" curve="-90"/>
+<vertex x="4.775" y="4.72"/>
+<vertex x="4.775" y="3.62" curve="-90"/>
+<vertex x="4.325" y="3.17" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="16">
+<vertex x="3.875" y="3.62"/>
+<vertex x="3.875" y="4.72" curve="-90"/>
+<vertex x="4.325" y="5.17" curve="-90"/>
+<vertex x="4.775" y="4.72"/>
+<vertex x="4.775" y="3.62" curve="-90"/>
+<vertex x="4.325" y="3.17" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="3.825" y="3.63"/>
+<vertex x="3.825" y="4.73" curve="-90"/>
+<vertex x="4.325" y="5.22" curve="-90"/>
+<vertex x="4.825" y="4.72"/>
+<vertex x="4.825" y="3.62" curve="-90"/>
+<vertex x="4.325" y="3.12" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="30">
+<vertex x="3.825" y="3.63"/>
+<vertex x="3.825" y="4.73" curve="-90"/>
+<vertex x="4.325" y="5.22" curve="-90"/>
+<vertex x="4.825" y="4.72"/>
+<vertex x="4.825" y="3.62" curve="-90"/>
+<vertex x="4.325" y="3.12" curve="-90"/>
+</polygon>
+<wire x1="-4.625" y1="0.4" x2="-4.325" y2="0.7" width="0" layer="46" curve="-90"/>
+<wire x1="-4.325" y1="0.7" x2="-4.025" y2="0.4" width="0" layer="46" curve="-90"/>
+<wire x1="-4.025" y1="0.4" x2="-4.025" y2="-0.4" width="0" layer="46"/>
+<wire x1="-4.025" y1="-0.4" x2="-4.325" y2="-0.7" width="0" layer="46" curve="-90"/>
+<wire x1="-4.325" y1="-0.7" x2="-4.625" y2="-0.4" width="0" layer="46" curve="-90"/>
+<wire x1="-4.625" y1="-0.4" x2="-4.625" y2="0.4" width="0" layer="46"/>
+<polygon width="0.01" layer="1">
+<vertex x="-4.775" y="-0.4"/>
+<vertex x="-4.775" y="0.4" curve="-90"/>
+<vertex x="-4.325" y="0.85" curve="-90"/>
+<vertex x="-3.875" y="0.4"/>
+<vertex x="-3.875" y="-0.4" curve="-90"/>
+<vertex x="-4.325" y="-0.85" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="16">
+<vertex x="-4.775" y="-0.4"/>
+<vertex x="-4.775" y="0.4" curve="-90"/>
+<vertex x="-4.325" y="0.85" curve="-90"/>
+<vertex x="-3.875" y="0.4"/>
+<vertex x="-3.875" y="-0.4" curve="-90"/>
+<vertex x="-4.325" y="-0.85" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="-4.825" y="-0.4"/>
+<vertex x="-4.825" y="0.4" curve="-90"/>
+<vertex x="-4.325" y="0.9" curve="-90"/>
+<vertex x="-3.825" y="0.4"/>
+<vertex x="-3.825" y="-0.4" curve="-90"/>
+<vertex x="-4.325" y="-0.9" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="30">
+<vertex x="-4.825" y="-0.4"/>
+<vertex x="-4.825" y="0.4" curve="-90"/>
+<vertex x="-4.325" y="0.9" curve="-90"/>
+<vertex x="-3.825" y="0.4"/>
+<vertex x="-3.825" y="-0.4" curve="-90"/>
+<vertex x="-4.325" y="-0.9" curve="-90"/>
+</polygon>
+<wire x1="4.025" y1="0.4" x2="4.325" y2="0.7" width="0" layer="46" curve="-90"/>
+<wire x1="4.325" y1="0.7" x2="4.625" y2="0.4" width="0" layer="46" curve="-90"/>
+<wire x1="4.625" y1="0.4" x2="4.625" y2="-0.4" width="0" layer="46"/>
+<wire x1="4.625" y1="-0.4" x2="4.325" y2="-0.7" width="0" layer="46" curve="-90"/>
+<wire x1="4.325" y1="-0.7" x2="4.025" y2="-0.4" width="0" layer="46" curve="-90"/>
+<wire x1="4.025" y1="-0.4" x2="4.025" y2="0.4" width="0" layer="46"/>
+<polygon width="0.01" layer="1">
+<vertex x="3.875" y="-0.4"/>
+<vertex x="3.875" y="0.4" curve="-90"/>
+<vertex x="4.325" y="0.85" curve="-90"/>
+<vertex x="4.775" y="0.4"/>
+<vertex x="4.775" y="-0.4" curve="-90"/>
+<vertex x="4.325" y="-0.85" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="16">
+<vertex x="3.875" y="-0.4"/>
+<vertex x="3.875" y="0.4" curve="-90"/>
+<vertex x="4.325" y="0.85" curve="-90"/>
+<vertex x="4.775" y="0.4"/>
+<vertex x="4.775" y="-0.4" curve="-90"/>
+<vertex x="4.325" y="-0.85" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="29">
+<vertex x="3.825" y="-0.4"/>
+<vertex x="3.825" y="0.4" curve="-90"/>
+<vertex x="4.325" y="0.9" curve="-90"/>
+<vertex x="4.825" y="0.4"/>
+<vertex x="4.825" y="-0.4" curve="-90"/>
+<vertex x="4.325" y="-0.9" curve="-90"/>
+</polygon>
+<polygon width="0.01" layer="30">
+<vertex x="3.825" y="-0.4"/>
+<vertex x="3.825" y="0.4" curve="-90"/>
+<vertex x="4.325" y="0.9" curve="-90"/>
+<vertex x="4.825" y="0.4"/>
+<vertex x="4.825" y="-0.4" curve="-90"/>
+<vertex x="4.325" y="-0.9" curve="-90"/>
+</polygon>
+<wire x1="4.47" y1="2.85" x2="4.47" y2="1.17" width="0.127" layer="21"/>
+<wire x1="4.47" y1="-2.6" x2="4.47" y2="-1.17" width="0.127" layer="21"/>
+<wire x1="-4.47" y1="2.85" x2="-4.47" y2="1.17" width="0.127" layer="21"/>
+<wire x1="-4.47" y1="-2.6" x2="-4.47" y2="-1.17" width="0.127" layer="21"/>
+<wire x1="-4.47" y1="-2.6" x2="4.47" y2="-2.6" width="0.127" layer="21"/>
+<wire x1="-5.025" y1="5.57" x2="-5.025" y2="-2.85" width="0.05" layer="39"/>
+<wire x1="-5.025" y1="-2.85" x2="5.025" y2="-2.85" width="0.05" layer="39"/>
+<wire x1="5.025" y1="-2.85" x2="5.025" y2="5.57" width="0.05" layer="39"/>
+<wire x1="5.025" y1="5.57" x2="-5.025" y2="5.57" width="0.05" layer="39"/>
+<text x="-5.025" y="6.57" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.025" y="-3.05" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-5.5" y1="-2.11" x2="9" y2="-2.11" width="0.127" layer="51"/>
+<text x="5.2" y="-1.9" size="0.6096" layer="51">PCB EDGE</text>
+<circle x="-3.2" y="6" radius="0.1" width="0.2" layer="21"/>
+<circle x="-3.2" y="6" radius="0.1" width="0.2" layer="51"/>
+<rectangle x1="-1.95" y1="4.13" x2="-1.55" y2="5.37" layer="29"/>
+<rectangle x1="-1.45" y1="4.13" x2="-1.05" y2="5.37" layer="29"/>
+<rectangle x1="-0.95" y1="4.13" x2="-0.55" y2="5.37" layer="29"/>
+<rectangle x1="1.55" y1="4.13" x2="1.95" y2="5.37" layer="29"/>
+<rectangle x1="1.05" y1="4.13" x2="1.45" y2="5.37" layer="29"/>
+<rectangle x1="0.55" y1="4.13" x2="0.95" y2="5.37" layer="29"/>
+<rectangle x1="-0.45" y1="4.13" x2="-0.05" y2="5.37" layer="29"/>
+<rectangle x1="0.05" y1="4.13" x2="0.45" y2="5.37" layer="29"/>
+<rectangle x1="-3.55" y1="4.13" x2="-2.85" y2="5.37" layer="29"/>
+<rectangle x1="2.85" y1="4.13" x2="3.55" y2="5.37" layer="29"/>
+<rectangle x1="-2.75" y1="4.13" x2="-2.05" y2="5.37" layer="29"/>
+<rectangle x1="2.05" y1="4.13" x2="2.75" y2="5.37" layer="29"/>
+<smd name="A1_B12" x="-3.2" y="4.75" dx="0.6" dy="1.14" layer="1" stop="no"/>
+<smd name="A4_B9" x="-2.4" y="4.75" dx="0.6" dy="1.14" layer="1" stop="no"/>
+<smd name="A6" x="-0.25" y="4.75" dx="0.3" dy="1.14" layer="1" stop="no"/>
+<smd name="B7" x="-0.75" y="4.75" dx="0.3" dy="1.14" layer="1" stop="no"/>
+<smd name="A5" x="-1.25" y="4.75" dx="0.3" dy="1.14" layer="1" stop="no"/>
+<smd name="B8" x="-1.75" y="4.75" dx="0.3" dy="1.14" layer="1" stop="no"/>
+<smd name="A7" x="0.25" y="4.75" dx="0.3" dy="1.14" layer="1" stop="no"/>
+<smd name="B6" x="0.75" y="4.75" dx="0.3" dy="1.14" layer="1" stop="no"/>
+<smd name="A8" x="1.25" y="4.75" dx="0.3" dy="1.14" layer="1" stop="no"/>
+<smd name="B5" x="1.75" y="4.75" dx="0.3" dy="1.14" layer="1" stop="no"/>
+<smd name="B4_A9" x="2.4" y="4.75" dx="0.6" dy="1.14" layer="1" stop="no"/>
+<smd name="B1_A12" x="3.2" y="4.75" dx="0.6" dy="1.14" layer="1" stop="no"/>
+<hole x="-2.89" y="3.68" drill="0.6"/>
+<hole x="2.89" y="3.68" drill="0.6"/>
+<pad name="S1" x="-4.325" y="4.17" drill="0.6" diameter="0.9" stop="no"/>
+<pad name="S2" x="4.325" y="4.17" drill="0.6" diameter="0.9" stop="no"/>
+<pad name="S3" x="-4.325" y="0" drill="0.6" diameter="0.9" stop="no"/>
+<pad name="S4" x="4.325" y="0" drill="0.6" diameter="0.9" stop="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TYPE-C-31-M-12">
+<wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<text x="-12.7" y="13.462" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-13.462" size="1.778" layer="96" rot="MR180">&gt;VALUE</text>
+<pin name="DP1" x="-17.78" y="2.54" length="middle"/>
+<pin name="CC1" x="-17.78" y="5.08" length="middle"/>
+<pin name="SBU1" x="-17.78" y="-2.54" length="middle"/>
+<pin name="DN1" x="-17.78" y="0" length="middle"/>
+<pin name="SHIELD" x="17.78" y="-7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="VBUS" x="17.78" y="10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="DP2" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="CC2" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="SBU2" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="DN2" x="17.78" y="2.54" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TYPE-C-31-M-12" prefix="J">
+<description> &lt;a href="https://pricing.snapeda.com/parts/TYPE-C-31-M-12/HRO%20Electronics%20Co.%2C%20Ltd./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TYPE-C-31-M-12" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HRO_TYPE-C-31-M-12">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="DN1" pad="A7"/>
+<connect gate="G$1" pin="DN2" pad="B7"/>
+<connect gate="G$1" pin="DP1" pad="A6"/>
+<connect gate="G$1" pin="DP2" pad="B6"/>
+<connect gate="G$1" pin="GND" pad="A1_B12 B1_A12"/>
+<connect gate="G$1" pin="SBU1" pad="A8"/>
+<connect gate="G$1" pin="SBU2" pad="B8"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
+<connect gate="G$1" pin="VBUS" pad="A4_B9 B4_A9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Not in stock"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda"/>
+<attribute name="DESCRIPTION" value=" USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS "/>
+<attribute name="MF" value="HRO Electronics Co., Ltd."/>
+<attribute name="MP" value="TYPE-C-31-M-12"/>
+<attribute name="PACKAGE" value="Package "/>
+<attribute name="PRICE" value="None"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7409,7 +7574,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
-<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163397/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163397/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="5.1K"/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="L1" library="LQW18AN2N2D10D" deviceset="LQW18AN2N2D10D" device="" override_package3d_urn="urn:adsk.eagle:package:44163399/2" override_package_urn="urn:adsk.eagle:footprint:37563/1" override_locally_modified="yes" value="2.2nH"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
@@ -7420,14 +7585,14 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C17" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-16V-10%" package3d_urn="urn:adsk.eagle:package:41385089/1" override_package3d_urn="urn:adsk.eagle:package:46455631/2" override_package_urn="urn:adsk.eagle:footprint:41385037/1" value="0.1uF"/>
 <part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163374/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
-<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163373/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
-<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163371/3" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
-<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163370/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163374/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="DNF"/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163373/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="1K"/>
+<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163371/3" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="2.2K"/>
+<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163370/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="2.2K"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="CONN1" library="GT_USB-8012A" deviceset="GT-USB_8012A" device="" override_package3d_urn="urn:adsk.eagle:package:44161671/9" override_package_urn="urn:adsk.eagle:footprint:44161672/1"/>
+<part name="CONN1" library="TYPE-C-31-M-12" deviceset="TYPE-C-31-M-12" device="" override_package3d_urn="urn:adsk.eagle:package:44161671/9" override_package_urn="urn:adsk.eagle:footprint:44161672/1" override_locally_modified="yes"/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163391/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value=" "/>
+<part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" override_package3d_urn="urn:adsk.eagle:package:44163391/2" override_package_urn="urn:adsk.eagle:footprint:39625/1" override_locally_modified="yes" value="5.1K"/>
 <part name="GND24" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="U2" library="RP2350A" deviceset="RP2350A" device="" override_package3d_urn="urn:adsk.eagle:package:46113661/2" override_package_urn="urn:adsk.eagle:footprint:46113662/1"/>
 <part name="GND25" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -7540,7 +7705,7 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 <part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657@1/2" value="100K"/>
 <part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="100KOHM" device="-0402-1/16W-1%" package3d_urn="urn:adsk.eagle:package:39657@1/2" value="100K"/>
 <part name="GND23" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" value=" "/>
+<part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0402" package3d_urn="urn:adsk.eagle:package:39657@1/2" value="499"/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
 <part name="C14" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0402-10V-10%-X7R" package3d_urn="urn:adsk.eagle:package:41385089/1" value="0.1uF"/>
 <part name="GND26" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
@@ -10339,11 +10504,58 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,5,58.674,159.258,D1,VDD,3.3V,,,"/>
+<approved hash="104,5,129.54,160.02,D2,VDD,3.3V,,,"/>
+<approved hash="104,5,205.74,160.02,D3,VDD,3.3V,,,"/>
+<approved hash="104,5,50.8,116.84,D4,VDD,3.3V,,,"/>
+<approved hash="104,5,129.54,116.84,D5,VDD,3.3V,,,"/>
+<approved hash="104,5,205.74,116.84,D6,VDD,3.3V,,,"/>
+<approved hash="104,5,50.8,76.2,D7,VDD,3.3V,,,"/>
+<approved hash="104,5,129.54,76.2,D8,VDD,3.3V,,,"/>
+<approved hash="104,5,205.74,76.2,D9,VDD,3.3V,,,"/>
+<approved hash="104,5,50.8,33.02,D10,VDD,3.3V,,,"/>
+<approved hash="104,2,73.66,154.94,MK1,VDD,1.8V,,,"/>
+<approved hash="104,2,149.86,88.9,U5,VCCA,1.8V,,,"/>
+<approved hash="104,2,149.86,86.36,U5,VCCB,3.3V,,,"/>
+<approved hash="104,4,241.3,127,U4,PGND,GND,,,"/>
+<approved hash="104,4,215.9,71.12,U7,VDD,V_USB,,,"/>
+<approved hash="104,4,215.9,48.26,U7,VSS,GND,,,"/>
+<approved hash="104,4,76.2,81.28,U8,VSNS,N$6,,,"/>
+<approved hash="104,3,149.86,121.92,U9,3V3,3.3V,,,"/>
+<approved hash="208,2,76.2,167.64,1.8V,sup,,,,"/>
+<approved hash="208,2,195.58,152.4,1.8V,out,,,,"/>
+<approved hash="208,2,200.66,165.1,1.8V,sup,,,,"/>
+<approved hash="208,2,157.48,111.76,1.8V,sup,,,,"/>
 <approved hash="208,1,251.968,140.462,3.3V,sup,,,,"/>
 <approved hash="208,1,58.42,170.18,3.3V,sup,,,,"/>
 <approved hash="208,1,5.588,149.86,3.3V,sup,,,,"/>
 <approved hash="208,1,201.168,66.04,3.3V,sup,,,,"/>
 <approved hash="208,1,165.1,121.92,3.3V,sup,,,,"/>
+<approved hash="208,1,104.14,58.42,3.3V,sup,,,,"/>
+<approved hash="208,1,170.18,40.64,3.3V,sup,,,,"/>
+<approved hash="208,2,256.54,68.58,3.3V,sup,,,,"/>
+<approved hash="208,2,152.4,167.64,3.3V,sup,,,,"/>
+<approved hash="208,2,162.56,111.76,3.3V,sup,,,,"/>
+<approved hash="208,3,154.94,137.16,3.3V,sup,,,,"/>
+<approved hash="208,4,241.3,154.94,3.3V,out,,,,"/>
+<approved hash="208,4,248.92,173.99,3.3V,sup,,,,"/>
+<approved hash="208,5,63.754,169.418,3.3V,sup,,,,"/>
+<approved hash="208,5,134.62,170.18,3.3V,sup,,,,"/>
+<approved hash="208,5,210.82,170.18,3.3V,sup,,,,"/>
+<approved hash="208,5,55.88,127,3.3V,sup,,,,"/>
+<approved hash="208,5,134.62,127,3.3V,sup,,,,"/>
+<approved hash="208,5,210.82,127,3.3V,sup,,,,"/>
+<approved hash="208,5,55.88,86.36,3.3V,sup,,,,"/>
+<approved hash="208,5,134.62,86.36,3.3V,sup,,,,"/>
+<approved hash="208,5,210.82,86.36,3.3V,sup,,,,"/>
+<approved hash="208,5,55.88,43.18,3.3V,sup,,,,"/>
+<approved hash="208,4,76.2,76.2,VIN,out,,,,"/>
+<approved hash="208,4,101.854,104.14,VIN,sup,,,,"/>
+<approved hash="208,4,162.814,170.18,VIN,sup,,,,"/>
+<approved hash="208,4,30.48,57.15,V_BATT,sup,,,,"/>
+<approved hash="208,4,215.9,68.58,V_BATT,out,,,,"/>
+<approved hash="208,4,229.362,91.44,V_BATT,sup,,,,"/>
+<approved hash="113,4,25.8445,36.83,J1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
