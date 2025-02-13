@@ -1891,6 +1891,40 @@ JST_2MM_MALE
 </package>
 </packages>
 </library>
+<library name="JS202011JCQN">
+<packages>
+<package name="SW_JS202011JCQN">
+<wire x1="1.8" y1="4.5" x2="1.8" y2="-4.5" width="0.127" layer="51"/>
+<wire x1="1.8" y1="-4.5" x2="-1.8" y2="-4.5" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" width="0.127" layer="51"/>
+<wire x1="-1.8" y1="4.5" x2="1.8" y2="4.5" width="0.127" layer="51"/>
+<wire x1="1.8" y1="4.5" x2="1.8" y2="3.32" width="0.127" layer="21"/>
+<wire x1="1.8" y1="-3.32" x2="1.8" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="1.8" y1="-4.5" x2="-1.8" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="-4.5" x2="-1.8" y2="-3.32" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="3.32" x2="-1.8" y2="4.5" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="4.5" x2="1.8" y2="4.5" width="0.127" layer="21"/>
+<text x="-2.5" y="5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-5" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="2.25" y1="4.75" x2="2.25" y2="-4.75" width="0.05" layer="39"/>
+<wire x1="2.25" y1="-4.75" x2="-2.25" y2="-4.75" width="0.05" layer="39"/>
+<wire x1="-2.25" y1="-4.75" x2="-2.25" y2="4.75" width="0.05" layer="39"/>
+<wire x1="-2.25" y1="4.75" x2="2.25" y2="4.75" width="0.05" layer="39"/>
+<circle x="-2.5" y="3.5" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.5" y="3.5" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-1.8" y1="0.82" x2="-1.8" y2="1.68" width="0.127" layer="21"/>
+<wire x1="1.8" y1="1.68" x2="1.8" y2="0.82" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="-1.68" x2="-1.8" y2="-0.82" width="0.127" layer="21"/>
+<wire x1="1.8" y1="-0.82" x2="1.8" y2="-1.68" width="0.127" layer="21"/>
+<smd name="1" x="-1.2" y="2.5" dx="1.6" dy="1" layer="1"/>
+<smd name="2" x="-1.2" y="0" dx="1.6" dy="1" layer="1"/>
+<smd name="3" x="-1.2" y="-2.5" dx="1.6" dy="1" layer="1"/>
+<smd name="5" x="1.2" y="2.5" dx="1.6" dy="1" layer="1"/>
+<smd name="6" x="1.2" y="0" dx="1.6" dy="1" layer="1"/>
+<smd name="7" x="1.2" y="-2.5" dx="1.6" dy="1" layer="1"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2615,6 +2649,18 @@ JST_2MM_MALE
 <attribute name="NAME" x="-111.76" y="-116.8908" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08609" x="-111.76" y="-117.6528" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-111.76" y="-118.4148" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="S3" library="JS202011JCQN" package="SW_JS202011JCQN" value="JS202011JCQN" x="-118.6688" y="-112.3696" smashed="yes">
+<attribute name="AVAILABILITY" value="In Stock" x="-118.6688" y="-112.3696" size="1.778" layer="27" display="off"/>
+<attribute name="CHECK_PRICES" value="https://www.snapeda.com/parts/JS202011JCQN/C%2526K/view-part/?ref=eda" x="-118.6688" y="-112.3696" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" Slide Switch DPDT Surface Mount " x="-118.6688" y="-112.3696" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="C&amp;K" x="-118.6688" y="-112.3696" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="JS202011JCQN" x="-118.6688" y="-112.3696" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-121.1688" y="-107.3696" size="1.27" layer="25"/>
+<attribute name="PACKAGE" value="DPDT-6 C&amp;amp;K" x="-118.6688" y="-112.3696" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-118.6688" y="-112.3696" size="1.778" layer="27" display="off"/>
+<attribute name="SNAPEDA_LINK" value="https://www.snapeda.com/parts/JS202011JCQN/C%2526K/view-part/?ref=snap" x="-118.6688" y="-112.3696" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-121.1688" y="-117.3696" size="1.27" layer="27" align="top-left"/>
 </element>
 </elements>
 <signals>
@@ -3404,9 +3450,6 @@ JST_2MM_MALE
 <signal name="VSYS">
 <contactref element="IC2" pad="20"/>
 </signal>
-<signal name="VBAT">
-<contactref element="IC2" pad="19"/>
-</signal>
 <signal name="VOUT2">
 <contactref element="IC2" pad="32"/>
 </signal>
@@ -3449,6 +3492,14 @@ JST_2MM_MALE
 <contactref element="R8" pad="2"/>
 <contactref element="IC2" pad="15"/>
 <wire x1="-104.2108" y1="-92.874" x2="-110.91" y2="-117.6528" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$9">
+<contactref element="S3" pad="7"/>
+</signal>
+<signal name="V_BATT">
+<contactref element="S3" pad="6"/>
+<contactref element="IC2" pad="19"/>
+<wire x1="-103.0108" y1="-91.174" x2="-117.4688" y2="-112.3696" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
