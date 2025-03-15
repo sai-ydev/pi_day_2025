@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(pico_pendant_tracker pico_pendant_tracker.c )
+add_executable(pico_pendant_tracker lsm6ds3tr-c_reg.c pico_pendant_tracker.c )
 
 pico_set_program_name(pico_pendant_tracker "pico_pendant_tracker")
 pico_set_program_version(pico_pendant_tracker "0.1")
@@ -45,7 +45,7 @@ pico_generate_pio_header(pico_pendant_tracker ${CMAKE_CURRENT_LIST_DIR}/blink.pi
 
 # Modify the below lines to enable/disable output over UART/USB
 pico_enable_stdio_uart(pico_pendant_tracker 0)
-pico_enable_stdio_usb(pico_pendant_tracker 1)
+pico_enable_stdio_usb(pico_pendant_tracker 0)
 
 # Add the standard library to the build
 target_link_libraries(pico_pendant_tracker
