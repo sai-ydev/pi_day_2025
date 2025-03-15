@@ -49,4 +49,8 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+*.brd2
 *.scr
+/firmware/pio_ws2812/build
+/firmware/pico_pendant_tracker/build
+/firmware/i2c_bus_scan/build
